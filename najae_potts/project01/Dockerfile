@@ -2,6 +2,6 @@ FROM python
 
 WORKDIR /app
 
-COPY hello-world.py /app
+COPY najae_potts/project01/hello-world.py /app
 
 CMD ["python", "hello-world.py"]
