@@ -1,0 +1,175 @@
+[INFO] Starting grading run. Logfile: /workspaces/COSC_352_SPRING_2026/abdul_quayyum_yussuf/project03/grading_results/grading_result_20260212_210752.log
+[INFO] Skipping aaron_herron/project01: no Dockerfile
+[INFO] Skipping aaron_herron/project02: no Dockerfile
+[INFO] Building image grader_abdul_quayyum_yussuf_project01 from abdul_quayyum_yussuf/project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 334B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 240B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-ayo.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 writing image sha256:cc271db3e8476a6612f5330b44b68828e0925dbbe913105d487d856a236af7cc done
+#8 naming to docker.io/library/grader_abdul_quayyum_yussuf_project01 done
+#8 DONE 0.0s
+[PASS] abdul_quayyum_yussuf/project01: test (args Alice) PASSED
+[PASS] abdul_quayyum_yussuf/project01: test (args Bob) PASSED
+[INFO] abdul_quayyum_yussuf/project01: 2/2 tests passed
+[INFO] Building image grader_abdul_quayyum_yussuf_project02 from abdul_quayyum_yussuf/project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 345B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 40B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY read_html_table.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 writing image sha256:72cb8466133eff33e9b83ea0f3d7c76db5977c437dfe25fc87e4fd269aeee127 done
+#8 naming to docker.io/library/grader_abdul_quayyum_yussuf_project02 done
+#8 DONE 0.0s
+[PASS] abdul_quayyum_yussuf/project02: test (args /tmp/test_table.html) PASSED
+[INFO] abdul_quayyum_yussuf/project02: 1/1 tests passed
+[INFO] Skipping adebisi_agbakosi/project01: no Dockerfile
+[INFO] Skipping adebisi_agbakosi/project02: no Dockerfile
+[INFO] Skipping aditya_poudel/project01: no Dockerfile
+[INFO] Skipping aditya_poudel/project02: no Dockerfile
+[INFO] Skipping braydon_jones/project01: no Dockerfile
+[INFO] Skipping braydon_jones/project02: no Dockerfile
+[INFO] Skipping chukwuemeka_obasi/project01: no Dockerfile
+[INFO] Skipping chukwuemeka_obasi/project02: no Dockerfile
+[INFO] Skipping corey_hawkins/project01: no Dockerfile
+[INFO] Skipping corey_hawkins/project02: no Dockerfile
+[INFO] Skipping donovan_jones/project01: no Dockerfile
+[INFO] Skipping donovan_jones/project02: no Dockerfile
+[INFO] Skipping enoch_williams/project01: no Dockerfile
+[INFO] Skipping enoch_williams/project02: no Dockerfile
+[INFO] Skipping grace_joseph/project01: no Dockerfile
+[INFO] Skipping grace_joseph/project02: no Dockerfile
+[INFO] Skipping gulam_uddin/project01: no Dockerfile
+[INFO] Skipping gulam_uddin/project02: no Dockerfile
+[INFO] Skipping isaiah_simpson/project01: no Dockerfile
+[INFO] Skipping isaiah_simpson/project02: no Dockerfile
+[INFO] Skipping iyinoluwa_ayodele/project01: no Dockerfile
+[INFO] Skipping iyinoluwa_ayodele/project02: no Dockerfile
+[INFO] Skipping jamal_goodman/project01: no Dockerfile
+[INFO] Skipping jamal_goodman/project02: no Dockerfile
+[INFO] Skipping jessica_madu/project01: no Dockerfile
+[INFO] Skipping jessica_madu/project02: no Dockerfile
+[INFO] Skipping joseph_egbujonuma/project01: no Dockerfile
+[INFO] Skipping joseph_egbujonuma/project02: no Dockerfile
+[INFO] Skipping karl_agli/project01: no Dockerfile
+[INFO] Skipping karl_agli/project02: no Dockerfile
+[INFO] Skipping kyle_holmes/project01: no Dockerfile
+[INFO] Skipping kyle_holmes/project02: no Dockerfile
+[INFO] Skipping mahki_titus/project01: no Dockerfile
+[INFO] Skipping mahki_titus/project02: no Dockerfile
+[INFO] Skipping marcus_crosby/project01: no Dockerfile
+[INFO] Skipping marcus_crosby/project02: no Dockerfile
+[INFO] Skipping michael_miller/project01: no Dockerfile
+[INFO] Skipping michael_miller/project02: no Dockerfile
+[INFO] Skipping najae_potts/project01: no Dockerfile
+[INFO] Skipping najae_potts/project02: no Dockerfile
+[INFO] Skipping nasif_ajilore/project01: no Dockerfile
+[INFO] Skipping nasif_ajilore/project02: no Dockerfile
+[INFO] Skipping obaloluwa_wojuade/project01: no Dockerfile
+[INFO] Skipping obaloluwa_wojuade/project02: no Dockerfile
+[INFO] Skipping oluwasegun_soji-john/project01: no Dockerfile
+[INFO] Skipping oluwasegun_soji-john/project02: no Dockerfile
+[INFO] Skipping ositadinma_odunze/project01: no Dockerfile
+[INFO] Skipping ositadinma_odunze/project02: no Dockerfile
+[INFO] Skipping pauline_ekoma/project01: no Dockerfile
+[INFO] Skipping pauline_ekoma/project02: no Dockerfile
+[INFO] Skipping princess_ekoh/project01: no Dockerfile
+[INFO] Skipping princess_ekoh/project02: no Dockerfile
+[INFO] Building image grader_professor_jon_white_project01 from professor_jon_white/project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 491B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 283B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 writing image sha256:786e319bb7ad58718a5e69398d656cb2072d03cd0911b3f676c908c36d3ef52c done
+#8 naming to docker.io/library/grader_professor_jon_white_project01 done
+#8 DONE 0.0s
+[PASS] professor_jon_white/project01: test (args Alice) PASSED
+[PASS] professor_jon_white/project01: test (args Bob) PASSED
+[INFO] professor_jon_white/project01: 2/2 tests passed
+[INFO] Skipping professor_jon_white/project02: directory not found
+[INFO] Skipping randolph_bame/project01: no Dockerfile
+[INFO] Skipping randolph_bame/project02: no Dockerfile
+[INFO] Skipping rochak_ghimire/project01: no Dockerfile
+[INFO] Skipping rochak_ghimire/project02: no Dockerfile
+[INFO] Skipping sandeep_shah/project01: no Dockerfile
+[INFO] Skipping sandeep_shah/project02: no Dockerfile
+[INFO] Skipping sharif_jenkins/project01: no Dockerfile
+[INFO] Skipping sharif_jenkins/project02: no Dockerfile
+[INFO] Skipping sidney_green/project01: no Dockerfile
+[INFO] Skipping sidney_green/project02: no Dockerfile
+[INFO] Skipping stephen_waita/project01: no Dockerfile
+[INFO] Skipping stephen_waita/project02: no Dockerfile
+[INFO] Skipping taniyah_payton/project01: no Dockerfile
+[INFO] Skipping taniyah_payton/project02: no Dockerfile
+[INFO] Grading run complete
