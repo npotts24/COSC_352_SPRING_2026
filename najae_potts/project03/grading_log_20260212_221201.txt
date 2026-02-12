@@ -1,0 +1,130 @@
+[2026-02-12 22:12:01] ═══════════════════════════════════════════════════════════════
+[2026-02-12 22:12:01] AUTOMATED DOCKER PROJECT GRADING SYSTEM
+[2026-02-12 22:12:01] Started: Thu Feb 12 22:12:01 UTC 2026
+[2026-02-12 22:12:01] Workspace: /workspaces/COSC_352_SPRING_2026
+[2026-02-12 22:12:01] ═══════════════════════════════════════════════════════════════
+[2026-02-12 22:12:01] 
+[2026-02-12 22:12:01] Found 1 students to grade
+[2026-02-12 22:12:01] 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[0;34m[INFO][0m GRADING PROJECT 01: abdul_quayyum_yussuf
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[0;34m[INFO][0m Found Dockerfile: Dockerfile.txt
+[0;34m[INFO][0m Found Python script: hello-ayo.py
+[1;33m[TEST][0m Building Docker image: abdul_quayyum_yussuf_project01:latest
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 326B done
+#1 DONE 0.0s
+
+#2 [auth] library/python:pull token for registry-1.docker.io
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.10-slim
+#3 DONE 0.1s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 236B done
+#6 DONE 0.0s
+
+#7 [2/3] WORKDIR /app
+#7 CACHED
+
+#8 [3/3] COPY hello.py /app
+#8 CACHED
+
+#9 exporting to image
+#9 exporting layers done
+#9 writing image sha256:37230279a9d5db316ac2f2c8a22888aaafad55cdea5c0dd3cb93601087a549b0 done
+#9 naming to docker.io/library/abdul_quayyum_yussuf_project01:latest done
+#9 DONE 0.0s
+[0;32m[PASS][0m Docker image built successfully
+[1;33m[TEST][0m Test 1: Running container with argument 'Alice'
+[0;32m[PASS][0m Test 1 passed - Output contains 'Hello' and 'Alice'
+  Output: Hello World! Hey Alice, I see you!
+[1;33m[TEST][0m Test 2: Running container with argument 'Bob'
+[0;32m[PASS][0m Test 2 passed - Output contains 'Hello' and 'Bob'
+  Output: Hello World! Hey Bob, I see you!
+
+[0;32m[PASS][0m PROJECT 01 PASSED (2/2 tests)
+[2026-02-12 22:12:03] 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[0;34m[INFO][0m GRADING PROJECT 02: abdul_quayyum_yussuf
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[0;34m[INFO][0m Found Dockerfile: Dockerfile.txt
+[0;34m[INFO][0m Found Python script: read_html_table.py
+[1;33m[TEST][0m Building Docker image: abdul_quayyum_yussuf_project02:latest
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 345B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 3.89kB done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY read_html_table.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 writing image sha256:a7db2950850ad930bf164869845e14ba65b2e520feb6ee696d57fd1ac690c33d done
+#8 naming to docker.io/library/abdul_quayyum_yussuf_project02:latest done
+#8 DONE 0.0s
+[0;32m[PASS][0m Docker image built successfully
+[1;33m[TEST][0m Test 1: Parsing local HTML file
+[0;31m[FAIL][0m Test 1 failed - No CSV files created
+  Output: Wrote table 1 to CSV_File_1.csv
+[1;33m[TEST][0m Test 2: Testing with Wikipedia URL
+[0;32m[PASS][0m Test 2 passed (script executed without crash)
+
+[0;32m[PASS][0m PROJECT 02 PASSED (1/2 tests)
+[2026-02-12 22:12:04] 
+═══════════════════════════════════════════════════════════════
+GRADING SUMMARY REPORT
+═══════════════════════════════════════════════════════════════
+
+PROJECT 01 (Hello World Docker Container):
+  Passed: 1 / 1
+  Success Rate: 100%
+
+PROJECT 02 (HTML Table to CSV Parser):
+  Passed: 1 / 1
+  Success Rate: 100%
+
+OVERALL STATISTICS:
+  Total Students: 1
+  Both Projects Passed: 1
+  Both Projects Failed: 0
+
+═══════════════════════════════════════════════════════════════
+[2026-02-12 22:12:04] 
+[2026-02-12 22:12:04] Cleaning up temporary work directory...
+[2026-02-12 22:12:04] Cleanup complete.
+[2026-02-12 22:12:04] 
+[2026-02-12 22:12:04] ═══════════════════════════════════════════════════════════════
+[2026-02-12 22:12:05] Grading completed: Thu Feb 12 22:12:05 UTC 2026
+[2026-02-12 22:12:05] Full log saved to: /workspaces/COSC_352_SPRING_2026/najae_potts/project03/grading_log_20260212_221201.txt
+[2026-02-12 22:12:05] ═══════════════════════════════════════════════════════════════
