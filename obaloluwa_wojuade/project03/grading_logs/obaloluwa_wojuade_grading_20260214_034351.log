@@ -1,0 +1,60 @@
+Grading Session - Sat Feb 14 03:43:51 UTC 2026
+
+[0;34m[INFO][0m Project: 01
+[0;34m[INFO][0m Specific Student: obaloluwa_wojuade
+[0;34m[INFO][0m Log file: /workspaces/COSC_352_SPRING_2026/obaloluwa_wojuade/project03/grading_logs/obaloluwa_wojuade_grading_20260214_034351.log
+[0;34m[INFO][0m Found 1 student(s) to grade
+[0;34m[INFO][0m Grading: obaloluwa_wojuade/project01
+[0;34m[INFO][0m Building image...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 137B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 36B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py .
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 writing image sha256:58b977e2f5a66c4f4a0b944b3139ffac808b9de8ad304e32f0fc7221cac213a0 done
+#8 naming to docker.io/library/cosc352_obaloluwa_wojuade_project01 done
+#8 DONE 0.0s
+[0;32m[SUCCESS][0m Built: cosc352_obaloluwa_wojuade_project01
+[0;34m[INFO][0m Test test1: Alice
+[0;32m[SUCCESS][0m test1 passed
+[0;34m[INFO][0m Test test2: Bob
+[0;32m[SUCCESS][0m test2 passed
+[0;34m[INFO][0m Test test3: John
+[0;31m[ERROR][0m test3 failed
+[0;34m[INFO][0m   Expected: Doe Hello World John Doe
+[0;34m[INFO][0m   Got: Hello World John
+[1;33m[WARN][0m Dockerfile has no comments (-5 pts)
+Untagged: cosc352_obaloluwa_wojuade_project01:latest
+Deleted: sha256:58b977e2f5a66c4f4a0b944b3139ffac808b9de8ad304e32f0fc7221cac213a0
+
+obaloluwa_wojuade/project01: PASS
+  Score: 92/100
+  Tests: 2 passed, 1 failed
+
+
+Done! Graded 1 students for Project 01
+Results saved to: /workspaces/COSC_352_SPRING_2026/obaloluwa_wojuade/project03/grading_logs/obaloluwa_wojuade_grading_20260214_034351.log
+[0;32m[SUCCESS][0m Grading complete
