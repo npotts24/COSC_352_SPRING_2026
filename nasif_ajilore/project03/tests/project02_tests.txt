@@ -1,0 +1,6 @@
+# Project 02: HTML Table Parser
+# Input: URL to Wikipedia page about programming languages
+# Expected: Program should create CSV files containing table data
+# Test format: input_url|expected_output_file|minimum_rows|expected_columns
+# For this test, we verify that tables are successfully extracted and CSV files are created
+https://en.wikipedia.org/wiki/Comparison_of_programming_languages|Language,Original purpose,Imperative|140|10

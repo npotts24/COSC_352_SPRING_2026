@@ -1,0 +1,53 @@
+# HTML Table Parser
+
+This project parses HTML table data and exports it to CSV format.
+
+## Description
+
+The `web_page_parsing.py` script reads an HTML file containing table data, extracts the content from table rows and cells, and writes the parsed data to a CSV file. It handles both `<td>` and `<th>` tags and automatically cleans up whitespace.
+
+## Requirements
+
+- Python 3.x (no external dependencies required - uses only built-in libraries)
+
+## Files
+
+- `web_page_parsing.py` - Main script that parses HTML and generates CSV
+- `web.html` - Input HTML file containing table data
+- `languages.csv` - Output CSV file (generated after running the script)
+
+## How to Run
+
+### Option 1: Run Locally with Python
+
+1. Make sure Python 3 is installed on your system
+2. Navigate to the project directory:
+   ```bash
+   cd /workspaces/COSC_352_SPRING_2026/obaloluwa_wojuade/project02
+   ```
+3. Run the script:
+   ```bash
+   python web_page_parsing.py
+   ```
+4. Check the output file `languages.csv` for the parsed data
+
+
+
+The script will print:
+```
+Done! Wrote X rows to languages.csv
+```
+
+Where X is the number of rows extracted from the HTML table.
+
+## How It Works
+
+1. Reads the `web.html` file
+2. Parses HTML character by character to detect table tags (`<tr>`, `<td>`, `<th>`)
+3. Extracts text content from table cells
+4. Cleans up whitespace in cell content
+5. Writes the structured data to `languages.csv`
+
+## Author
+
+Obaloluwa Wojuade

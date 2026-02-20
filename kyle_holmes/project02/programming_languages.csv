@@ -1,0 +1,39 @@
+ALGOL 58,Application,Yes,No,No,No,No,No,No
+AutoIt,"GUI automation (macros), highly domain-specific",Yes,No,No,Yes,No,No,No
+BLISS,System,No,No,No,Yes,No,No,No
+BlitzMax,"Application, game",Yes,Yes,No,Yes,No,Yes,No
+Boo,"Application, game scripting",No,Yes,No,No,No,No,No
+Clean,General,No,No,Yes,No,Yes,No,No
+CLU,General,Yes,Yes,No,Yes,Yes,No,No
+Cobra,"Application, business, general, web",Yes,Yes,Yes,No,Yes,Yes,No
+Dylan,Application,No,Yes,Yes,No,No,No,No
+Euphoria,Application,No,No,No,Yes,No,Yes,No
+F#,Application,Yes,Yes,Yes,Yes,Yes,Yes,No
+FreeBASIC,"Application, numerical computing",Yes,Yes,No,Yes,Yes,No,No
+Gambas,Application,Yes,Yes,No,No,No,No,No
+Game Maker Language,"Application, game programming",Yes,Yes,No,No,No,No,No
+Gosu,"Application, general, scripting, web",Yes,Yes,No,No,Yes,Yes,No
+Haxe,"Application, general, web",Yes,Yes,Yes,No,Yes,Yes,No
+Io,"Application, host-driven scripting",Yes,Yes,No,No,No,No,No
+IPL,General,No,No,Yes,No,No,No,Unknown
+JADE,"Application, distributed",Yes,Yes,No,No,No,No,No
+Lisp,General,No,No,Yes,No,No,No,Unknown
+MATLAB,"Highly domain-specific, numerical computing",Yes,Yes,No,Yes,No,No,No
+Modula-3,Application,Yes,Yes,No,No,Yes,No,No
+Oberon,"Application, system",Yes,Yes,No,No,No,No,No
+OCaml,"Application, general",Yes,Yes,Yes,Yes,Yes,No,No
+Oxygene,Application,Yes,Yes,No,No,Yes,No,No
+Perl,"Application, scripting, text processing, Web",Yes,Yes,Yes,Yes,Yes,Yes,No
+Plus,"Application, system development",Yes,No,No,Yes,No,No,No
+PureBasic,Application,Yes,No,No,Yes,No,No,No
+R,"Application, statistics",Yes,Yes,Yes,Yes,No,Yes,No
+REALbasic,Application,No,No,No,Yes,No,No,Unknown
+RPG,"Application, system",Yes,No,No,Yes,No,No,No
+S,"Application, statistics",Yes,Yes,Yes,Yes,No,No,No
+S-Lang,"Application, numerical, scripting",Yes,No,No,Yes,No,No,No
+SNOBOL,Text processing,No,No,No,No,No,No,Unknown
+Tcl,"Application, scripting, web",Yes,Yes,Yes,Yes,No,Yes,No
+XL,Yes,Yes,No,No,No,No,concept programming,No
+Xojo,"Application, RAD, general, web",Yes,Yes,No,Yes,No,Yes,No
+Zeek,"Domain-specific, application",Yes,No,No,No,No,No,No
+Language,Statements ratio,[,56,],Lines ratio,[,57,]

@@ -1,0 +1,114 @@
+Starting the grading process: Fri Feb 13 17:54:33 UTC 2026
+Project: /workspaces/COSC_352_SPRING_2026
+
+Grading student: aaron_herron
+build failed for aaron_herron. See build_error.log for details.
+
+Grading student: abdul_quayyum_yussuf
+build failed for abdul_quayyum_yussuf. See build_error.log for details.
+
+Grading student: adebisi_agbakosi
+build failed for adebisi_agbakosi. See build_error.log for details.
+
+Grading student: aditya_poudel
+build failed for aditya_poudel. See build_error.log for details.
+
+Grading student: braydon_jones
+build failed for braydon_jones. See build_error.log for details.
+
+Grading student: chukwuemeka_obasi
+build failed for chukwuemeka_obasi. See build_error.log for details.
+
+Grading student: corey_hawkins
+build failed for corey_hawkins. See build_error.log for details.
+
+Grading student: donovan_jones
+build failed for donovan_jones. See build_error.log for details.
+
+Grading student: enoch_williams
+build failed for enoch_williams. See build_error.log for details.
+
+Grading student: grace_joseph
+build failed for grace_joseph. See build_error.log for details.
+
+Grading student: gulam_uddin
+build failed for gulam_uddin. See build_error.log for details.
+
+Grading student: isaiah_simpson
+build failed for isaiah_simpson. See build_error.log for details.
+
+Grading student: iyinoluwa_ayodele
+build failed for iyinoluwa_ayodele. See build_error.log for details.
+
+Grading student: jamal_goodman
+build failed for jamal_goodman. See build_error.log for details.
+
+Grading student: jessica_madu
+build failed for jessica_madu. See build_error.log for details.
+
+Grading student: joseph_egbujonuma
+build failed for joseph_egbujonuma. See build_error.log for details.
+
+Grading student: karl_agli
+build failed for karl_agli. See build_error.log for details.
+
+Grading student: kyle_holmes
+build failed for kyle_holmes. See build_error.log for details.
+
+Grading student: mahki_titus
+build failed for mahki_titus. See build_error.log for details.
+
+Grading student: marcus_crosby
+build failed for marcus_crosby. See build_error.log for details.
+
+Grading student: michael_miller
+build failed for michael_miller. See build_error.log for details.
+
+Grading student: najae_potts
+build failed for najae_potts. See build_error.log for details.
+
+Grading student: nasif_ajilore
+build failed for nasif_ajilore. See build_error.log for details.
+
+Grading student: obaloluwa_wojuade
+build failed for obaloluwa_wojuade. See build_error.log for details.
+
+Grading student: oluwasegun_soji-john
+build failed for oluwasegun_soji-john. See build_error.log for details.
+
+Grading student: ositadinma_odunze
+build failed for ositadinma_odunze. See build_error.log for details.
+
+Grading student: pauline_ekoma
+build failed for pauline_ekoma. See build_error.log for details.
+
+Grading student: princess_ekoh
+build failed for princess_ekoh. See build_error.log for details.
+
+Grading student: professor_jon_white
+build failed for professor_jon_white. See build_error.log for details.
+
+Grading student: randolph_bame
+build failed for randolph_bame. See build_error.log for details.
+
+Grading student: rochak_ghimire
+build failed for rochak_ghimire. See build_error.log for details.
+
+Grading student: sandeep_shah
+build failed for sandeep_shah. See build_error.log for details.
+
+Grading student: sharif_jenkins
+build failed for sharif_jenkins. See build_error.log for details.
+
+Grading student: sidney_green
+build failed for sidney_green. See build_error.log for details.
+
+Grading student: stephen_waita
+build failed for stephen_waita. See build_error.log for details.
+
+Grading student: taniyah_payton
+build failed for taniyah_payton. See build_error.log for details.
+
+Grading completed: Fri Feb 13 17:54:40 UTC 2026
+Total students: 37
+Passed: 0

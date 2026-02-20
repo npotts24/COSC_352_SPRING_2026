@@ -1,0 +1,354 @@
+[0;34m======================================[0m
+[0;34m  AUTOMATED GRADING SYSTEM STARTING[0m
+[0;34m======================================[0m
+
+Workspace: /workspaces/COSC_352_SPRING_2026
+Log file: /workspaces/COSC_352_SPRING_2026/nasif_ajilore/project03/results/grading_log_20260212_223719.txt
+Timestamp: Thu Feb 12 22:37:19 UTC 2026
+
+[0;32m✓ Loaded 3 test cases for Project 01[0m
+[0;32m✓ Loaded 1 test cases for Project 02[0m
+
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: aaron_herron[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: abdul_quayyum_yussuf[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: adebisi_agbakosi[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: aditya_poudel[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: braydon_jones[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: chukwuemeka_obasi[0m
+  [0;34mProject 01:[0m
+    [0;32m✓ Build successful[0m
+    Image: student_chukwuemeka_obasi_project01:latest
+    [0;31m  Test 1: ✗ FAIL[0m
+    Test 1: FAIL
+      Input: test
+      Expected: Hello World! I mean Hello test!
+      Actual: Hello World
+    [0;31m  Test 2: ✗ FAIL[0m
+    Test 2: FAIL
+      Input: alice
+      Expected: Hello World! I mean Hello alice!
+      Actual: Hello World
+    [0;31m  Test 3: ✗ FAIL[0m
+    Test 3: FAIL
+      Input: bob
+      Expected: Hello World! I mean Hello bob!
+      Actual: Hello World
+    Project 01 Summary: 0/3 tests passed
+  [0;34mProject 02:[0m
+  [BUILD FAILED] Docker build error for chukwuemeka_obasi/project02
+    [0;31m✗ Build failed[0m
+    
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: corey_hawkins[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: donovan_jones[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: enoch_williams[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: grace_joseph[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: gulam_uddin[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: isaiah_simpson[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: iyinoluwa_ayodele[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: jamal_goodman[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: jessica_madu[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: joseph_egbujonuma[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: karl_agli[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: kyle_holmes[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: mahki_titus[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: marcus_crosby[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: michael_miller[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: najae_potts[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: nasif_ajilore[0m
+  [0;34mProject 01:[0m
+    [0;32m✓ Build successful[0m
+    Image: student_nasif_ajilore_project01:latest
+    [0;32m  Test 1: ✓ PASS[0m
+    Test 1: PASS
+      Input: test
+      Expected: Hello World! I mean Hello test!
+      Actual: Hello World!  I mean...Hello test!
+    [0;32m  Test 2: ✓ PASS[0m
+    Test 2: PASS
+      Input: alice
+      Expected: Hello World! I mean Hello alice!
+      Actual: Hello World!  I mean...Hello alice!
+    [0;32m  Test 3: ✓ PASS[0m
+    Test 3: PASS
+      Input: bob
+      Expected: Hello World! I mean Hello bob!
+      Actual: Hello World!  I mean...Hello bob!
+    Project 01 Summary: 3/3 tests passed
+  [0;34mProject 02:[0m
+    [0;32m✓ Build successful[0m
+    Image: student_nasif_ajilore_project02:latest
+    [0;32m  Test 1: ✓ PASS[0m
+    Test 1: PASS
+      Input: https://en.wikipedia.org/wiki/Comparison_of_programming_languages
+      Expected: Tables with header containing 'Language,Original purpose,Imperative' and ~140 rows
+      Actual: CSV files successfully created
+    Project 02 Summary: 1/1 tests passed
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: obaloluwa_wojuade[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: oluwasegun_soji-john[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: ositadinma_odunze[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: pauline_ekoma[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: princess_ekoh[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: randolph_bame[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: rochak_ghimire[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: sandeep_shah[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: sharif_jenkins[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: sidney_green[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: stephen_waita[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+[1;33m─────────────────────────────────────[0m
+[0;34mStudent: taniyah_payton[0m
+  [0;34mProject 01:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project01
+  [0;34mProject 02:[0m
+    [1;33mDockerfile not found (not attempted)[0m
+    No Dockerfile in project02
+
+[0;34m======================================[0m
+[0;34m        GRADING SUMMARY REPORT[0m
+[0;34m======================================[0m
+
+[0;31mProject 01: 3/6 tests passed (50%)[0m
+[0;32mProject 02: 1/1 tests passed (100%)[0m
+
+[0;34mTotal students with submissions:[0m
+  Project 01: 2 students
+  Project 02: 1 students
+
+[0;34mLog file saved to: /workspaces/COSC_352_SPRING_2026/nasif_ajilore/project03/results/grading_log_20260212_223719.txt[0m
+
+
+[0;34m=== Cleanup ===[0m
+Removing test containers and images...
+Cleanup complete.
+[0;32mGrading complete![0m
+
+
+[0;34m=== Cleanup ===[0m
+Removing test containers and images...
+Cleanup complete.

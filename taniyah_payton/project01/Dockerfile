@@ -1,0 +1,8 @@
+
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY hello.py .
+
+ENTRYPOINT ["python", "hello.py"]

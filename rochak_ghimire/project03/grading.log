@@ -1,0 +1,14 @@
+Grading student: rochak_ghimire
+Building Docker image...
+Docker build SUCCESS
+Running test: test1.in
+Test test1.in → PASSED
+Running test: test2.in
+Test test2.in → PASSED
+Running test: test3.in
+Test test3.in → PASSED
+Running test: test4.in
+Test test4.in → PASSED
+-----------------------------------
+Summary for rochak_ghimire: Passed: 4  Failed: 0
+-----------------------------------

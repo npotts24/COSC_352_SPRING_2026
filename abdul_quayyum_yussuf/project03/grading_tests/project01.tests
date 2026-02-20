@@ -1,0 +1,6 @@
+# Project 01: Hello World with name as command-line argument
+# Format: test_type|run_args|input|expected_output|mode
+# Test that container accepts name on command line and outputs with the name
+# Using "contains" mode to allow for variations in output format
+args|Alice||Alice|contains
+args|Bob||Bob|contains
