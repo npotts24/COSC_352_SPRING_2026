@@ -86,14 +86,16 @@ func main() {
 	}
 
 	time2 := time.Since(start2).Milliseconds()
+	
+	fmt.Printf("File: %s (%d numbers)\n\n", os.Args[1], len(numbers))
 
 	fmt.Println("[Single-Threaded]")
 	fmt.Printf("  Primes found: %d\n", count1)
-	fmt.Printf("  Time: %d ms\n\n", time1)
+	fmt.Printf("  Time: %.1f ms\n\n", float64(time1))
 
 	fmt.Printf("[Multi-Threaded] (%d threads)\n", threads)
 	fmt.Printf("  Primes found: %d\n", count2)
-	fmt.Printf("  Time: %d ms\n\n", time2)
+	fmt.Printf("  Time: %.1f ms\n\n", float64(time2))
 
 	fmt.Printf("Speedup: %.2fx\n", float64(time1)/float64(time2))
 }

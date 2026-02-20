@@ -86,16 +86,17 @@ public class PrimeCounter {
 
         pool.shutdown();
 
-        // ---------------- Print Results ----------------
+        System.out.printf("File: %s (%,d numbers)%n%n", args[0], numbers.size());
+
         System.out.println("[Single-Threaded]");
-        System.out.println("  Primes found: " + count1);
-        System.out.println("  Time: " + time1 + " ms\n");
+        System.out.printf("  Primes found: %,d%n", count1);
+        System.out.printf("  Time: %.1f ms%n%n", time1);
 
-        System.out.println("[Multi-Threaded] (" + threads + " threads)");
-        System.out.println("  Primes found: " + count2);
-        System.out.println("  Time: " + time2 + " ms\n");
+        System.out.printf("[Multi-Threaded] (%d threads)%n", threads);
+        System.out.printf("  Primes found: %,d%n", count2);
+        System.out.printf("  Time: %.1f ms%n%n", time2);
 
-        System.out.println("Speedup: " + (time1 / time2) + "x");
+        System.out.printf("Speedup: %.2fx%n", time1 / time2);
     }
 
     public static boolean isPrime(long n) {

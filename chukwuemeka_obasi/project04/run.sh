@@ -12,26 +12,31 @@ echo "Input File: $FILE"
 echo "========================================"
 echo
 
+# ---------- JAVA ----------
 echo "Compiling Java..."
-javac java/PrimeCounter.java
-
-echo "Compiling Kotlin..."
-kotlinc kotlin/PrimeCounter.kt -include-runtime -d kotlin/PrimeCounter.jar
-
-echo "Compiling Go..."
-go build -o golang/prime_counter golang/prime_counter.go
+javac PrimeCounter.java
 
 echo
 echo "========== JAVA =========="
-java -cp java PrimeCounter $FILE
+java PrimeCounter $FILE
+echo
+
+# ---------- KOTLIN ----------
+echo "Compiling Kotlin..."
+kotlinc PrimeCounter.kt -include-runtime -d PrimeCounter.jar
 
 echo
 echo "========== KOTLIN =========="
-java -jar kotlin/PrimeCounter.jar $FILE
+java -jar PrimeCounter.jar $FILE
+echo
+
+# ---------- GO ----------
+echo "Compiling Go..."
+go build -o prime_counter prime_counter.go
 
 echo
 echo "========== GO =========="
-./golang/prime_counter $FILE
-
+./prime_counter $FILE
 echo
+
 echo "Done."

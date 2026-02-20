@@ -72,15 +72,18 @@ fun main(args: Array<String>) {
 
     pool.shutdown()
 
+    println("File: ${args[0]} (${String.format("%,d", numbers.size)} numbers)\n")
+
     println("[Single-Threaded]")
-    println("  Primes found: $count1")
-    println("  Time: $time1 ms\n")
+    println("  Primes found: ${String.format("%,d", count1)}")
+    println("  Time: ${String.format("%.1f", time1)} ms\n")
 
     println("[Multi-Threaded] ($threads threads)")
-    println("  Primes found: $count2")
-    println("  Time: ${time2 / 1_000_000.0} ms\n")
+    println("  Primes found: ${String.format("%,d", count2)}")
+    println("  Time: ${String.format("%.1f", time2 / 1_000_000.0)} ms\n")
 
-    println("Speedup: ${time1 / (time2 / 1_000_000.0)}x")
+    val speedup = time1 / (time2 / 1_000_000.0)
+    println("Speedup: ${String.format("%.2f", speedup)}x")
 }
 
 fun isPrime(n: Long): Boolean {
