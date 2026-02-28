@@ -23,9 +23,9 @@ ages <- ages[!is.na(ages)]
 df <- data.frame(age=ages)
 
 #create histogram bins (5-year bins)
-df <- df%>%
-    mutate(age_bin=cut(age, breaks=seq(0,100, by=5) right=FALSE))
-
+df <- df %>%
+    mutate(age_bin = cut(age, breaks = seq(0, 100, by = 5), right = FALSE))
+    
 #tabular histogram output
 hist_table <- df %>%
     group_by(age_bin) %>%
@@ -34,6 +34,7 @@ hist_table <- df %>%
 
 #print table to stdout
 cat("Victim Age Distribution (5-year bins) - 2025\n")
+cat("------------------------------------------------\n")
 print(hist_table)
 
 #plot histogram
@@ -45,4 +46,4 @@ plot <- ggplot(df, aes(x=age)) +
     theme_minimal()
 
 #save plot
-ggsave("histogram.png", plot, width=5, height=8)
+ggsave(filename="/app/histogram.png", plot=plot, width=8, height=5)
