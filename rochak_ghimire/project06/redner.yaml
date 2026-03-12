@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: baltimore-homicide-dashboard
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /
+ 

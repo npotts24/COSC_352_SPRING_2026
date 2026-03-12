@@ -1,0 +1,45 @@
+FROM rocker/r-ver:4.3.3
+
+RUN apt-get update && apt-get install -y \
+    libcurl4-openssl-dev \
+    libssl-dev \
+    libxml2-dev \
+    libfontconfig1-dev \
+    libharfbuzz-dev \
+    libfribidi-dev \
+    libfreetype6-dev \
+    libpng-dev \
+    libtiff5-dev \
+    libjpeg-dev \
+    libgdal-dev \
+    libgeos-dev \
+    libproj-dev \
+    libudunits2-dev \
+    libv8-dev \
+    cmake \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN R -e "install.packages('shiny',         repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('shinydashboard',repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('plotly',        repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('htmlwidgets',   repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('htmltools',     repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('crosstalk',     repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('leaflet',       repos='https://cloud.r-project.org', type='source')"
+RUN R -e "if (!requireNamespace('leaflet', quietly=TRUE)) stop('leaflet FAILED') else cat('leaflet OK\n')"
+RUN R -e "install.packages('dplyr',         repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('lubridate',     repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('DT',            repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('rvest',         repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('stringr',       repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('httr',          repos='https://cloud.r-project.org')"
+RUN R -e "install.packages('xml2',          repos='https://cloud.r-project.org')"
+
+RUN R -e "library(shiny); library(plotly); library(shinydashboard); library(leaflet); library(dplyr); library(DT); cat('All packages OK\n')"
+
+COPY shinyapp /srv/shiny-server/
+
+EXPOSE 3838
+
+CMD ["R", "-e", "port <- as.integer(Sys.getenv('PORT', '3838')); shiny::runApp('/srv/shiny-server', host='0.0.0.0', port=port)"]
+ 
