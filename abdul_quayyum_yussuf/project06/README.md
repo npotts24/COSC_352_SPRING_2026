@@ -1,52 +1,130 @@
 # Baltimore City Police Department Homicide Analysis Dashboard
 
-## Part 1: Data Pipeline and Histogram
-(This section describes Part 1 from project05)
+## Overview
 
-This repository contains a project that scrapes the 2025 and 2026 Baltimore City homicide lists from the Chamspage blog and produces a histogram of victim ages. By combining data from multiple years, the analysis strengthens the visualization of demographic patterns in homicide victimization across a broader timeframe.
+This project provides a comprehensive analysis of Baltimore City homicides through both static data visualization (Part 1) and an interactive web dashboard (Part 2). The project scrapes homicide data from the Chamspage blog and processes it for police department briefings and investigative analysis.
 
-### Files in Part 1 (project05)
-- `histogram.R` – main R script that performs scraping from both years, cleaning, table output, and histogram generation.
-- `Dockerfile` – builds an R environment with dependencies.
-- `run.sh` – convenience wrapper to build and run the Docker container.
-- `README.md` – documentation for Part 1.
+### Part 1: Data Pipeline and Histogram
+Static analysis that scrapes 2023-2025 Baltimore City homicide lists from Chamspage and produces a histogram of victim ages, combining multiple years for stronger demographic pattern visualization.
 
-## Part 2: Interactive Shiny Dashboard
+### Part 2: Interactive Shiny Dashboard
+Dynamic web application built on Part 1's data pipeline, providing real-time filtering, multiple interactive visualizations, and summary statistics for operational decision-making.
 
-Part 2 builds upon the data pipeline from Part 1 to create a comprehensive interactive dashboard for analyzing Baltimore City homicides. The dashboard provides dynamic filtering, multiple visualizations, and summary statistics to support police department briefings and investigative analysis.
+## Quick Start
 
-### Features
+```bash
+./run_dashboard.sh          # builds Docker image & starts container
+# open http://localhost:3838
+```
 
-#### Interactive Filters
-- **Year Range**: Select specific years (2025, 2026) to analyze.
-- **Victim Age Range**: Slider to filter by minimum and maximum victim age.
-- **Homicide Method**: Multi-select dropdown for methods (Shooting, Stabbing, Beating, Other) extracted from incident notes.
-- **Case Status**: Filter by case closure status (open/closed cases).
-- **District**: Multi-select dropdown for geographic districts parsed from addresses.
+Requires only Docker. No other dependencies needed.
 
-#### Visualizations
+## Features
+
+### Interactive Filters (Part 2)
+- **Year Range**: Select specific years (2023-2025) to analyze
+- **Month**: Multi-select dropdown for filtering by months
+- **Victim Age Range**: Slider to filter by minimum and maximum victim age
+- **Include Unknown Ages**: Checkbox to include/exclude records with missing age data
+- **Case Status**: Filter by case closure status (All/Open/Closed)
+- **Camera Proximity**: Filter by CCTV camera presence (All/No cameras/1+ cameras)
+- **Address Search**: Free-text search within incident addresses
+
+### Visualizations
 All charts update dynamically based on applied filters:
 
-1. **Homicides Over Time**: Line chart showing monthly homicide trends.
-2. **Homicides by Method**: Bar chart displaying counts by homicide method.
-3. **Homicides by District**: Bar chart showing incidents by geographic area.
-4. **Incident Map**: Interactive Leaflet map with color-coded markers (green for closed cases, red for open) showing incident locations. Markers include popup details.
-5. **Data Table**: Filterable table of all incident data.
+1. **Homicides Over Time**: Line chart showing monthly homicide trends by year
+2. **Homicides by Method**: Bar chart displaying counts by homicide method (Shooting, Stabbing, Beating, Other)
+3. **Homicides by District**: Bar chart showing incidents by geographic area
+4. **Incident Map**: Interactive Leaflet map with color-coded markers (green=closed, red=open) showing incident locations with popup details
+5. **Data Table**: Filterable, sortable table of all incident data with per-column filters
+6. **Age Distribution**: Histogram with 5-year bins and interactive hover
+7. **Age Groups by Year**: Side-by-side comparison of age categories across years
+8. **Cumulative Pace Chart**: Year-over-year running homicide counts by day-of-year
+9. **Camera Coverage Distribution**: Bar chart showing incidents by camera proximity
+10. **Clearance Rate by Year**: Bar chart with rates and sample sizes
 
-#### Summary Statistics Panel
+### Summary Statistics Panel
 - Total homicides in filtered period
 - Case clearance rate (%)
-- Average victim age
+- Average/median victim age
 - Most common homicide method
 - Percentage of incidents near CCTV cameras
-- Year-over-year comparison (when applicable)
+- Year-over-year comparison
+- Age demographics (youngest/oldest, % under 25)
 
-### Data Pipeline
-The dashboard reuses the scraping logic from Part 1, pulling data from the Chamspage blog posts for 2025 and 2026. Data is cached locally to improve performance. Additional processing includes:
-- Age extraction and cleaning
-- Method classification from notes
-- District parsing from addresses
-- Geocoding for map visualization
+## Dashboard Tabs (Part 2)
+
+### 1. Command Brief
+Executive summary for department leadership:
+- Value boxes with key metrics (totals, rates, comparisons)
+- Monthly homicide trends comparison
+- Case status breakdown (pie chart)
+- Top 15 incident locations
+- Yearly comparison bars
+
+### 2. Trends
+Operational pattern analysis:
+- Cumulative year-over-year pace comparison
+- Camera coverage distribution
+- Clearance rates by year
+
+### 3. Demographics
+Victim profile insights:
+- Age-related value boxes
+- Age distribution histogram
+- Age group comparisons by year
+
+### 4. Case Records
+Complete searchable data table with:
+- Per-column filtering
+- Color-coded status indicators
+- Click-to-sort headers
+- Full incident details
+
+## Files
+
+| File | Purpose |
+|------|---------|
+| `app.R` | Shiny application with UI, server logic, and embedded data pipeline |
+| `Dockerfile` | Container build (rocker/shiny + plotly, DT, ggplot2, rvest, etc.) |
+| `run_dashboard.sh` | One-command build and run script |
+| `shiny-server.conf` | Custom Shiny Server configuration |
+| `data/homicides_cache.csv` | Cached homicide data (354+ records) |
+| `README.md` | This comprehensive documentation |
+
+## Data Pipeline
+
+The application embeds the same robust scraping functions from Part 1:
+
+1. **Scraping**: Pulls HTML tables from Cham's Page blog posts (2023-2025)
+2. **Table Detection**: Automatically detects and normalizes inconsistent table layouts
+3. **Data Cleaning**: Parses dates, extracts ages, standardizes camera and status fields
+4. **Caching**: Loads from `data/homicides_cache.csv` on startup; scrapes live if cache missing
+5. **Processing**: Age extraction, method classification, district parsing, geocoding for maps
+
+**To force fresh data**: Delete `data/homicides_cache.csv` and restart the application.
+
+## Requirements
+
+- Docker (for containerized deployment)
+- Web browser (for dashboard access)
+- Internet connection (for initial data scraping if cache is missing)
+
+## Usage Notes
+
+- All filters work reactively - charts update immediately when controls change
+- Use the "Reset All Filters" button to restore default settings
+- Charts support interactive features (hover tooltips, zoom, pan)
+- Data table allows column-specific filtering and sorting
+- Dashboard runs on `http://localhost:3838` after starting
+
+## Data Sources
+
+- Primary: Cham's Page Baltimore homicide blog posts
+- Years covered: 2023-2025
+- Total records: 354+ homicides
+- Fields: Date, victim info, location, method, camera proximity, case status
 
 ### Files in Part 2 (project06)
 - `app.R` – Single-file Shiny application with full dashboard functionality.

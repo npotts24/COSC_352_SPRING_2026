@@ -1,12 +1,17 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-tag="bmore-dashboard:latest"
+IMAGE_NAME="baltimore-homicide-dashboard"
+CONTAINER_NAME="baltimore-homicide-dashboard"
+PORT=3838
 
 echo "Building Docker image..."
-docker build -t "$tag" .
+docker build -t ${IMAGE_NAME} .
 
-echo "Running dashboard container..."
-docker run --rm -p 3838:3838 "$tag"
+echo "Stopping any existing container named ${CONTAINER_NAME}..."
+docker rm -f ${CONTAINER_NAME} >/dev/null 2>&1 || true
 
-echo "Dashboard running at http://localhost:3838 — open this in your browser"
+echo "Starting dashboard container (map localhost:${PORT} to container:${PORT})..."
+docker run --rm -d --name ${CONTAINER_NAME} -p ${PORT}:3838 ${IMAGE_NAME}
+
+echo "Dashboard running at http://localhost:${PORT}"
