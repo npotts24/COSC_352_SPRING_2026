@@ -1,0 +1,116 @@
+========================================
+ Grading Started for project03
+========================================
+
+----------------------------------------
+Grading: student1
+----------------------------------------
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 290B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/alpine:latest
+#2 DONE 0.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/alpine:latest@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659
+#4 resolve docker.io/library/alpine:latest@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 31B done
+#5 DONE 0.0s
+
+#6 [2/4] RUN apk add --no-cache bash
+#6 CACHED
+
+#7 [3/4] COPY program.sh /program.sh
+#7 CACHED
+
+#8 [4/4] RUN chmod +x /program.sh
+#8 CACHED
+
+#9 exporting to image
+#9 exporting layers done
+#9 exporting manifest sha256:aa18439e2ed554bd9c9102478787b236adb8fd34ebbb06a2c83c4792ed7594ee done
+#9 exporting config sha256:98b4410dc249aad3a4a88b38b2e0c2630d66b111c3f889bab61d6fbf3ac99289 done
+#9 exporting attestation manifest sha256:49c047ad691191ed90d26670d5b99b0dbb0c8eb4fe1ea2e3afeffbdaf0cce7eb 0.0s done
+#9 exporting manifest list sha256:53e40ecb1f353339a9e67955b55ce1573925e9e0aaa51bb483a4c7c9b4b04c8c 0.0s done
+#9 naming to docker.io/library/student1_project03_img:latest
+#9 naming to docker.io/library/student1_project03_img:latest done
+#9 unpacking to docker.io/library/student1_project03_img:latest 0.1s done
+#9 DONE 0.3s
+  ✔ Build successful
+  Running Test: test1
+    ✔ PASS
+  Running Test: test2
+    ✔ PASS
+  Running Test: test3
+    ✔ PASS
+Final Score for student1: 100 / 100
+
+----------------------------------------
+Grading: student2
+----------------------------------------
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 290B 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/alpine:latest
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/alpine:latest@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659
+#4 resolve docker.io/library/alpine:latest@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 118B 0.0s done
+#5 DONE 0.1s
+
+#6 [2/4] RUN apk add --no-cache bash
+#6 CACHED
+
+#7 [3/4] COPY program.sh /program.sh
+#7 CACHED
+
+#8 [4/4] RUN chmod +x /program.sh
+#8 CACHED
+
+#9 exporting to image
+#9 exporting layers done
+#9 exporting manifest sha256:aa18439e2ed554bd9c9102478787b236adb8fd34ebbb06a2c83c4792ed7594ee done
+#9 exporting config sha256:98b4410dc249aad3a4a88b38b2e0c2630d66b111c3f889bab61d6fbf3ac99289 done
+#9 exporting attestation manifest sha256:2e2dbd21436ef97afcdbf855812538b73cc74054d8cfce94e94e76136789ef2f 0.0s done
+#9 exporting manifest list sha256:16bfbd36ecd856e50f8ee3223cae6b261fad9ef53e1d0cf0830b71e31b2907db
+#9 exporting manifest list sha256:16bfbd36ecd856e50f8ee3223cae6b261fad9ef53e1d0cf0830b71e31b2907db 0.0s done
+#9 naming to docker.io/library/student2_project03_img:latest done
+#9 unpacking to docker.io/library/student2_project03_img:latest 0.1s done
+#9 DONE 0.3s
+  ✔ Build successful
+  Running Test: test1
+    ✔ PASS
+  Running Test: test2
+    ✔ PASS
+  Running Test: test3
+    ✔ PASS
+Final Score for student2: 100 / 100
+
+========================================
+ FINAL SUMMARY
+========================================
+Total Students: 2
+Passed: 2
+Failed: 0
+Log File: grading_20260212_215409.log
+========================================

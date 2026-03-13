@@ -1,0 +1,21 @@
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.ear
+
+# ===== Go =====
+prime_counter
+*.exe
+
+# ===== Kotlin =====
+*.class
+*.jar
+
+# ===== OS Files =====
+.DS_Store
+
+# ===== Build directories=====
+out/
+build/
+bin/

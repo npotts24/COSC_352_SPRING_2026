@@ -1,0 +1,13 @@
+Language,Original purpose,Imperative,Object-oriented,Functional,Procedural,Generic,Reflective,Other paradigms,Standardized?
+1C:Enterprise programming language,Application RAD business general web mobile,Yes,No,Yes,Yes,Yes,Yes,Object-based Prototype-based programming,No
+ActionScript,Application client-side web,Yes,Yes,Yes,Yes,No,No,Prototype-based,Yes
+Ada,Application embedded realtime system,Yes,Yes,No,Yes,Yes,No,Concurrent distributed,Yes
+Aldor,Highly domain-specific symbolic computing,Yes,Yes,Yes,No,No,No,,No
+ALGOL 58,Application,Yes,No,No,No,No,No,,No
+ALGOL 60,Application,Yes,No,No,Yes,Yes,No,,Yes
+APL,Application data processing,Yes,Yes,Yes,Yes,Yes,Yes,,Yes
+Assembly language,General,Yes,No,No,No,No,No,,Yes
+AutoHotkey,GUI automation macros,Yes,Yes,No,Yes,No,No,,No
+AutoIt,GUI automation highly domain-specific,Yes,No,No,Yes,No,No,,No
+Ballerina,Integration server-side general,Yes,Yes,Yes,Yes,No,No,,No
+Bash,Shell scripting,Yes,No,No,Yes,No,No,,Optionally

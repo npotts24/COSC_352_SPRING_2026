@@ -1,0 +1,5 @@
+grades.csv
+grading_*.log
+tmp_*
+.git
+.DS_Store

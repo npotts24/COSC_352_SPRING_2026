@@ -1,0 +1,159 @@
+Comparison ofprogramming languages
+General comparisonAssignmentBasic syntaxBasic instructionsCommentsControl flowForeach loopsWhile loopsFor loopsDo-whileException handlingEnumerated typesAlgebraic data typesGeneratorsAnonymous functionsConditional expressionsArraysAssociative arraysScopeString operationsString functionsHigher-order functionsFilterFoldMapType systemsDependent typesList comprehensionObject-oriented programmingObject-oriented constructorsOperatorsTernary conditional operatorNull coalescing operatorsSafe navigation operatorsModulo operators
+"Evaluation strategyList of ""Hello World"" programs"
+Comparison of individuallanguagesALGOL 58's influence on ALGOL 60ALGOL 60: Comparisons with other languagesALGOL 68: Comparisons with other languagesCompatibility of C and C++Comparison of Pascal and Borland DelphiComparison of Object Pascal and CComparison of Pascal and CComparison of Java and C++Comparison of C# and JavaComparison of C# and Visual Basic .NETComparison of Visual Basic and Visual Basic .NET
+".mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:""[ ""}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:"" ]""}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}vte"
+Language,Original purpose,Imperative,Object-oriented,Functional,Procedural,Generic,Reflective,Otherparadigms,Standardized
+1C:Enterprise programming language,"Application,RAD, business,general,web,mobile",Yes,No,Yes,Yes,Yes,Yes,"Object-based, Prototype-based programming",No
+ActionScript,"Application,client-side, web",Yes,Yes,Yes,Yes,No,No,prototype-based,"Yes1999-2003,ActionScript 1.0 with ES3, ActionScript 2.0 with ES3 and partial ES4 draft, ActionScript 3.0 with ES4 draft,ActionScript 3.0 with E4X"
+Ada,"Application,embedded,realtime,system",Yes,Yes[2],No,Yes[3],Yes[4],No,"Concurrent,[5]distributed[6]","Yes1983, 2005, 2012, ANSI, ISO,GOST27831-88[7]"
+Aldor,"Highlydomain-specific,symbolic computing",Yes,Yes,Yes,No,No,No,,No
+ALGOL 58,Application,Yes,No,No,No,No,No,,No
+ALGOL 60,Application,Yes,No,No,Yes,Yes,No,,"Yes1960,IFIP WG 2.1, ISO[8]"
+ALGOL 68,Application,Yes,No,Yes,Yes,Yes,No,Concurrent,"Yes1968,IFIP WG 2.1,GOST 27974-88,[9]"
+Ateji PX,Parallel application,No,Yes,No,No,No,No,pi calculus,No
+APL,"Application,data processing",Yes,Yes,Yes,Yes,Yes,Yes,"Array-oriented,tacit","Yes1989, ISO"
+Assembly language,General,Yes,No,No,No,No,No,"Any, syntax is usually highly specific, related to the target processor",Yes1985 IEEE 694-1985[10]
+AutoHotkey,"GUI automation (macros), highly domain-specific",Yes,Yes[11],No,Yes,No,No,,No
+AutoIt,"GUI automation (macros), highly domain-specific",Yes,No,No,Yes,No,No,,No
+Ballerina,"Integration, agile,server-side, general",Yes,Yes,Yes,Yes,No,No,"Concurrent, transactional, statically and strongly typed, diagrammatic–visual",De factostandard via Ballerina Language Specification[12]
+Bash,"Shell,scripting",Yes,No,No,Yes,No,No,,OptionallyPOSIX.2[13]
+BASIC,"Application, education",Yes,No,No,Yes,No,No,,"Yes1983, ANSI, ISO, ECMA"
+BeanShell,"Application, scripting",Yes,Yes,Yes,No,No,Yes,,"NoIn progress,JCP[14]"
+BLISS,System,No,No,No,Yes,No,No,,No
+BlitzMax,"Application, game",Yes,Yes,No,Yes,No,Yes,,No
+Boo,"Application, game scripting",No,Yes,No,No,No,No,,No
+C,"Application, system,[15]general purpose, low-level operations",Yes,No,No,Yes,No,No,,"Yes1989,ANSI C89, ISO/IEC C90, ISO/IEC C95, ISO/IEC C99, ISO/IEC C11, ISO/IEC C17, ISO/IEC C2x[16]"
+C++,"Application, system",Yes,Yes,Yes,Yes,Yes,Yes,Concurrent,"Yes1998,ISO/IEC C++98, ISO/IEC C++03, ISO/IEC C++11, ISO/IEC C++14, ISO/IEC C++17, ISO/IEC C++20, ISO/IEC C++23, ISO/IEC C++26[17]"
+C#,"Application, RAD, business, client-side, general, server-side, web,game programming",Yes,Yes,Yes[18],Yes,Yes,Yes,"Concurrent, structured","Yes2000, ECMA, ISO[19]"
+Carbon,"Experimental successor language toC++, designed by Google for performance-critical software",Yes,Yes,Yes,Yes,Yes,No,Multi-paradigm,No
+Clarion,"General, business, web",Yes,Yes,Yes[20],No,No,No,,Unknown
+Clean,General,No,No,Yes,No,Yes,No,,No
+Clojure,General,No,No,Yes,No,No,No,Concurrent,No
+CLU,General,Yes,Yes,No,Yes,Yes,No,,No
+COBOL,"Application, business",Yes,Yes,No,Yes,No,No,,"Yes1968 ANSI X3.23, 1974, 1985; ISO/IEC 1989:1985, 2002, 2014, 2023"
+Cobra,"Application, business, general, web",Yes,Yes,Yes,No,Yes,Yes,,No
+ColdFusion(CFML),Web,No,Yes,No,Yes,No,No,,No
+Common Lisp,General,Yes,Yes,Yes,Yes,Yes,Yes,"Extensible syntax,Array-oriented,syntactic macros,multiple dispatch, concurrent","Yes1994, ANSI"
+COMAL80,Education,Yes,No,No,Yes,No,No,,No
+Crystal,General purpose,Yes,Yes[21],Yes,Yes,Yes[22],No,Concurrent[23],No
+Curry,Application,No,No,Yes,No,Yes,No,"lazy evaluation, non-determinism",De factostandard via Curry Language Report
+Cython,"Application, general,numerical computing",Yes,Yes,Yes,No,No,Yes,Aspect-oriented,No
+D,"Application, system",Yes,Yes,Yes,Yes,Yes,Yes,"Generative, concurrent",No
+Dart,"Application, web, server-side, mobile,IoT",Yes,Yes,Yes,Yes,Yes,No,Structured,YesECMA-408 standard
+"Delphi,Object Pascal",General purpose,Yes,Yes,Yes,Yes,Yes,Yes,,Unknown
+Dylan,Application,No,Yes,Yes,No,No,No,,No
+Eiffel,"General, application, business, client-side, server-side, web (EWF)",Yes,Yes,Yes[24][25],No,Yes,YesErl-G,"DistributedSCOOP,Void-safe","Yes2005, ECMA, ISO[26]"
+ELAN,Education,Yes,No,No,Yes,No,No,"Structured,stepwise refinement",No
+Elixir,"Application,distributed",No,No,Yes,No,No,Yes,"Concurrent, distributed",No
+Erlang,"Application, distributed",No,No,Yes,No,No,Yes,"Concurrent, distributed",No
+Euphoria,Application,No,No,No,Yes,No,Yes,,No
+Factor,General,Yes,No,Can be viewed as,No,Yes,Yes,Stack-oriented,No
+FP,,No,No,Yes,No,No,No,,No
+F#,Application,Yes,Yes,Yes,Yes,Yes,Yes,,No
+Forth,General,Yes,No,No,Yes,No,Yes,Stack-oriented,"Yes1994, ANSI"
+Fortran,"Application, numerical computing",Yes,Yes,Yes,Yes,Yes,No,"Array-based, vectorized, concurrent, native distributed/shared-memory parallelism","Yes1966, ANSI 66, ANSI 77, MIL-STD-1753, ISO 90, ISO 95, ISO 2003, ISO/IEC 1539-1:2010 (2008), ISO/IEC JTC1/SC22/WG5 N2145 (2018)"
+FreeBASIC,"Application, numerical computing",Yes,Yes,No,Yes,Yes,No,,No
+Gambas,Application,Yes,Yes,No,No,No,No,,No
+Game Maker Language,"Application, game programming",Yes,Yes,No,No,No,No,,No
+GLBasic,"Application, games",Yes,Yes,No,Yes,No,No,Simple object-oriented,No
+Go,"Application, web, server-side",Yes,Can be viewed as[27],Can be viewed as[28],Yes,Yes,Yes,Concurrent,De factostandard via Go Language Specification
+Gosu,"Application, general, scripting, web",Yes,Yes,No,No,Yes,Yes,,No
+GraphTalk,Application,No,Yes,No,No,No,No,Logic,No
+Groovy,"Application, general, scripting, web",Yes,Yes,Yes,Yes,Yes,Yes,Meta-programming,"NoIn progress,JCP[29]"
+Harbour,"Application, business, data processing, general, web",Yes,Yes,Yes,Yes,Yes,Yes,Declarative,No
+Haskell,Application,No,No,Yes,No,Yes,No,Lazy evaluation,"Yes2010, Haskell 2010[30]"
+Haxe,"Application, general, web",Yes,Yes,Yes,No,Yes,Yes,,No
+HyperTalk,"Application, RAD, general",Yes,No,No,Yes,No,Yes,Weakly typed,Unknown
+Io,"Application, host-driven scripting",Yes,Yes,No,No,No,No,,No
+IPL,General,No,No,Yes,No,No,No,,Unknown
+ISLISP,General,Yes,Yes,Yes,No,Yes,No,,"Yes1997, 2007,ISO"
+J,"Application,data processing",Yes,Yes,Yes,Yes,Yes,Yes,"Array-oriented,function-level, tacit, concurrent",No
+JADE,"Application, distributed",Yes,Yes,No,No,No,No,,No
+Java,"Application, business, client-side, general, mobile development, server-side, web",Yes,Yes,Yes,Yes,Yes,Yes,Concurrent,De factostandard via Java Language Specification
+JavaScript,"Client-side, server-side, web",Yes,Yes,Yes,Yes,No,Yes,prototype-based,YesECMA-262standard
+Joy,Research,No,No,Yes,No,No,No,Stack-oriented,No
+jq,"""awk for JSON""",No,No,Yes,No,No,No,"Tacit,Backtracking,Streaming,PEG",No
+Julia,"General, technical computing",Yes,Can be viewed as[31][32],Yes,Yes,Yes,Yes,"Multiple dispatch, meta, scalar and array-oriented, parallel, concurrent, distributed (""cloud"")",De factostandard via Julia Documentation[33]
+K,"Data processing, business",No,No,No,No,No,No,"Array-oriented, tacit",Unknown
+Kotlin,"Application, general, mobile development, server-side, client-side, web, scripting,[34]domain-specific[35]",Yes,Yes,Yes,Yes,Yes,Yes[36],Concurrent[37],De factostandard via Kotlin Language Specification
+Ksh,"Shell,scripting",Yes,Yes,No,Yes,No,No,"Several variants, custom programmable, dynamic loadable modules",OptionallyPOSIX.2[13]
+LabVIEW(G),"Application, industrial instrumentation-automation",Yes,Yes,Yes,No,No,No,"Dataflow,visual",No
+Lisp,General,No,No,Yes,No,No,No,,Unknown
+LiveCode,"Application, RAD, general",Yes,Yes,No,Yes,No,Yes,Weakly typed,No
+Logtalk,"Artificial intelligence, application",No,Yes,No,No,No,Yes,Logic,No
+Linden Scripting Language(LSL),Virtual worlds content scripting and animation,Yes,No,No,Yes,No,No,Scripts exist in in-world objects,De factoreference is theSecond Lifeimplementation ofLSL.[38]
+Lua,"Application, embedded scripting",Yes,Yes[39],Yes,Yes,No,Yes,"Aspect-oriented, prototype-based",No[40]
+Maple,"Symbolic computation, numerical computing",Yes,Yes,Yes,Yes,No,No,Distributed,No
+Mathematica,Symbolic language,Yes,Yes,Yes,Yes,Yes,Yes,"Logic, distributed",No
+MATLAB,"Highly domain-specific, numerical computing",Yes,Yes,No,Yes,No,No,,No
+Modula-2,"Application, system",Yes,No,No,No,Yes,No,,"Yes1996, ISO[41]"
+Modula-3,Application,Yes,Yes,No,No,Yes,No,,No
+MUMPS(M),"General, application, databases",Yes,Approved for next Standard,No,Yes,Partially Thru Indirection and Xecute,Yes,"Concurrent,multi-user,NoSQL,transaction processing","Yes1977 ANSI, 1995, ISO 2020"
+Nim,"Application, general, web, scripting, system",Yes,Yes,Yes,Yes,Yes,Yes,"Multiple dispatch, concurrent,meta",No
+Oberon,"Application, system",Yes,Yes,No,No,No,No,,No
+Object Pascal,"Application, general, mobile app, web",Yes,Yes,No,Yes,Yes,Yes,Structured,No
+Objective-C,"Application, general",Yes,Yes,No,Yes,No,Yes,Concurrent,No
+OCaml,"Application, general",Yes,Yes,Yes,Yes,Yes,No,,No
+Occam,General,Yes,No,No,Yes,No,No,"Concurrent,process-oriented",No
+Opa,Web applications,Yes,No,Yes,No,Yes,No,Distributed,No
+OpenLisp,"General, Embedded Lisp Engine",Yes,Yes,Yes,No,Yes,No,,OptionallyISLISP
+Oxygene,Application,Yes,Yes,No,No,Yes,No,,No
+Oz-Mozart,"Application, distribution, education",Yes,Yes,Yes,No,No,No,"Concurrent, logic",No
+Pascal,"Application, education",Yes,No,No,Yes,No,No,,"Yes1983, ISO[42]"
+Perl,"Application, scripting, text processing, Web",Yes,Yes,Yes,Yes,Yes,Yes,,No
+PHP,"Server-side, web application, web",Yes,Yes[43],Yes[44],Yes,No,Yes,,De factostandard via language specification and Requests for Comments (RFCs)
+PL/I,Application,Yes,Yes,No,Yes,No,No,,"Yes1969, ECMA-50 (1976)"
+Plus,"Application, system development",Yes,No,No,Yes,No,No,,No
+PostScript,"Graphics, page description",Yes,No,No,Yes,No,No,"Concatenative,stack-oriented",De factostandard via the PostScript Reference Manual[45]
+PowerShell,"Administration, application, general, scripting",Yes,Yes,Yes,Yes,No,Yes,Pipeline,No
+Prolog,"Application, artificial intelligence",No,No,Yes,Yes,No,Yes,"Logic, declarative","Yes1995, ISO/IEC 13211-1:1995, TC1 2007, TC2 2012, TC3 2017"
+PureBasic,Application,Yes,No,No,Yes,No,No,,No
+Python,"Application, general, web, scripting, artificial intelligence, scientific computing",Yes,Yes,Yes,Yes,Yes,Yes,Aspect-oriented,De factostandard via Python Enhancement Proposals (PEPs)
+R,"Application, statistics",Yes,Yes,Yes,Yes,No,Yes,,No
+Racket,"Education, general, scripting",Yes,Yes,Yes,Yes,No,Yes,"Modular, logic, meta",No
+Raku,"Scripting, text processing, glue",Yes,Yes,Yes,Yes,Yes,Yes,"Aspect-oriented, array, lazy evaluation, multiple dispatch, metaprogramming",No
+REALbasic,Application,No,No,No,Yes,No,No,,Unknown
+Rebol,Distributed,Yes,Yes,Yes,Yes,No,Yes,Dialected,No
+REXX,Scripting,Yes,Yes (NetRexxandObject REXXdialects),No,Yes,No,No,,Yes1996 (ANSI X3.274-1996)
+RPG,"Application, system",Yes,No,No,Yes,No,No,,No
+Ruby,"Application, scripting, web",Yes,Yes,Yes,No,No,Yes,Aspect-oriented,"Yes2011(JIS X 3017), 2012(ISO/IEC 30170)"
+Rust,"Application, server-side, system, web",Yes,Can be viewed as[46],Yes,Yes,Yes,No[47],Concurrent,De facto standard by the official Rust releases
+S,"Application, statistics",Yes,Yes,Yes,Yes,No,No,,No
+S-Lang,"Application, numerical, scripting",Yes,No,No,Yes,No,No,,No
+Scala,"Application, general, parallel, distributed, web",Yes,Yes,Yes,No,Yes,Yes,"Data-oriented programming, metaprogramming",De factostandard via Scala Language Specification (SLS)
+Scheme,"Education, general",Yes,No,Yes,No,No,No,"meta, extensible-syntax","De facto1975-2013, R0RS, R1RS, R2RS, R3RS, R4RS, R5RS, R6RS, R7RS Small Edition[48][49]"
+Seed7,"Application, general, scripting, web",Yes,Yes,No,No,Yes,Yes,"Multi-paradigm, extensible, structured",No
+Simula,"Education, general",Yes,Yes,No,No,No,No,"discrete event simulation,multi-threaded(quasi-parallel) program execution",Yes1968
+Small Basic,"Application, education, games",Yes,No,No,No,No,No,Component-oriented,No
+Smalltalk,"Application, general, business, artificial intelligence, education, web",Yes,Yes,Yes,Yes,No,Yes,"Concurrent, declarative","Yes1998, ANSI"
+SNOBOL,Text processing,No,No,No,No,No,No,,Unknown
+Standard ML,Application,Yes,No,Yes,No,Yes,No,,"Yes1997, SML '97[50]"
+Swift,"Application, general",Yes,Yes,Yes,Yes,Yes,Yes,"Concurrent, declarative,protocol-oriented",No
+Tcl,"Application, scripting, web",Yes,Yes,Yes,Yes,No,Yes,,No
+V (Vlang),"Application, general, system, game, web, server-side",Yes,Can be viewed as,Can be viewed as,Yes,Yes,Yes,Concurrent,No
+Visual Basic,"Application, RAD, education, business, general, (Includes VBA), office automation",Yes,Yes,No,Yes,Yes,No,Component-oriented,No
+Visual Basic .NET,"Application, RAD, education, web, business, general",Yes,Yes,Yes,Yes,Yes,Yes,"Structured, concurrent",No
+Visual FoxPro,Application,Yes,Yes,No,Yes,No,No,"Data-centric, logic",No
+Visual Prolog,Application,Yes,Yes,Yes,No,No,No,"Declarative, logic",No
+Wolfram Language,Symbolic language,Yes,No,Yes,Yes,Yes,Yes,"Logic, distributed",No
+XL,,Yes,Yes,No,No,No,No,concept programming,No
+Xojo,"Application, RAD, general, web",Yes,Yes,No,Yes,No,Yes,,No
+XPath/XQuery,"Databases, data processing, scripting",No,No,Yes,No,No,No,Tree-oriented,"Yes1999 W3C XPath 1, 2010 W3C XQuery 1, 2014 W3C XPath/XQuery 3.0"
+Zeek,"Domain-specific, application",Yes,No,No,No,No,No,,No
+Zig,"Application, general, system",Yes,No,Yes,Yes,Yes,Yes,Concurrent,No
+Zsh,"Shell,scripting",Yes,No,No,Yes,No,No,Loadable modules,OptionallyPOSIX.2[13]
+Language,Statements ratio[56],Lines ratio[57]
+C,1,1
+C++,2.5,1
+Fortran,2,0.8
+Java,2.5,1.5
+Perl,6,6
+Smalltalk,6,6.25
+Python,6,6.5
+"To display all pages, subcategories and images click on the ""►"":"
+Lists of programming languages(19 P)List of programming languagesList of programming languages by typeLists of programming languagesList of programming languages for artificial intelligenceList of audio programming languagesList of BASIC dialectsList of C-family programming languagesList of CLI languagesList of concurrent and parallel programming languagesList of educational programming languagesGenerational list of programming languagesList of JVM languagesList of Lisp-family programming languagesList of open-source programming languagesNon-English-based programming languagesList of object-oriented programming languagesList of reflective programming languages and platformsTimeline of programming languagesUnisys MCP programming languages
+vteProgramming languages
+ComparisonTimelineHistory
+AdaALGOLSimulaAPLAssemblyBASICVisual Basicclassic.NETCC++C#COBOLErlangElixirForthFortranGoHaskellJavaJavaScriptJuliaKotlinLispLuaMATLABMLCamlOCamlStandard MLPascalObject PascalPerlRakuPHPPrologPythonRRubyRustSASSQLScratchShellSmalltalkSwiftmore...
+Lists:AlphabeticalCategoricalGenerationalNon-English-basedCategory

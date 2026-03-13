@@ -1,0 +1,7 @@
+FROM --platform=linux/amd64 rocker/shiny:4.4.1
+
+RUN R -e "options(repos='https://cloud.r-project.org'); install.packages(c('shiny','shinydashboard','dplyr','ggplot2','plotly','DT','lubridate'), dependencies=TRUE)"
+
+COPY app.R /srv/shiny-server/app.R
+
+EXPOSE 3838
