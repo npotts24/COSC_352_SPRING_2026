@@ -1,0 +1,61 @@
+========================================
+ Grading Started for project03
+========================================
+
+----------------------------------------
+Grading: student1
+----------------------------------------
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 162B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/alpine:latest
+#2 DONE 0.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/alpine:latest@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659
+#4 resolve docker.io/library/alpine:latest@sha256:25109184c71bdad752c8312a8623239686a9a2071e8825f20acb8f2198c3f659 0.1s done
+#4 DONE 0.1s
+
+#5 [internal] load build context
+#5 transferring context: 122B done
+#5 DONE 0.0s
+
+#6 [2/4] RUN apk add --no-cache bash
+#6 CACHED
+
+#7 [3/4] COPY program.sh /program.sh
+#7 DONE 0.1s
+
+#8 [4/4] RUN chmod +x /program.sh
+#8 DONE 0.9s
+
+#9 exporting to image
+#9 exporting layers 0.1s done
+#9 exporting manifest sha256:8463954e81537b6472cfbda0ed06d46c13f4ee30722e9997c604d5b7f0b54a8f 0.0s done
+#9 exporting config sha256:048314682ad75b833085e0328f2674320a2d27c7fbccd495e14772ed39e08f29 0.0s done
+#9 exporting attestation manifest sha256:aa0ad96e7e24183d5768278e38886543b4144495b33597f8c916050bde7fe914 0.0s done
+#9 exporting manifest list sha256:3059c09b1a33c45c338003b0114c8ef4f934d2fb7f6451eef58e5933b515e443 0.0s done
+#9 naming to docker.io/library/student1_project03_img:latest done
+#9 unpacking to docker.io/library/student1_project03_img:latest
+#9 unpacking to docker.io/library/student1_project03_img:latest 0.2s done
+#9 DONE 0.5s
+  ✔ Build successful
+  Running Test: test1
+exec /program.sh: no such file or directory
+    ❌ Runtime failure or timeout
+Final Score for student1: 90 / 100
+
+========================================
+ FINAL SUMMARY
+========================================
+Total Students: 1
+Passed: 1
+Failed: 0
+Log File: grading_20260212_214850.log
+========================================

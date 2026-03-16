@@ -1,0 +1,4 @@
+# Project 02: Read HTML table from Wikipedia and output as CSV
+# Format: test_type|run_args|input|expected_output|mode
+# Test that program runs and produces CSV output
+args|/tmp/test_table.html||CSV|contains

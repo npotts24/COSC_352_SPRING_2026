@@ -1,0 +1,7 @@
+What Statistic I Chose:
+The most striking finding is that shootings account for 118 out of 159 total homicides — roughly 74% of all recorded homicides in Baltimore so far in 2025. This statistic is a stark reminder of how many lives are taken by gun violence alone. Behind each of these numbers is a person, a family, and a community affected. Visualizing this data makes the scale of gun violence impossible to ignore.
+
+Assumptions & Cleaning Decisions:
+
+Trimmed the scraped table to 7 columns — html_table() returned 11 columns due to merged and empty cells in the HTML table structure. Only the first 7 contained meaningful data, so the rest were dropped before renaming.
+Grouped methods using regex pattern matching — The source data stores homicide descriptions as free-text sentences (e.g., "Shooting victim found in vehicle") rather than a clean categorical field. I used case-insensitive regular expressions to classify each entry into a method group. Any entry that didn't match a known pattern was labeled Other/Unknown.

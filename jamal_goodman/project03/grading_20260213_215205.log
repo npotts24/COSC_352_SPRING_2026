@@ -1,0 +1,780 @@
+=== Docker Autograder ===
+Root:     .
+Log file: grading_20260213_215205.log
+
+------------------------------------------------------------------------------------------------------------
+[STUDENT] abdul_quayyum_yussuf
+[PROJECT] project01
+[PATH]    ./abdul_quayyum_yussuf/project01
+[IMAGE]   c352_abdul_quayyum_yussuf_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_abdul_quayyum_yussuf_project01_20260213_215205 from ./abdul_quayyum_yussuf/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! Hey Mal, I see you!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! Hey Ada, I see you!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] abdul_quayyum_yussuf
+[PROJECT] project02
+[PATH]    ./abdul_quayyum_yussuf/project02
+[IMAGE]   c352_abdul_quayyum_yussuf_project02_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_abdul_quayyum_yussuf_project02_20260213_215205 from ./abdul_quayyum_yussuf/project02
+
+[TEST] P02: sums two numbers from stdin (example)
+       mode=stdin input='2 3' expected='5'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Please try again with a url or local html file path.
+----- EXPECTED -----
+5
+
+[TEST] P02: sums another pair (example)
+       mode=stdin input='10 7' expected='17'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Please try again with a url or local html file path.
+----- EXPECTED -----
+17
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] aditya_poudel
+[PROJECT] project01
+[PATH]    ./aditya_poudel/project01
+[IMAGE]   c352_aditya_poudel_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_aditya_poudel_project01_20260213_215205 from ./aditya_poudel/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[PASS]
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[PASS]
+
+[RESULT] tests: 2/2 passed
+[SCORE] 100
+------------------------------------------------------------------------------------------------------------
+[STUDENT] aditya_poudel
+[PROJECT] project02
+[PATH]    ./aditya_poudel/project02
+[IMAGE]   c352_aditya_poudel_project02_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_aditya_poudel_project02_20260213_215205 from ./aditya_poudel/project02
+
+[TEST] P02: sums two numbers from stdin (example)
+       mode=stdin input='2 3' expected='5'
+[FAIL] Container did not run correctly for this test (timeout/crash/etc.)
+
+[TEST] P02: sums another pair (example)
+       mode=stdin input='10 7' expected='17'
+[FAIL] Container did not run correctly for this test (timeout/crash/etc.)
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] braydon_jones
+[PROJECT] project01
+[PATH]    ./braydon_jones/project01
+[IMAGE]   c352_braydon_jones_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_braydon_jones_project01_20260213_215205 from ./braydon_jones/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[PASS]
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[PASS]
+
+[RESULT] tests: 2/2 passed
+[SCORE] 100
+------------------------------------------------------------------------------------------------------------
+[STUDENT] chukwuemeka_obasi
+[PROJECT] project01
+[PATH]    ./chukwuemeka_obasi/project01
+[IMAGE]   c352_chukwuemeka_obasi_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_chukwuemeka_obasi_project01_20260213_215205 from ./chukwuemeka_obasi/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] chukwuemeka_obasi
+[PROJECT] project02
+[PATH]    ./chukwuemeka_obasi/project02
+[IMAGE]   c352_chukwuemeka_obasi_project02_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_chukwuemeka_obasi_project02_20260213_215205 from ./chukwuemeka_obasi/project02
+
+[TEST] P02: sums two numbers from stdin (example)
+       mode=stdin input='2 3' expected='5'
+[FAIL] Output mismatch
+------ ACTUAL ------
+output.csv created
+----- EXPECTED -----
+5
+
+[TEST] P02: sums another pair (example)
+       mode=stdin input='10 7' expected='17'
+[FAIL] Output mismatch
+------ ACTUAL ------
+output.csv created
+----- EXPECTED -----
+17
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] corey_hawkins
+[PROJECT] project01
+[PATH]    ./corey_hawkins/project01
+[IMAGE]   c352_corey_hawkins_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_corey_hawkins_project01_20260213_215205 from ./corey_hawkins/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! I mean... Hello Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! I mean... Hello Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] enoch_williams
+[PROJECT] project01
+[PATH]    ./enoch_williams/project01
+[IMAGE]   c352_enoch_williams_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_enoch_williams_project01_20260213_215205 from ./enoch_williams/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello Mal
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello Ada
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] gulam_uddin
+[PROJECT] project01
+[PATH]    ./gulam_uddin/project01
+[IMAGE]   c352_gulam_uddin_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_gulam_uddin_project01_20260213_215205 from ./gulam_uddin/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World!  I mean... Hello Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World!  I mean... Hello Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] isaiah_simpson
+[PROJECT] project01
+[PATH]    ./isaiah_simpson/project01
+[IMAGE]   c352_isaiah_simpson_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_isaiah_simpson_project01_20260213_215205 from ./isaiah_simpson/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] iyinoluwa_ayodele
+[PROJECT] project01
+[PATH]    ./iyinoluwa_ayodele/project01
+[IMAGE]   c352_iyinoluwa_ayodele_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_iyinoluwa_ayodele_project01_20260213_215205 from ./iyinoluwa_ayodele/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! Actually I meant hello Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! Actually I meant hello Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] jamal_goodman
+[PROJECT] project01
+[PATH]    ./jamal_goodman/project01
+[IMAGE]   c352_jamal_goodman_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_jamal_goodman_project01_20260213_215205 from ./jamal_goodman/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[PASS]
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[PASS]
+
+[RESULT] tests: 2/2 passed
+[SCORE] 100
+------------------------------------------------------------------------------------------------------------
+[STUDENT] joseph_egbujonuma
+[PROJECT] project01
+[PATH]    ./joseph_egbujonuma/project01
+[IMAGE]   c352_joseph_egbujonuma_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_joseph_egbujonuma_project01_20260213_215205 from ./joseph_egbujonuma/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello, Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello, Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] karl_agli
+[PROJECT] project01
+[PATH]    ./karl_agli/project01
+[IMAGE]   c352_karl_agli_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_karl_agli_project01_20260213_215205 from ./karl_agli/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[PASS]
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[PASS]
+
+[RESULT] tests: 2/2 passed
+[SCORE] 100
+------------------------------------------------------------------------------------------------------------
+[STUDENT] kyle_holmes
+[PROJECT] project01
+[PATH]    ./kyle_holmes/project01
+[IMAGE]   c352_kyle_holmes_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_kyle_holmes_project01_20260213_215205 from ./kyle_holmes/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! I mean... Hello Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! I mean... Hello Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] mahki_titus
+[PROJECT] project01
+[PATH]    ./mahki_titus/project01
+[IMAGE]   c352_mahki_titus_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_mahki_titus_project01_20260213_215205 from ./mahki_titus/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! I mean... Wassup Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! I mean... Wassup Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] mahki_titus
+[PROJECT] project02
+[PATH]    ./mahki_titus/project02
+[IMAGE]   c352_mahki_titus_project02_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_mahki_titus_project02_20260213_215205 from ./mahki_titus/project02
+
+[TEST] P02: sums two numbers from stdin (example)
+       mode=stdin input='2 3' expected='5'
+[FAIL] Container did not run correctly for this test (timeout/crash/etc.)
+
+[TEST] P02: sums another pair (example)
+       mode=stdin input='10 7' expected='17'
+[FAIL] Container did not run correctly for this test (timeout/crash/etc.)
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] najae_potts
+[PROJECT] project01
+[PATH]    ./najae_potts/project01
+[IMAGE]   c352_najae_potts_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_najae_potts_project01_20260213_215205 from ./najae_potts/project01
+[ERROR] Build failed: c352_najae_potts_project01_20260213_215205
+[DEDUCT] -30 (non-functional: build failed)
+[SCORE]  70
+------------------------------------------------------------------------------------------------------------
+[STUDENT] najae_potts
+[PROJECT] project02
+[PATH]    ./najae_potts/project02
+[IMAGE]   c352_najae_potts_project02_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_najae_potts_project02_20260213_215205 from ./najae_potts/project02
+[ERROR] Build failed: c352_najae_potts_project02_20260213_215205
+[DEDUCT] -30 (non-functional: build failed)
+[SCORE]  70
+------------------------------------------------------------------------------------------------------------
+[STUDENT] nasif_ajilore
+[PROJECT] project01
+[PATH]    ./nasif_ajilore/project01
+[IMAGE]   c352_nasif_ajilore_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_nasif_ajilore_project01_20260213_215205 from ./nasif_ajilore/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World!  I mean...Hello Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World!  I mean...Hello Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] nasif_ajilore
+[PROJECT] project02
+[PATH]    ./nasif_ajilore/project02
+[IMAGE]   c352_nasif_ajilore_project02_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_nasif_ajilore_project02_20260213_215205 from ./nasif_ajilore/project02
+
+[TEST] P02: sums two numbers from stdin (example)
+       mode=stdin input='2 3' expected='5'
+[FAIL] Container did not run correctly for this test (timeout/crash/etc.)
+
+[TEST] P02: sums another pair (example)
+       mode=stdin input='10 7' expected='17'
+[FAIL] Container did not run correctly for this test (timeout/crash/etc.)
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] obaloluwa_wojuade
+[PROJECT] project01
+[PATH]    ./obaloluwa_wojuade/project01
+[IMAGE]   c352_obaloluwa_wojuade_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_obaloluwa_wojuade_project01_20260213_215205 from ./obaloluwa_wojuade/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[PASS]
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[PASS]
+
+[RESULT] tests: 2/2 passed
+[SCORE] 100
+------------------------------------------------------------------------------------------------------------
+[STUDENT] oluwasegun_soji-john
+[PROJECT] project01
+[PATH]    ./oluwasegun_soji-john/project01
+[IMAGE]   c352_oluwasegun_soji-john_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_oluwasegun_soji-john_project01_20260213_215205 from ./oluwasegun_soji-john/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Container did not run correctly for this test (timeout/crash/etc.)
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Container did not run correctly for this test (timeout/crash/etc.)
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] ositadinma_odunze
+[PROJECT] project01
+[PATH]    ./ositadinma_odunze/project01
+[IMAGE]   c352_ositadinma_odunze_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_ositadinma_odunze_project01_20260213_215205 from ./ositadinma_odunze/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello Mal
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello Ada
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] pauline_ekoma
+[PROJECT] project01
+[PATH]    ./pauline_ekoma/project01
+[IMAGE]   c352_pauline_ekoma_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_pauline_ekoma_project01_20260213_215205 from ./pauline_ekoma/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World Mal!!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World Ada!!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] princess_ekoh
+[PROJECT] project01
+[PATH]    ./princess_ekoh/project01
+[IMAGE]   c352_princess_ekoh_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_princess_ekoh_project01_20260213_215205 from ./princess_ekoh/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World!
+whatsup Mal, how's it going?.
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World!
+whatsup Ada, how's it going?.
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] professor_jon_white
+[PROJECT] project01
+[PATH]    ./professor_jon_white/project01
+[IMAGE]   c352_professor_jon_white_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_professor_jon_white_project01_20260213_215205 from ./professor_jon_white/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World!  I mean... Hello Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World!  I mean... Hello Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] sharif_jenkins
+[PROJECT] project01
+[PATH]    ./sharif_jenkins/project01
+[IMAGE]   c352_sharif_jenkins_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_sharif_jenkins_project01_20260213_215205 from ./sharif_jenkins/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World or should I say Hello Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World or should I say Hello Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] stephen_waita
+[PROJECT] project01
+[PATH]    ./stephen_waita/project01
+[IMAGE]   c352_stephen_waita_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_stephen_waita_project01_20260213_215205 from ./stephen_waita/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! I mean... Hello Mal!
+----- EXPECTED -----
+Hello World Mal
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[FAIL] Output mismatch
+------ ACTUAL ------
+Hello World! I mean... Hello Ada!
+----- EXPECTED -----
+Hello World Ada
+
+[RESULT] tests: 0/2 passed
+[DEDUCT] -10 (failed one or more required tests)
+[SCORE] 90
+------------------------------------------------------------------------------------------------------------
+[STUDENT] stephen_waita
+[PROJECT] project02
+[PATH]    ./stephen_waita/project02
+[IMAGE]   c352_stephen_waita_project02_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_stephen_waita_project02_20260213_215205 from ./stephen_waita/project02
+[ERROR] Build failed: c352_stephen_waita_project02_20260213_215205
+[DEDUCT] -30 (non-functional: build failed)
+[SCORE]  70
+------------------------------------------------------------------------------------------------------------
+[STUDENT] taniyah_payton
+[PROJECT] project01
+[PATH]    ./taniyah_payton/project01
+[IMAGE]   c352_taniyah_payton_project01_20260213_215205
+------------------------------------------------------------------------------------------------------------
+[BUILD] c352_taniyah_payton_project01_20260213_215205 from ./taniyah_payton/project01
+
+[TEST] P01: prints Hello World <name> using CLI arg
+       mode=args input='Mal' expected='Hello World Mal'
+[PASS]
+
+[TEST] P01: handles different name
+       mode=args input='Ada' expected='Hello World Ada'
+[PASS]
+
+[RESULT] tests: 2/2 passed
+[SCORE] 100
+------------------------------------------------------------------------------------------------------------
+=== SUMMARY ===
+Students discovered: 25
+Projects graded:     32
+Passed:             6
+Failed:             26
+Log:                grading_20260213_215205.log
+------------------------------------------------------------------------------------------------------------
+]633;D;0]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1[?2004h]633;A[0;32m@Jamal77-mal [0m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[7mchmod +x grade_projects.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod +x grade_projects.sh
+[A
+[?2004l]633;E;chmod +x grade_projects.sh;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;Cchmod: cannot access 'grade_projects.sh': No such file or directory
+]633;D;1]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1[?2004h]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1 [0;36m([1;31mmain[0;36m) [0m$ ]633;Bcd jamal_)[Kgoodman
+[?2004l]633;E;cd jamal_goodman;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;Cbash: rvm_bash_nounset: unbound variable
+]633;D;1]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1/jamal_goodman[?2004h]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman [0;36m([1;31mmain[0;36m) [0m$ ]633;Bcd project03
+[?2004l]633;E;cd project03;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;Cbash: rvm_bash_nounset: unbound variable
+]633;D;1]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03[?2004h]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;Bcd project03jamal_goodmanhmod +x grade_projects.sh
+[?2004l]633;E;chmod +x grade_projects.sh;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;Cchmod: cannot access 'grade_projects.sh': No such file or directory
+]633;D;1]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03[?2004h]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;Bchmod +x grade_projects.sh[A]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[C[13Pd project03
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjamal_goodmanhmod +x grade_projects.sh[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csgrade_projects.sh[A]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C_projects.sh[K[A]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci_projects.sh[A]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn_projects.sh[A]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg_projects.sh[A]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l]633;E;chmod +x sgrading_projects.sh;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;C]633;D;0]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03[?2004h]633;A[0;32m@Jamal77-mal [0m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[7m./grade_projects.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./grade_projects.sh
+[A
+[?2004l]633;E;./grade_projects.sh;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;Cbash: ./grade_projects.sh: No such file or directory
+]633;D;127]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03[?2004h]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B./grade_projects.shchmod +x sgrading_projects.sh[A]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[6P./grade_projects.sh
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P_projects.shi_projects.shn_projects.shg_projects.shsgrading_projects.sh[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]633;E;./sgrading_projects.sh;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;C=== Docker Autograder ===
+Root:     .
+Log file: grading_20260213_215813.log
+
+[ERROR] No Dockerfile submissions found for project01/project02 under: .
+        Adjust discover_projects() to match your repo layout.
+]633;D;1]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03[?2004h]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[7mgit add grade_projects.sh[27m [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add grade_projects.sh grading_[K[K[K[K[K[K[K[Kgrading_20260213_215205.log
+[?2004l]633;E;git add grade_projects.sh grading_20260213_215205.log;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;Cfatal: pathspec 'grade_projects.sh' did not match any files
+]633;D;128]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03[?2004h]633;A[0;32m@Jamal77-mal [1;31m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;Bgit [K[K[Kit add sgrading_projects .sh
+[?2004l]633;E;git add sgrading_projects.sh;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;C]633;D;0]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03[?2004h]633;A[0;32m@Jamal77-mal [0m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;Bgit add sgrading_projects.sh[A]633;A[0;32m@Jamal77-mal [0m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Project 3  AutoGrade [K" 
+[?2004l]633;E;git commit -m "Project 3 AutoGrade";3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;C[main a17a6be] Project 3 AutoGrade
+ 1 file changed, 386 insertions(+)
+ create mode 100755 jamal_goodman/project03/sgrading_projects.sh
+]633;D;0]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03[?2004h]633;A[0;32m@Jamal77-mal [0m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;Bgit push
+[?2004l]633;E;git push;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;CTo https://github.com/Jamal77-mal/COSC_352_SPRING_2026-1
+   60ce76d..a17a6be  main -> main
+]633;D;0]633;P;Cwd=/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03[?2004h]633;A[0;32m@Jamal77-mal [0m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;Bgit pushcommit -m "Project 3 AutoGrade" [A]633;A[0;32m@Jamal77-mal [0m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[C[C[C[Cadd sgrading_projects.sh[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[C[7mgrading_20260213_[27m[7m2[27m[7m15205.log[27m[A]633;A[0;32m@Jamal77-mal [0m➜ [1;34m/workspaces/COSC_352_SPRING_2026-1/jamal_goodman/project03 [0;36m([1;31mmain[0;36m) [0m$ ]633;B[C[C[C[C[C[C[C[Cgrading_20260213_215205.log
+[?2004l]633;E;git add grading_20260213_215205.log;3b22e59e-5f84-4d62-8db2-5c289e11de8b]633;C

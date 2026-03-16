@@ -1,0 +1,2005 @@
+Repository Root: /Users/adi/Desktop/COSC_352_SPRING_2026
+Log File: /Users/adi/Desktop/COSC_352_SPRING_2026/aditya_poudel/project03/grading_20260213_152527.log
+--------------------------------------------
+
+============================================
+Grading Student: aaron_herron
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: abdul_quayyum_yussuf
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 334B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.5s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 240B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-ayo.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:61eed45e008531d664c4589b68d463622d41b133ee9a9341f99759890a7eb030 done
+#8 exporting config sha256:9e34d58942db244ccc5c6c78b96c1c40d3a7cfc3653cc376b11be4c87f864efc done
+#8 exporting attestation manifest sha256:c224d7505ed8fd9e9b62dc8a213b610ec8b3f2659e11a4a4e2f475febbe62a59 done
+#8 exporting manifest list sha256:c12faa70947c8458a70d4a2c75ad564cf60f4ca8c39fc56b1bc67103322e8250 done
+#8 naming to docker.io/library/abdul_quayyum_yussuf_project01_image:latest done
+#8 unpacking to docker.io/library/abdul_quayyum_yussuf_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World! Hey Aditya, I see you!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 345B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 3.89kB done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY read_html_table.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:d5fda51aa14166a84fd4d5cf018d381f6d2bf5ef2c5b77af0d49e18f76ba6585 done
+#8 exporting config sha256:2ed44705efb9c1f3a228f44fbd8717111dbf118e0cfccc8c74792bd735e80713 done
+#8 exporting attestation manifest sha256:0de9b47198d6d873c018980709d4a5126c2ac0e09c11c98d57adfa2e1a445426 done
+#8 exporting manifest list sha256:717ff43c6d6673ba5dd5663e9636d5507ae278c51ff27bb1176e97aced822815 done
+#8 naming to docker.io/library/abdul_quayyum_yussuf_project02_image:latest done
+#8 unpacking to docker.io/library/abdul_quayyum_yussuf_project02_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project02 Test...
+Running Project02 Test (attempt 1)...
+Project02 PASS (matched CSV_File_1.csv)
+Project02: 100 - PASS
+
+============================================
+Grading Student: adebisi_agbakosi
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: aditya_poudel
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 133B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 248B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#5 resolve docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /hello
+#6 CACHED
+
+#7 [3/3] COPY hello.py .
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:2292e033f6bea01ef86dbe5136a1a172691e9fabeda95507f6434718d3e6dfff done
+#8 exporting config sha256:dc06059e2cfb180d792409b2903707eebeae4dae693abb4ff02cb8e701b44bf7 done
+#8 exporting attestation manifest sha256:787db531463265c53aee6a983ef84a9850a34a42252e50f533e3c56b6dc0edb2 done
+#8 exporting manifest list sha256:27392504956ce6cf2e29df860cf06b7357815692c3e4b4e70efe1d5311b41bfa done
+#8 naming to docker.io/library/aditya_poudel_project01_image:latest done
+#8 unpacking to docker.io/library/aditya_poudel_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World Aditya
+Project01: 100 - PASS
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 505B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 resolve docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 3.05kB done
+#5 DONE 0.0s
+
+#6 [2/4] WORKDIR /app
+#6 CACHED
+
+#7 [3/4] COPY table_to_DFS_to_CSV.py .
+#7 CACHED
+
+#8 [4/4] RUN pip install --no-cache-dir pandas
+#8 CACHED
+
+#9 exporting to image
+#9 exporting layers done
+#9 exporting manifest sha256:d30b173cfbdc288516c9b523959248e231c23177f4fed031d8586aba10a67cdb done
+#9 exporting config sha256:6a765059ef393a86459e9e0bbaa8e343638ca2908c028fe32728a1c53c80fb31 done
+#9 exporting attestation manifest sha256:4f1326ba0fe635563877b117b4043069216ea52866063cf6159b8b8e9c953b81 done
+#9 exporting manifest list sha256:d0e83797e266cc656e5abb204f71847612d5f5bcc9d39fbb5bdaee7f2a8ef26a done
+#9 naming to docker.io/library/aditya_poudel_project02_image:latest done
+#9 unpacking to docker.io/library/aditya_poudel_project02_image:latest done
+#9 DONE 0.0s
+Build SUCCESS
+Running Project02 Test...
+Running Project02 Test (attempt 1)...
+Project02 PASS (matched table_1.csv)
+Project02: 100 - PASS
+
+============================================
+Grading Student: braydon_jones
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 136B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 191B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:34d1077c343ac78a12b9d9395d0ac0a20d33237dc15e5c37997bdec8c6e5cc3c done
+#8 exporting config sha256:2747241c57d138e06ff19719a223f28e9a600b846c981c322b347439c78883e8 done
+#8 exporting attestation manifest sha256:4b7c523890350e91ca36d05fb7f791403e4262599392d5a2a182313a270f44bc 0.0s done
+#8 exporting manifest list sha256:4654d02f04256de11f084ab6584a4289f527cddfd35a9621e0b7833bca1fed6b done
+#8 naming to docker.io/library/braydon_jones_project01_image:latest done
+#8 unpacking to docker.io/library/braydon_jones_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World Aditya
+Project01: 100 - PASS
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: chukwuemeka_obasi
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 138B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 61B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py .
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:d0991974e0d651309b356afb00275169fcbd841acc3e357e0d5b567a57ad5aa8 done
+#8 exporting config sha256:20037a8d1e8a9c457647db68db68f5f6c486c53498b32ce33d497a064a6b1551 done
+#8 exporting attestation manifest sha256:505806b4c6dce2e3e0317441b8c07ea73ee01e31429993324e744ea2e08e440d done
+#8 exporting manifest list sha256:9847030e24bd2bd10904d8c467ea96b0018abe82f61f87ca2fb4baf636337ab9 done
+#8 naming to docker.io/library/chukwuemeka_obasi_project01_image:latest done
+#8 unpacking to docker.io/library/chukwuemeka_obasi_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 173B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 569.38kB done
+#4 DONE 0.0s
+
+#5 [1/4] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#5 resolve docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf 0.0s done
+#5 DONE 0.0s
+
+#6 [2/4] WORKDIR /app
+#6 CACHED
+
+#7 [3/4] COPY read_html_table.py .
+#7 CACHED
+
+#8 [4/4] COPY ProgrammingLanguages.html .
+#8 CACHED
+
+#9 exporting to image
+#9 exporting layers done
+#9 exporting manifest sha256:5360331188c87759a9728e212c1d4d70a3252fc6b38cee40464699848bf6dde8 done
+#9 exporting config sha256:69d8bed5ed9b20694a0f85952a2b914e571e6718939c642a694ca65195155c90 done
+#9 exporting attestation manifest sha256:318be9adc1a5af55f55a758d94789c0dd112cefafc39f8a5c2b453611bab0908 done
+#9 exporting manifest list sha256:7aefbef6b98bf6da98bf189c21f12e83b23ee45c904aed9e597acee7fe2208c9 done
+#9 naming to docker.io/library/chukwuemeka_obasi_project02_image:latest done
+#9 unpacking to docker.io/library/chukwuemeka_obasi_project02_image:latest 0.0s done
+#9 DONE 0.0s
+Build SUCCESS
+Running Project02 Test...
+Running Project02 Test (attempt 1)...
+No CSV found on attempt 1.
+Logs:
+
+Running Project02 Test (attempt 2)...
+No CSV found on attempt 2.
+Logs:
+
+Project02: 80 - FAIL (wrong/missing CSV => -20)
+
+============================================
+Grading Student: corey_hawkins
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 491B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 216B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:1dbf6aec702930226ee33c0cfbece9e7e62cd612cddde03386983caa21360fd1 done
+#8 exporting config sha256:3cb8de70ce25d52811ac6dea5cef6790ecd4d1bd5418d9c69e0e02345c7f598e done
+#8 exporting attestation manifest sha256:2c0e4f535507fd8b511080fa142d8ad016bc532fec790a786f1314f388f0e5ed done
+#8 exporting manifest list sha256:0b787bd4ec565773293a94e2986fb7f32b29d435ff1eb7b842fcb6626a3448fb done
+#8 naming to docker.io/library/corey_hawkins_project01_image:latest done
+#8 unpacking to docker.io/library/corey_hawkins_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World! I mean... Hello Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: donovan_jones
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from dockerfile
+#1 transferring dockerfile: 146B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 209B 0.0s done
+#4 DONE 0.1s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f 0.1s done
+#5 DONE 0.1s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:379097e254a7480c3c1c9ab5eec7a78d28b4d84b096a74ca0904d5031ce04e62 done
+#8 exporting config sha256:f1404e2ce1208de3b8e40bcded918154dd64e0e9b3d3d56713097cbeb5fb415b done
+#8 exporting attestation manifest sha256:3999c37ba2c85ba8d082c144abb36f49847d6aa2f0c5ba7608ddd18c59245a59 0.1s done
+#8 exporting manifest list sha256:a54be1858b857e5be340e91ffb848de9cc2429f3cceee76493df7a7a3fcee846
+#8 exporting manifest list sha256:a54be1858b857e5be340e91ffb848de9cc2429f3cceee76493df7a7a3fcee846 done
+#8 naming to docker.io/library/donovan_jones_project01_image:latest done
+#8 unpacking to docker.io/library/donovan_jones_project01_image:latest 0.1s done
+#8 DONE 0.3s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World! I mean... Hello Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: enoch_williams
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 273B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 194B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:a22355f4f25d9fca82e043b82b6ded8c10a011882cb532b71d1b7b64a0bd574f done
+#8 exporting config sha256:4f96ac659ce27cb141a277adefa5361bc6ca09b29d4dcc151abd9bb793f37253 done
+#8 exporting attestation manifest sha256:33344ed14013062339e1d8ed78f6a1b7383c037dc2a3aa53e151164936f1f5c5 done
+#8 exporting manifest list sha256:28a08f6ca5352133d8e496612a586d1d0cb0655cd1738fbbca78bcda0c34e045 done
+#8 naming to docker.io/library/enoch_williams_project01_image:latest done
+#8 unpacking to docker.io/library/enoch_williams_project01_image:latest 0.0s done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello Aditya
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: grace_joseph
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: gulam_uddin
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 490B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 280B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hell0-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:e251ee6c9807108cbc384b05f8e3d7aa5e35eeba7a33a4137dbc1d534ec8197e done
+#8 exporting config sha256:9096c59a2fe7281b96e9c881aab7fac11f0d7611386976e550aad1330b0be77a done
+#8 exporting attestation manifest sha256:8e88656f825b9f5fa9b3fc65bc449e4e3a7425ae1e6f94a8d33a4a785cee5f84 done
+#8 exporting manifest list sha256:2ba1078cc72f1493f1ba14a43f24137b69ecc827ea35d880a1adf7920c39f004 done
+#8 naming to docker.io/library/gulam_uddin_project01_image:latest done
+#8 unpacking to docker.io/library/gulam_uddin_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World!  I mean... Hello Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: isaiah_simpson
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 398B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 193B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#5 resolve docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:d1b14d09fa7b27e35b79d010923394ff18edf961d33c7998b96f99848beb33a0 done
+#8 exporting config sha256:5f4e212aa929c0ca046c112dc40cb9ebc2783c63d1df99e84b95b477bc865a93 done
+#8 exporting attestation manifest sha256:e7bcdab83f9777c608463c245407adad183fd64839784c008c998d8404031936 done
+#8 exporting manifest list sha256:a717f2319fb91dd9bd481910230f3567f9d15c2b4515221bd5c26e58d8f89d52 done
+#8 naming to docker.io/library/isaiah_simpson_project01_image:latest done
+#8 unpacking to docker.io/library/isaiah_simpson_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: iyinoluwa_ayodele
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 478B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 290B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#5 resolve docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab 0.0s done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:db3ce6bd279c9bb0fb7e43bfad9bb334a59f7221527018d888667c1692636ce1 done
+#8 exporting config sha256:3e94da1927144761bc2e5c854938f7cb800e41e8884a884306a7b3d7c2065cff done
+#8 exporting attestation manifest sha256:aeccd65ea852cb05712b5cce696aed86572c9e09c32cd01e8a1e9274c3769338 done
+#8 exporting manifest list sha256:78fbe84f3c65bd40af1dee5193fd56f11e915899a751284148ab08760dccef7d done
+#8 naming to docker.io/library/iyinoluwa_ayodele_project01_image:latest done
+#8 unpacking to docker.io/library/iyinoluwa_ayodele_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World! Actually I meant hello Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: jamal_goodman
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 126B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 178B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#5 resolve docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello.py .
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:5be99cdb88130b7595074ecc79183d428e887ca2919ed505e65785a57120d221 done
+#8 exporting config sha256:800a741975218625b7b424c650a62d4fc79a6943c6c0065bd6d2194dbdef44fd done
+#8 exporting attestation manifest sha256:6d48d76f94e2935b215db50e61abb8b1e6dce6a32c28123f44205daaff4dfec0 done
+#8 exporting manifest list sha256:0b60eb43ccc23857c6b21994a55f278915790c841250cba11a21369f96106ee6 done
+#8 naming to docker.io/library/jamal_goodman_project01_image:latest done
+#8 unpacking to docker.io/library/jamal_goodman_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World Aditya
+Project01: 100 - PASS
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: jessica_madu
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: joseph_egbujonuma
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 375B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 146B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#5 resolve docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:5ef25e4adcb4fceb6b2337bd2e7d349da3a518b70bac07bcd366bf2e2f4c1d77 done
+#8 exporting config sha256:a282d1b3bc0cfd0f0d493aff5cfab5cd047fd3b0da09014b7201391b9e2b259f done
+#8 exporting attestation manifest sha256:12893eb19ac1cc2a406f71e4707e0b14b1a127d180dc01cbece7e4d760eddbc2 done
+#8 exporting manifest list sha256:6eff31d87b6abdd6da361c2badaa27878deb67821b17c029cd3f6628872feb8c done
+#8 naming to docker.io/library/joseph_egbujonuma_project01_image:latest done
+#8 unpacking to docker.io/library/joseph_egbujonuma_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello, Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from dockerfile
+#1 transferring dockerfile: 465B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 3.21kB done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#5 resolve docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY programming-languages.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:e36d191df60628fb261604b4d37b77ef110628705b7a7b4cc7df6af0191c580a done
+#8 exporting config sha256:30f76b3237c1160aa3e3422513c848b0c7d44006429e5277478ba436ab1937be done
+#8 exporting attestation manifest sha256:3d94bc0b613562616d4010428487517e2333c97cc9e2ab34c9633e94c2d80f62 done
+#8 exporting manifest list sha256:6b0aab420b8b23d10c528b3e9b3409b664a27b11ba61aa97c86fbb1f9d06f92d done
+#8 naming to docker.io/library/joseph_egbujonuma_project02_image:latest done
+#8 unpacking to docker.io/library/joseph_egbujonuma_project02_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project02 Test...
+Running Project02 Test (attempt 1)...
+No CSV found on attempt 1.
+Logs:
+How to use: python programming-languages.py https://en.wikipedia.org/wiki/Comparison_of_programming_languages
+Running Project02 Test (attempt 2)...
+No CSV found on attempt 2.
+Logs:
+How to use: python programming-languages.py https://en.wikipedia.org/wiki/Comparison_of_programming_languages
+Project02: 80 - FAIL (wrong/missing CSV => -20)
+
+============================================
+Grading Student: joseph_wellington
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: karl_agli
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 141B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.9-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 192B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.9-slim@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b
+#5 resolve docker.io/library/python:3.9-slim@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello_world.py /app/
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:6464f1fbd30ad5e1b347473af49c9f0da2d7cf750a7bee2aa9c05482918e3583 done
+#8 exporting config sha256:8ce9b0cd022cddc6c0111e2d2a92e2769ba7e6eb51b69a345e13b43cff59d296 done
+#8 exporting attestation manifest sha256:344e7e71ad33813ea5f8f7089aa73956b19ee17f45d792a653a67a15a13a89c3 done
+#8 exporting manifest list sha256:57be858c2050d2e25fc1cb1ae3579ae3d36f1e5bc1e1621c79e784c3a5d097e3 done
+#8 naming to docker.io/library/karl_agli_project01_image:latest done
+#8 unpacking to docker.io/library/karl_agli_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World Aditya
+Project01: 100 - PASS
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: Kenzoh33
+============================================
+Project01: 40 - FAIL (folder missing => -60)
+Project02: 40 - FAIL (folder missing => -60)
+
+============================================
+Grading Student: kyle_holmes
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 439B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 212B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#5 resolve docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:82b057fcb00515bd298b3f0d9982ed7fa1561ffb3e0612fcb3015ad56c6614fe done
+#8 exporting config sha256:2977e20e696a0244f318c1e65266d741810f325362c9b9d6cbb0869b2fc2c562 done
+#8 exporting attestation manifest sha256:549a46d68a65f07f9d14aca88ac510fa3e178a3e1a46b3e80c5eeb035658dd8f done
+#8 exporting manifest list sha256:28ed1b36dea5e6eb98e662f9297f2eaa3a1fcbd87b514bbc2e29c0f792f6b86d done
+#8 naming to docker.io/library/kyle_holmes_project01_image:latest done
+#8 unpacking to docker.io/library/kyle_holmes_project01_image:latest 0.0s done
+#8 DONE 0.1s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World! I mean... Hello Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: mahki_titus
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 375B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 281B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:4a8cfb6e6fff512599e448005618dbe30c1b1d7ac9edf59fa7c1fcde78a9c0d5 done
+#8 exporting config sha256:6bb7bdfbc4dd020764e2561e55c0adbc726deb780980e2988996c36ebc084f4f done
+#8 exporting attestation manifest sha256:f30d7495ed7eb50e13594912f25152d304c4d7eb2a5239e6bd6d56cdbeab6817 done
+#8 exporting manifest list sha256:49364ddcd0a38262f66cbb55fd5e9ff07c05cfb34601b5f344f5903b6705f452 done
+#8 naming to docker.io/library/mahki_titus_project01_image:latest done
+#8 unpacking to docker.io/library/mahki_titus_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World! I mean... Wassup Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 137B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 1.64kB done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#5 resolve docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY parse_table.py .
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:81df8477433e251dffee58ffb246c8f72fe1307dcd87d055d26ef4fa731caadf done
+#8 exporting config sha256:7f8ab239db2d5fc661add4942f084f4f863478a0175d8f301ea2f3c9307c539d done
+#8 exporting attestation manifest sha256:0506667f24dd4ecdeba522652b3d7e1ac9630456f4d2942ee6d8dde5ca730946 done
+#8 exporting manifest list sha256:3b1825176a32fbf348709076bda92b875413aed6d95960c6a939a2e8e8454e74 done
+#8 naming to docker.io/library/mahki_titus_project02_image:latest done
+#8 unpacking to docker.io/library/mahki_titus_project02_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project02 Test...
+Running Project02 Test (attempt 1)...
+No CSV found on attempt 1.
+Logs:
+Usage: python parse_table.py <input.html> <output.csv>
+Running Project02 Test (attempt 2)...
+Project02 PASS (matched output.csv)
+Project02: 100 - PASS
+
+============================================
+Grading Student: marcus_crosby
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B 0.0s done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: michael_miller
+============================================
+Project01: 40 - FAIL (folder missing => -60)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: najae_potts
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 144B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:latest
+#2 DONE 0.6s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [3/3] COPY najae_potts/project01/hello-world.py /app
+#6 ERROR: failed to calculate checksum of ref rlubsmi26bt5jor38kgvhlwip::uhhlu9l0knbbguk8gc23ye5xy: "/najae_potts/project01/hello-world.py": not found
+
+#7 [1/3] FROM docker.io/library/python:latest@sha256:151ab3571dad616bb031052e86411e2165295c7f67ef27206852203e854bcd12
+#7 resolve docker.io/library/python:latest@sha256:151ab3571dad616bb031052e86411e2165295c7f67ef27206852203e854bcd12 done
+#7 CANCELED
+------
+ > [3/3] COPY najae_potts/project01/hello-world.py /app:
+------
+Dockerfile:5
+--------------------
+   3 |     WORKDIR /app
+   4 |     
+   5 | >>> COPY najae_potts/project01/hello-world.py /app
+   6 |     
+   7 |     CMD ["python", "hello-world.py"]
+--------------------
+ERROR: failed to build: failed to solve: failed to compute cache key: failed to calculate checksum of ref rlubsmi26bt5jor38kgvhlwip::uhhlu9l0knbbguk8gc23ye5xy: "/najae_potts/project01/hello-world.py": not found
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 31B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: the Dockerfile cannot be empty
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: nasif_ajilore
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 141B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 212B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:a16fc5abf527b6e8bf60533c929aaa0f793c123611bab7c847fab80373bec44a done
+#8 exporting config sha256:c84d7975cd97fd4b491e41aae7822c778675621f8f8501689efc0f197ea82c73 done
+#8 exporting attestation manifest sha256:d332ebb49fb62a0c24a65509fa26600fbfd141303076619b62a0635ffea53375 done
+#8 exporting manifest list sha256:96f34fc9994bc969b761521e15fea1c6fae91b49e4518df8393d4ff313c6c7e3 done
+#8 naming to docker.io/library/nasif_ajilore_project01_image:latest done
+#8 unpacking to docker.io/library/nasif_ajilore_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World!  I mean...Hello Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 149B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 10.74kB done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY read_html_table.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:157f4c6b600636f52080aec483323d1f2af3ab8cbf802ffa7ffaa165b7c22f0d done
+#8 exporting config sha256:17bf07dd3e0d07e9724cf7da00cd72e058566effbbbd1bbdeeec4e3fe64ced1e done
+#8 exporting attestation manifest sha256:d83987c7414028f8da1b6e0705c1f672a4193e9f84ea534032a6c492023dae2b done
+#8 exporting manifest list sha256:7317a7de2b3ef7416e667990aa8ad4889ae2b7129e2fa02399033da99f98a64d done
+#8 naming to docker.io/library/nasif_ajilore_project02_image:latest done
+#8 unpacking to docker.io/library/nasif_ajilore_project02_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project02 Test...
+Running Project02 Test (attempt 1)...
+Project02 PASS (matched input_table_1.csv)
+Project02: 100 - PASS
+
+============================================
+Grading Student: obaloluwa_wojuade
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 137B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 179B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#5 resolve docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py .
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:c26002329285749050fec83ce5c257115b20ad9cdbb8a1cf131e5bde685b2b28 done
+#8 exporting config sha256:8525386f1f112e09a17df3d4a2ee1b54f33704ce1e687eb110a2bd2cac70c1c4 done
+#8 exporting attestation manifest sha256:e3a48a5b58684faf59204b080f43fbe1634254ef71dfcdf6260a1479fb972012 done
+#8 exporting manifest list sha256:845ec18ee19b04b739c19a65e2c886b4d43fc669a18c77c81f6e6d143c42190e done
+#8 naming to docker.io/library/obaloluwa_wojuade_project01_image:latest done
+#8 unpacking to docker.io/library/obaloluwa_wojuade_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World Aditya
+Project01: 100 - PASS
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: oluwasegun_soji-john
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 136B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.9-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 98B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.9-slim@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b
+#5 resolve docker.io/library/python:3.9-slim@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello_world.py .
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:d46ed843b30d2da80d5d2268936c65579844da6998baadad7064a72fda3c6086 done
+#8 exporting config sha256:64c0d36960fc6d85fc72c014d39b211544bd361f3f513b5e20a225d6735b11a8 done
+#8 exporting attestation manifest sha256:a1ceb8d646120ebe02671691e6ff4c73b1571982405156813eda309d7bd40c17 done
+#8 exporting manifest list sha256:f381247543ac17aa062777b8d5a36e97f1876c758614d705c8760f714dcc3a98 done
+#8 naming to docker.io/library/oluwasegun_soji-john_project01_image:latest done
+#8 unpacking to docker.io/library/oluwasegun_soji-john_project01_image:latest done
+#8 DONE 0.1s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Traceback (most recent call last):
+  File "/app/hello_world.py", line 1, in <module>
+    name = input("Enter your name: ")
+Enter your name: EOFError: EOF when reading a line
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: ositadinma_odunze
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 291B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 223B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#5 resolve docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello.py .
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:134a60807b6e7a8ec18cb71316f5f1d20f2dc6aeae202ca94348703e037e9690 done
+#8 exporting config sha256:d858ee8e6c9bfc70e00cfc27fc57bda1fd282385994f9535d88defde963d2452 done
+#8 exporting attestation manifest sha256:ccfc06ed954efb010c8937bb69ade578b7254ca20861413073eadcc802c5f490 done
+#8 exporting manifest list sha256:43be938795587433b8a4b136cc2bbbf834ee612ee548419080c54acbc50825e4 done
+#8 naming to docker.io/library/ositadinma_odunze_project01_image:latest done
+#8 unpacking to docker.io/library/ositadinma_odunze_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello Aditya
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: pauline_ekoma
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 139B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 224B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#5 resolve docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:e4f90aedfd613bb19b057ca2d840b93df322091617b912ef95d3841595a3b22c done
+#8 exporting config sha256:76ab93317abd58037ef19615da0e649fd2b5923be60eaf9f78f70e7673db707c done
+#8 exporting attestation manifest sha256:4b2588bc5b8b596ae3a5d7822e4f90bd1531dd8801baa62798d8a302a5ca3129 done
+#8 exporting manifest list sha256:771db351121d029578a76e4dd861ead85f33ef026f96a8eb25afc68774c96ae4 done
+#8 naming to docker.io/library/pauline_ekoma_project01_image:latest done
+#8 unpacking to docker.io/library/pauline_ekoma_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World Aditya!!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: princess_ekoh
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 137B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 212B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello_world.py .
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:739e76e2811c9c0530ac6c98866a4ceaa0c9870c3f595fd1ab9d42cbf6a270be done
+#8 exporting config sha256:ee4cc936360f449d6737fe729a344c729b4cb871069f54da2d0c8b2aab17ef1d done
+#8 exporting attestation manifest sha256:1e7f50a291db5f2ef7cb46314c7879d390a42cd281fd6171a0378db0f3bcf077 done
+#8 exporting manifest list sha256:97d7bce3c026bbd1f983a57daf597104355b0293ad9c4786a2517bca6b75c016 done
+#8 naming to docker.io/library/princess_ekoh_project01_image:latest done
+#8 unpacking to docker.io/library/princess_ekoh_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World!
+whatsup Aditya, how's it going?.
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: professor_jon_white
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 491B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 283B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f 0.0s done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:ffd5b2d5e155ef8cd950cd24c363115b4de5c405bab2d112deb0ef3b1f0a3c84 done
+#8 exporting config sha256:faa3500f3eeea026cf588a0a090ce92ce8ba7713df7db342e4f6b09020052d37 done
+#8 exporting attestation manifest sha256:8dc8c0c729b8e923899ac43543c20f030568c3eaf1427ba6c1576f0dfa89b8f9 done
+#8 exporting manifest list sha256:fa0ba7ccf15218ec03dab15c3bb09b4228d81c39df42384152e6bb088a19db96 done
+#8 naming to docker.io/library/professor_jon_white_project01_image:latest done
+#8 unpacking to docker.io/library/professor_jon_white_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World!  I mean... Hello Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+Project02: 40 - FAIL (folder missing => -60)
+
+============================================
+Grading Student: randolph_bame
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: rashaa_mcqueen
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+Project02: 40 - FAIL (folder missing => -60)
+
+============================================
+Grading Student: rochak_ghimire
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: sandeep_shah
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project01: 60 - FAIL (build failed => -40)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: sharif_jenkins
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 138B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 184B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f 0.0s done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:84ec29e3159a18f9df7855f7ae29075f2d2fb87ba51ae20d3268c8903d81eca1 done
+#8 exporting config sha256:c639ffdc99da4495748ede896b2905aa5b87d293d5b674bbba9e810b2aea116a done
+#8 exporting attestation manifest sha256:b89ecc9aa91ad811ff3e6ad682ceaf2fc4c49de1dd9321031b1189739d4ff46e done
+#8 exporting manifest list sha256:c325241b93f566995471b1a62ccfb33daef29ae92c7461ce822643ec0e1052c7 done
+#8 naming to docker.io/library/sharif_jenkins_project01_image:latest done
+#8 unpacking to docker.io/library/sharif_jenkins_project01_image:latest 0.0s done
+#8 DONE 0.1s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World or should I say Hello Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: sidney_green
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from dockerfile
+#1 transferring dockerfile: 139B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 193B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#5 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:cb7b7302b648eea585a65ecf7752ab6bcf933fbbf6119bd4e5c957fc00eb45a1 done
+#8 exporting config sha256:13d8cc8b1a1ade894b797e6cd0f594096253ae447f9961003221f674cdbfbab8 done
+#8 exporting attestation manifest sha256:7494a781571a0b0fae313343a8436e3fa566429542f9bf5c09a9072f00b555cb done
+#8 exporting manifest list sha256:f01ffcc8113c181439691554ef98c74c180facaeaeb03a0aad81d4d69cf2ff82 done
+#8 naming to docker.io/library/sidney_green_project01_image:latest done
+#8 unpacking to docker.io/library/sidney_green_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: whatsup Aditya, how's it going?.
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: stephen_waita
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 474B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 276B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#5 resolve docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab 0.0s done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:be6f317de23462c727dfe7f3912945c48c70298edac6bec83b7b91b4728290fb done
+#8 exporting config sha256:ac619cc181f577e3fb29663b6cf9d1f14fd31095dc80fb0e98eef748b51c9c66 done
+#8 exporting attestation manifest sha256:554b8f032ca4759a37d832f627c3f168324afde0810ad92789d5815054ec7013 done
+#8 exporting manifest list sha256:11248feea8323675d821ced8cb900c954b08c34224fb8a49bcb252666c711cc3 done
+#8 naming to docker.io/library/stephen_waita_project01_image:latest done
+#8 unpacking to docker.io/library/stephen_waita_project01_image:latest 0.0s done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World! I mean... Hello Aditya!
+Project01: 80 - FAIL (wrong output => -20)
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.12kB done
+#1 DONE 0.0s
+Dockerfile:2
+--------------------
+   1 |     #!/usr/bin/env python3
+   2 | >>> import sys
+   3 |     import csv
+   4 |     import urllib.request
+--------------------
+ERROR: failed to build: failed to solve: dockerfile parse error on line 2: unknown instruction: import
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+Grading Student: taniyah_payton
+============================================
+
+Building project01...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 126B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 178B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#5 resolve docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello.py .
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 exporting manifest sha256:0d418a0f8aa87ab8bdbbb9e63540e80dcee9504811ddc9421d5cf91747d34c1f done
+#8 exporting config sha256:2d051e2d22cde999943966ad5f942d3da40f7aeb67717c2b04b920179c5c9a61 done
+#8 exporting attestation manifest sha256:5c33852281a7f18b80f5e7155ce54e518cec7de98b8cfbe3e3f6de22a73c9a49 done
+#8 exporting manifest list sha256:2f05e10e5814777b13a5c924355b437c323a240eb1369b4797f26290d6eff13d done
+#8 naming to docker.io/library/taniyah_payton_project01_image:latest done
+#8 unpacking to docker.io/library/taniyah_payton_project01_image:latest done
+#8 DONE 0.0s
+Build SUCCESS
+Running Project01 Test...
+DEBUG Raw Output: Hello World Aditya
+Project01: 100 - PASS
+
+Building project02...
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Build FAILED
+Project02: 60 - FAIL (build failed => -40)
+
+============================================
+FINAL SUMMARY
+============================================
+Students graded: 39
+
+Project01: PASS=26  FAIL=13  (min=40 max=100 avg=75)
+Project02: PASS=6  FAIL=33  (min=40 max=100 avg=63)
+
+Overall tests: 78  PASS=32  FAIL=46
+Totals (P1+P2): min=80 max=200 avg=138
+
+Grades CSV: /Users/adi/Desktop/COSC_352_SPRING_2026/aditya_poudel/project03/grades.csv
+Log File:  /Users/adi/Desktop/COSC_352_SPRING_2026/aditya_poudel/project03/grading_20260213_152527.log
+Grading Complete.

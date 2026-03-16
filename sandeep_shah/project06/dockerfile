@@ -1,0 +1,26 @@
+FROM --platform=linux/amd64 rocker/shiny:4.3.1
+
+RUN apt-get update && apt-get install -y \
+    libcurl4-openssl-dev \
+    libssl-dev \
+    libxml2-dev \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+RUN R -e "install.packages('shiny',         repos='https://cran.rstudio.com/', lib='/usr/local/lib/R/site-library')"
+RUN R -e "install.packages('shinydashboard',repos='https://cran.rstudio.com/', lib='/usr/local/lib/R/site-library')"
+RUN R -e "install.packages('plotly',        repos='https://cran.rstudio.com/', lib='/usr/local/lib/R/site-library')"
+RUN R -e "install.packages('dplyr',         repos='https://cran.rstudio.com/', lib='/usr/local/lib/R/site-library')"
+RUN R -e "install.packages('DT',            repos='https://cran.rstudio.com/', lib='/usr/local/lib/R/site-library')"
+RUN R -e "install.packages('httr',          repos='https://cran.rstudio.com/', lib='/usr/local/lib/R/site-library')"
+RUN R -e "install.packages('rvest',         repos='https://cran.rstudio.com/', lib='/usr/local/lib/R/site-library')"
+RUN R -e "install.packages('stringr',       repos='https://cran.rstudio.com/', lib='/usr/local/lib/R/site-library')"
+
+COPY scraper.R  /srv/shiny-server/bpd/scraper.R
+COPY app.R      /srv/shiny-server/bpd/app.R
+
+RUN mkdir -p /srv/shiny-server/bpd/data && \
+    chmod -R 777 /srv/shiny-server/bpd/
+
+EXPOSE 3838
+
+CMD ["/usr/bin/shiny-server"]

@@ -1,0 +1,1 @@
+This project scrapes real-world homicide data from ChamsPage Baltimore City Homicide List to analyze trends in violent crime. The analysis focuses on Monthly Distribution to determine if there are visible seasonal fluctuations in crime rates across the 2024 and 2025 calendar years.

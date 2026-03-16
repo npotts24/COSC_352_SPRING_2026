@@ -1,0 +1,23 @@
+Grading Session - Sat Feb 14 03:36:30 UTC 2026
+
+[0;34m[INFO][0m Project: 01
+[0;34m[INFO][0m Specific Student: nasif_ajilore
+[0;34m[INFO][0m Log file: /workspaces/COSC_352_SPRING_2026/obaloluwa_wojuade/project03/grading_logs/nasif_ajilore_grading_20260214_033630.log
+[0;34m[INFO][0m Found 1 student(s) to grade
+[0;34m[INFO][0m Grading: nasif_ajilore/project01
+[1;33m[WARN][0m No Dockerfile found
+[0;34m[INFO][0m Test test1: Alice
+[0;31m[ERROR][0m test1 failed (crashed or timed out)
+[0;34m[INFO][0m Test test2: Bob
+[0;31m[ERROR][0m test2 failed (crashed or timed out)
+[0;34m[INFO][0m Test test3: John
+[0;31m[ERROR][0m test3 failed (crashed or timed out)
+
+nasif_ajilore/project01: PASS
+  Score: 91/100
+  Tests: 0 passed, 3 failed
+
+
+Done! Graded 1 students for Project 01
+Results saved to: /workspaces/COSC_352_SPRING_2026/obaloluwa_wojuade/project03/grading_logs/nasif_ajilore_grading_20260214_033630.log
+[0;32m[SUCCESS][0m Grading complete
