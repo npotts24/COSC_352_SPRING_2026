@@ -1,0 +1,63 @@
+LOG_FILE="grading_results_$(date +%F_%T).log"
+STUDENTS_DIR="./students"
+EXPECTED_OUTPUT="Hello World" 
+PROJECT_TYPE="project01"      
+TIME_LIMIT="10s"               
+
+log_message() {
+    local MESSAGE="$1"
+    echo -e "$MESSAGE" | tee -a "$LOG_FILE"
+}
+
+cleanup() {
+    local STUDENT_ID=$1
+    docker rm -f "test_${STUDENT_ID}" > /dev/null 2>&1
+    docker rmi "img_${STUDENT_ID}" > /dev/null 2>&1
+}
+
+log_message "### Starting Grading Session: $(date) ###\n"
+
+for student_path in "$STUDENTS_DIR"/*; do
+    [ -d "$student_path" ] || continue
+    
+    STUDENT_NAME=$(basename "$student_path")
+    ((TOTAL_STUDENTS++))
+    
+    log_message "--------------------------------------------"
+    log_message "Grading Student: $STUDENT_NAME"
+
+    if [[ ! -f "$student_path/Dockerfile" ]]; then
+        log_message "RESULT: [FAIL] - Missing Dockerfile."
+        continue
+    fi
+    
+    if ! docker build -t "img_$STUDENT_NAME" "$student_path" > /dev/null 2>&1; then
+        log_message "RESULT: [FAIL] - Build Error."
+        cleanup "$STUDENT_NAME"
+        continue
+    fi
+
+    log_message "Running tests (Timeout: $TIME_LIMIT)..."
+    
+    if [[ "$PROJECT_TYPE" == "project01" ]]; then
+        ACTUAL_OUTPUT=$(timeout "$TIME_LIMIT" docker run --rm "img_$STUDENT_NAME" 2>/dev/null)
+        EXIT_CODE=$?
+    elif [[ "$PROJECT_TYPE" == "project02" ]]; then
+        docker run -d --name "test_$STUDENT_NAME" -p 8080:80 "img_$STUDENT_NAME" > /dev/null
+        ACTUAL_OUTPUT=$(timeout "$TIME_LIMIT" curl -s --retry 3 --retry-delay 1 localhost:8080)
+        EXIT_CODE=$?
+        docker stop "test_$STUDENT_NAME" > /dev/null
+    fi
+
+    if [[ $EXIT_CODE -eq 124 ]]; then
+        log_message "RESULT: [FAIL] - Execution Timed Out (Possible infinite loop)."
+    elif echo "$ACTUAL_OUTPUT" | grep -q "$EXPECTED_OUTPUT"; then
+        log_message "RESULT: [PASS]"
+        ((PASSED_STUDENTS++))
+    else
+        log_message "RESULT: [FAIL] - Output Mismatch."
+        log_message "   Expected: $EXPECTED_OUTPUT | Got: $ACTUAL_OUTPUT"
+    fi
+
+    cleanup "$STUDENT_NAME"
+done

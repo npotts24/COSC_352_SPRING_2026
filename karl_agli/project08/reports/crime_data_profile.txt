@@ -1,0 +1,44 @@
+==================================================
+CSV PROFILING REPORT
+==================================================
+Total Columns: 2
+Total Rows: 285
+
++----------------------------+
+| Neighborhood               |
++--------------------+-------+
+| Field              | Value |
++--------------------+-------+
+| Inferred Type      | Text  |
+| Row Count          | 285   |
+| Null Count         | 0     |
+| Null %             | 0.00% |
+| Unique Values      | 285   |
+| Min String Length  | 4     |
+| Max String Length  | 37    |
+| Top 5 Values       | DOWNTOWN (1), BELAIR-EDISON (1), FRANKFORD (1), BROOKLYN (1), CANTON (1) |
++--------------------+-------+
+
++----------------------------+
+| crime_count                |
++--------------------+-------+
+| Field              | Value |
++--------------------+-------+
+| Inferred Type      | Integer |
+| Row Count          | 285   |
+| Null Count         | 0     |
+| Null %             | 0.00% |
+| Unique Values      | 283   |
+| Min                | 2.00  |
+| Max                | 22854.00 |
+| Mean               | 2584.65 |
+| Median             | 1699.00 |
+| Std Dev            | 2847.82 |
+| Min String Length  | 1     |
+| Max String Length  | 5     |
+| Top 5 Values       | 45 (2), 5 (1), 2 (1), 22854 (1), 11988 (1) |
++--------------------+-------+
+
+==================================================
+Report Complete
+==================================================

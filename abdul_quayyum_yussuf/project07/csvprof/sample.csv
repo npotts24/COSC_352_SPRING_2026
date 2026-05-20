@@ -1,0 +1,16 @@
+name,age,salary,active,hire_date,department,notes
+Alice,28,75000,true,2021-05-15,Engineering,Senior developer with 5 years experience
+Bob,35,85000,true,2015-03-22,Engineering,Team lead
+Charlie,24,55000,true,2023-01-10,Marketing,Recently hired
+Diana,42,95000,false,2012-11-30,Sales,On extended leave
+Eve,31,72000,true,2020-07-18,HR,HR specialist
+Frank,28,76000,yes,2021-09-05,Engineering,Full-stack developer
+Grace,29,68000,1,2022-02-14,Marketing,Marketing coordinator
+Hank,38,92000,true,2018-06-20,Engineering,Principal engineer
+Ivy,26,58000,true,2023-08-01,Finance,Junior analyst
+Jack,45,120000,true,2010-04-12,Leadership,VP of Engineering
+Kate,32,78000,true,2019-12-05,Engineering,Software engineer
+Liam,27,62000,false,2021-11-11,Operations,Operations coordinator
+Mia,29,71000,true,2022-03-30,Finance,Financial analyst
+Noah,41,98000,true,2014-09-15,Sales,Top performer
+Olivia,25,,true,2023-09-01,Engineering,Data analyst internship

@@ -1,0 +1,50 @@
+# csvprof — Streaming CSV Data Profiler
+ 
+A command-line data profiling tool written in idiomatic Rust. Ingests any CSV file
+and produces a structured report describing the shape, quality, and statistical
+characteristics of each column — **without loading the whole file into memory**.
+ 
+## Build
+ 
+```bash
+cargo build --release
+# Binary will be at: ./target/release/csvprof
+```
+ 
+## Usage
+ 
+```bash
+csvprof [OPTIONS] <FILE>
+ 
+Arguments:
+  <FILE>   Path to input CSV file. Use `-` for stdin.
+ 
+Options:
+  -p, --percentiles           Show p5 / p25 / p75 / p95 for numeric columns
+  -H, --histogram             Show full frequency histogram for categoricals
+  -j, --json                  Output as JSON instead of terminal tables
+  -d, --delimiter <CHAR>      Field delimiter (default: comma)
+      --categorical-threshold Unique-value cap for Categorical type (default: 50)
+      --max-categories        Max distinct values tracked (default: 10000)
+  -h, --help                  Print help
+  -V, --version               Print version
+```
+ 
+## Examples
+ 
+```bash
+# Basic profile
+csvprof data.csv
+ 
+# Full stats with percentiles and histograms
+csvprof data.csv -p -H
+ 
+# JSON output (pipe to jq, etc.)
+csvprof data.csv --json | jq '.columns[] | select(.inferred_type == "integer")'
+ 
+# TSV file
+csvprof data.tsv -d $'\t'
+ 
+# Stdin
+cat data.csv | csvprof -
+```

@@ -1,0 +1,361 @@
+
+  csvprof  ·  data/Liquor_Licenses.csv  ·  29751 rows  ·  21 columns  
+
+  LLKey  [Integer]
+┌─────────────────────────────┐
+│ Field           Value       │
+╞═════════════════════════════╡
+│ Row count       29751       │
+│ Null count      0           │
+│ Null %          0.0%        │
+│ Unique values   10001       │
+│ Min             100005      │
+│ Max             331825      │
+│ Mean            313348.1484 │
+│ Median          319769      │
+│ Std Dev         35188.4901  │
+└─────────────────────────────┘
+  ⚠ Frequency map capped at 10000 entries; unique count is a lower bound.
+
+  CorpKey  [Integer]
+┌─────────────────────────────┐
+│ Field           Value       │
+╞═════════════════════════════╡
+│ Row count       29751       │
+│ Null count      0           │
+│ Null %          0.0%        │
+│ Unique values   1842        │
+│ Min             201000      │
+│ Max             203217      │
+│ Mean            201975.6798 │
+│ Median          201944      │
+│ Std Dev         581.6942    │
+└─────────────────────────────┘
+
+  LicenseClass  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       29751 │
+│ Null count      0     │
+│ Null %          0.0%  │
+│ Unique values   18    │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value  Count 
+   LB     8628  
+   LBD7   7732  
+   LA     4240  
+   LC     2957  
+   LD     1148  
+  Top-5 least frequent:
+   Value  Count 
+   DP     18    
+   LBRL   33    
+   LMZ    42    
+   LBAL   140   
+   D      193   
+
+  SubClass  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       29751 │
+│ Null count      0     │
+│ Null %          0.0%  │
+│ Unique values   5     │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value  Count 
+   BWL    26091 
+   BW     2714  
+   AE     735   
+   B      193   
+   L      18    
+  Top-5 least frequent:
+   Value  Count 
+   L      18    
+   B      193   
+   AE     735   
+   BW     2714  
+   BWL    26091 
+
+  LicenseNumber  [Integer]
+┌──────────────────────────┐
+│ Field           Value    │
+╞══════════════════════════╡
+│ Row count       29751    │
+│ Null count      1        │
+│ Null %          0.0%     │
+│ Unique values   524      │
+│ Min             1        │
+│ Max             538      │
+│ Mean            129.3228 │
+│ Median          92       │
+│ Std Dev         120.3483 │
+└──────────────────────────┘
+
+  LicenseDate  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           29751 │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       1514  │
+│ Shortest string     22    │
+│ Longest string      22    │
+│ Avg string length   22.0  │
+└───────────────────────────┘
+
+  LicenseEndDate  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       29751 │
+│ Null count      0     │
+│ Null %          0.0%  │
+│ Unique values   46    │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value                   Count 
+   2026/04/30 04:00:00+00  1901  
+   2025/04/30 04:00:00+00  1854  
+   2024/04/30 04:00:00+00  1775  
+   2023/04/30 04:00:00+00  1628  
+   2022/04/30 04:00:00+00  1517  
+  Top-5 least frequent:
+   Value                   Count 
+   2003/04/30 04:00:00+00  1     
+   2008/06/30 04:00:00+00  24    
+   2005/06/30 04:00:00+00  24    
+   2010/06/30 04:00:00+00  25    
+   2009/06/30 04:00:00+00  25    
+
+  LicenseYear  [Integer]
+┌───────────────────────────┐
+│ Field           Value     │
+╞═══════════════════════════╡
+│ Row count       29751     │
+│ Null count      0         │
+│ Null %          0.0%      │
+│ Unique values   24        │
+│ Min             2002      │
+│ Max             2025      │
+│ Mean            2015.6107 │
+│ Median          2016      │
+│ Std Dev         6.5313    │
+└───────────────────────────┘
+
+  LicenseFee  [Float]
+┌───────────────────────────┐
+│ Field           Value     │
+╞═══════════════════════════╡
+│ Row count       29751     │
+│ Null count      0         │
+│ Null %          0.0%      │
+│ Unique values   203       │
+│ Min             0         │
+│ Max             25000     │
+│ Mean            1296.5822 │
+│ Median          1100      │
+│ Std Dev         1464.3233 │
+└───────────────────────────┘
+
+  CertificateNumber  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           29751 │
+│ Null count          1     │
+│ Null %              0.0%  │
+│ Unique values       2395  │
+│ Shortest string     4     │
+│ Longest string      10    │
+│ Avg string length   4.1   │
+└───────────────────────────┘
+  ⚠ Mixed types detected — integer: 27643, float: 27643.
+
+  LicenseStatus  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       29751 │
+│ Null count      342   │
+│ Null %          1.1%  │
+│ Unique values   3     │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value        Count 
+   Renewed      26593 
+   Transferred  2051  
+   Closed       765   
+  Top-5 least frequent:
+   Value        Count 
+   Closed       765   
+   Transferred  2051  
+   Renewed      26593 
+
+  LicenseeFirstName  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           29751 │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       2404  │
+│ Shortest string     2     │
+│ Longest string      20    │
+│ Avg string length   7.5   │
+└───────────────────────────┘
+
+  LicenseeLastName  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           29751 │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       2205  │
+│ Shortest string     2     │
+│ Longest string      21    │
+│ Avg string length   6.8   │
+└───────────────────────────┘
+
+  TradeName  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           29751 │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       1728  │
+│ Shortest string     2     │
+│ Longest string      50    │
+│ Avg string length   17.9  │
+└───────────────────────────┘
+  ⚠ Mixed types detected — integer: 32, float: 32.
+
+  CorpName  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           29751 │
+│ Null count          4     │
+│ Null %              0.0%  │
+│ Unique values       1676  │
+│ Shortest string     3     │
+│ Longest string      47    │
+│ Avg string length   20.8  │
+└───────────────────────────┘
+
+  EstablishmentDesc  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       29751 │
+│ Null count      0     │
+│ Null %          0.0%  │
+│ Unique values   15    │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value               Count 
+   Tavern              8880  
+   Restaurant          8628  
+   Package goods only  5008  
+   Non-Profits only    3753  
+   Tavern License      829   
+  Top-5 least frequent:
+   Value        Count 
+   Distillery   18    
+   Racetrack    33    
+   Zoo License  42    
+   Arena        140   
+   Brewery      193   
+
+  DayPerWeek  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       29751 │
+│ Null count      1035  │
+│ Null %          3.5%  │
+│ Unique values   3     │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value   Count 
+   7 days  22314 
+   6 days  6360  
+   every   42    
+  Top-5 least frequent:
+   Value   Count 
+   every   42    
+   6 days  6360  
+   7 days  22314 
+
+  Description  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       29751 │
+│ Null count      753   │
+│ Null %          2.5%  │
+│ Unique values   4     │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value                 Count 
+   Beer, Wine, & Liquor  26049 
+   Beer & Light Wine     2714  
+   Beer                  193   
+   Beer, Wine & Liquor   42    
+  Top-5 least frequent:
+   Value                 Count 
+   Beer, Wine & Liquor   42    
+   Beer                  193   
+   Beer & Light Wine     2714  
+   Beer, Wine, & Liquor  26049 
+
+  AddrStreet  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           29751 │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       1659  │
+│ Shortest string     9     │
+│ Longest string      54    │
+│ Avg string length   21.8  │
+└───────────────────────────┘
+
+  AddrZip  [Integer]
+┌────────────────────────────┐
+│ Field           Value      │
+╞════════════════════════════╡
+│ Row count       29751      │
+│ Null count      0          │
+│ Null %          0.0%       │
+│ Unique values   28         │
+│ Min             21201      │
+│ Max             21251      │
+│ Mean            21216.2420 │
+│ Median          21217      │
+│ Std Dev         11.1014    │
+└────────────────────────────┘
+
+  ESRI_OID  [Integer]
+┌────────────────────────────┐
+│ Field           Value      │
+╞════════════════════════════╡
+│ Row count       29751      │
+│ Null count      0          │
+│ Null %          0.0%       │
+│ Unique values   10001      │
+│ Min             1          │
+│ Max             29252      │
+│ Mean            14385.8055 │
+│ Median          14376      │
+│ Std Dev         8573.2328  │
+└────────────────────────────┘
+  ⚠ Frequency map capped at 10000 entries; unique count is a lower bound.
+

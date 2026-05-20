@@ -1,0 +1,87 @@
+Surface Water Quality Data 2006 to 2015
+=======================================
+
+Column: Station
+Type: Categorical/Text
+Unique Values: 101
+Nulls: 0
+Top Values:
+LOMBARD ST. (4838)
+WATERVIEW AVE. (4796)
+CENTRAL & LANCASTER (4595)
+JANEY RUN (4571)
+WARNER & ALLUVION (4559)
+----------------------------------
+Column: GPS Coordinate North
+Type: Numeric
+Count: 169226
+Nulls: 0
+Mean: 39.31
+Std Dev: 0.03
+Min: 39.24
+Max: 39.37
+----------------------------------
+Column: GPS Coordinate West
+Type: Numeric
+Count: 169226
+Nulls: 0
+Mean: -76.62
+Std Dev: 0.05
+Min: -76.71
+Max: -76.53
+----------------------------------
+Column: Parameter
+Type: Categorical/Text
+Unique Values: 29
+Nulls: 0
+Top Values:
+Hach Ammonia-Nitrogen (20766)
+Conductivity (20563)
+Water Temperature (19136)
+Chlorine_Spec (18808)
+pH (18031)
+----------------------------------
+Column: Lab
+Type: Categorical/Text
+Unique Values: 7
+Nulls: 0
+Top Values:
+WQM Field (113447)
+Martel (22303)
+BRWWTP Lab (14110)
+WQM Lab (9637)
+ALS-MDT (5924)
+----------------------------------
+Column: Result
+Type: Categorical/Text
+Unique Values: 10495
+Nulls: 0
+Top Values:
+0 (11607)
+<2 (2685)
+0.01 (2461)
+0.03 (2330)
+0.02 (2321)
+----------------------------------
+Column: Unit
+Type: Categorical/Text
+Unique Values: 6
+Nulls: 0
+Top Values:
+mg/L (90402)
+umhos (20563)
+degrees Celsius (19136)
+pH units (18031)
+ug/L (15311)
+----------------------------------
+Column: datetime
+Type: Categorical/Text
+Unique Values: 20503
+Nulls: 0
+Top Values:
+5/8/2012 0:00 (78)
+11/29/2011 0:00 (66)
+10/24/2006 9:15 (50)
+2/27/2007 9:46 (48)
+10/24/2006 8:47 (48)
+----------------------------------

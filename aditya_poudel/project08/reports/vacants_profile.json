@@ -1,0 +1,520 @@
+[
+  {
+    "name": "X",
+    "inferred_type": "Integer",
+    "row_count": 11809,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 11805,
+    "unique_count_exact": true,
+    "min": "1394085.138026",
+    "max": "1445250.805380",
+    "mean": 1415998.576748426,
+    "median": 1412980.20161414,
+    "std_dev": 9137.065746680459,
+    "p5": 1403664.69891971,
+    "p25": 1409646.99469788,
+    "p75": 1424717.77754839,
+    "p95": 1431349.0454538,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  },
+  {
+    "name": "Y",
+    "inferred_type": "Integer",
+    "row_count": 11809,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 11807,
+    "unique_count_exact": true,
+    "min": "566208.284502",
+    "max": "621353.766074",
+    "mean": 595960.8582631004,
+    "median": 596269.08855322,
+    "std_dev": 7864.09214300535,
+    "p5": 586626.730541393,
+    "p25": 591279.480750307,
+    "p75": 599398.28373839,
+    "p95": 610726.773548558,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "Potential outliers detected (IQR fence: [579101.276, 611576.488], observed range: [566208.285, 621353.766])"
+    ]
+  },
+  {
+    "name": "OBJECTID",
+    "inferred_type": "Integer",
+    "row_count": 11809,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 11809,
+    "unique_count_exact": true,
+    "min": "9",
+    "max": "246997",
+    "mean": 78192.20628334321,
+    "median": 58860.0,
+    "std_dev": 64504.755533643176,
+    "p5": 5613.0,
+    "p25": 23030.0,
+    "p75": 116028.0,
+    "p95": 219471.0,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  },
+  {
+    "name": "NoticeNum",
+    "inferred_type": "Text",
+    "row_count": 11809,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 11809,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": 6,
+    "str_max_len": 8,
+    "warnings": []
+  },
+  {
+    "name": "DateNotice",
+    "inferred_type": "Text",
+    "row_count": 11809,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 11205,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": 22,
+    "str_max_len": 22,
+    "warnings": []
+  },
+  {
+    "name": "DateCancel",
+    "inferred_type": "Unknown",
+    "row_count": 11809,
+    "null_count": 11809,
+    "null_pct": 100.0,
+    "unique_count": 0,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "Constant column — all non-null values are identical",
+      "High null rate — 100.0% of rows are empty"
+    ]
+  },
+  {
+    "name": "DateAbate",
+    "inferred_type": "Unknown",
+    "row_count": 11809,
+    "null_count": 11809,
+    "null_pct": 100.0,
+    "unique_count": 0,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "Constant column — all non-null values are identical",
+      "High null rate — 100.0% of rows are empty"
+    ]
+  },
+  {
+    "name": "NT",
+    "inferred_type": "Categorical",
+    "row_count": 11809,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 1,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "Vacant",
+        "count": 11809,
+        "pct": 100.0
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "Vacant",
+        "count": 11809,
+        "pct": 100.0
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "Constant column — all non-null values are identical",
+      "Low-cardinality categorical — only 1 distinct values"
+    ]
+  },
+  {
+    "name": "OWNER_ABBR",
+    "inferred_type": "Categorical",
+    "row_count": 11809,
+    "null_count": 10710,
+    "null_pct": 90.69353882631891,
+    "unique_count": 5,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "MCC",
+        "count": 990,
+        "pct": 90.08189262966333
+      },
+      {
+        "value": "HABC",
+        "count": 99,
+        "pct": 9.008189262966333
+      },
+      {
+        "value": "USA",
+        "count": 7,
+        "pct": 0.6369426751592357
+      },
+      {
+        "value": "HUD",
+        "count": 2,
+        "pct": 0.18198362147406735
+      },
+      {
+        "value": "VA",
+        "count": 1,
+        "pct": 0.09099181073703368
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "VA",
+        "count": 1,
+        "pct": 0.09099181073703368
+      },
+      {
+        "value": "HUD",
+        "count": 2,
+        "pct": 0.18198362147406735
+      },
+      {
+        "value": "USA",
+        "count": 7,
+        "pct": 0.6369426751592357
+      },
+      {
+        "value": "HABC",
+        "count": 99,
+        "pct": 9.008189262966333
+      },
+      {
+        "value": "MCC",
+        "count": 990,
+        "pct": 90.08189262966333
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "Low-cardinality categorical — only 5 distinct values",
+      "High null rate — 90.7% of rows are empty"
+    ]
+  },
+  {
+    "name": "HousingMarketTypology2023",
+    "inferred_type": "Categorical",
+    "row_count": 11809,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 11,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "J",
+        "count": 5068,
+        "pct": 42.916419679905154
+      },
+      {
+        "value": "I",
+        "count": 4004,
+        "pct": 33.906342620035566
+      },
+      {
+        "value": "G",
+        "count": 1293,
+        "pct": 10.949275975950547
+      },
+      {
+        "value": "F",
+        "count": 368,
+        "pct": 3.1162672537894824
+      },
+      {
+        "value": "E",
+        "count": 362,
+        "pct": 3.065458548564654
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "NA",
+        "count": 18,
+        "pct": 0.15242611567448555
+      },
+      {
+        "value": "A",
+        "count": 22,
+        "pct": 0.18629858582437123
+      },
+      {
+        "value": "C",
+        "count": 137,
+        "pct": 1.1601321026335847
+      },
+      {
+        "value": "B",
+        "count": 154,
+        "pct": 1.3040901007705987
+      },
+      {
+        "value": "H",
+        "count": 190,
+        "pct": 1.6089423321195697
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  },
+  {
+    "name": "Council_District",
+    "inferred_type": "Integer",
+    "row_count": 11809,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 14,
+    "unique_count_exact": true,
+    "min": "1",
+    "max": "14",
+    "mean": 9.079261580150712,
+    "median": 9.0,
+    "std_dev": 2.6183667506939803,
+    "p5": 5.0,
+    "p25": 7.0,
+    "p75": 12.0,
+    "p95": 13.0,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  },
+  {
+    "name": "Neighborhood",
+    "inferred_type": "Categorical",
+    "row_count": 11809,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 211,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "Carrollton Ridge",
+        "count": 750,
+        "pct": 6.351088153103565
+      },
+      {
+        "value": "Broadway East",
+        "count": 725,
+        "pct": 6.139385214666779
+      },
+      {
+        "value": "Sandtown-Winchester",
+        "count": 611,
+        "pct": 5.174019815395037
+      },
+      {
+        "value": "Harlem Park",
+        "count": 458,
+        "pct": 3.87839783216191
+      },
+      {
+        "value": "Oliver",
+        "count": 340,
+        "pct": 2.879159962740283
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "Cedarcroft",
+        "count": 1,
+        "pct": 0.00846811753747142
+      },
+      {
+        "value": "Cheswolde",
+        "count": 1,
+        "pct": 0.00846811753747142
+      },
+      {
+        "value": "Evergreen",
+        "count": 1,
+        "pct": 0.00846811753747142
+      },
+      {
+        "value": "Harbor East",
+        "count": 1,
+        "pct": 0.00846811753747142
+      },
+      {
+        "value": "Homeland",
+        "count": 1,
+        "pct": 0.00846811753747142
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  },
+  {
+    "name": "BLOCKLOT",
+    "inferred_type": "Text",
+    "row_count": 11809,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 11809,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": 8,
+    "str_max_len": 9,
+    "warnings": []
+  },
+  {
+    "name": "Address",
+    "inferred_type": "Text",
+    "row_count": 11809,
+    "null_count": 22,
+    "null_pct": 0.18629858582437123,
+    "unique_count": 11787,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": 10,
+    "str_max_len": 27,
+    "warnings": []
+  }
+]

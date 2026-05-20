@@ -1,0 +1,161 @@
+==============================================================
+  CSV PROFILE REPORT  (279435 rows total)
+==============================================================
+
+--- X ---
+  Inferred type  : float
+  Row count      : 279435  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  Min / Max      : 1393970.55032906 / 1445443.30499488
+  Mean / Median  : 1420418.8371 / 1421924.3579
+  Std dev        : 11992.6109
+--------------------------------------------------------------
+
+--- Y ---
+  Inferred type  : float
+  Row count      : 279435  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  Min / Max      : 558657.657214567 / 621392.371967971
+  Mean / Median  : 599166.1454 / 598176.5765
+  Std dev        : 10691.1982
+  WARNING: Outliers (IQR method): 505
+--------------------------------------------------------------
+
+--- OBJECTID ---
+  Inferred type  : integer
+  Row count      : 279435  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  Min / Max      : 1 / 433608
+  Mean / Median  : 254499.9625 / 268344.0000
+  Std dev        : 112898.8229
+--------------------------------------------------------------
+
+--- CaseNumber ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  String length  : min=13 / max=14
+--------------------------------------------------------------
+
+--- Description ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 1 (0.0%)
+  Unique values  : 10000
+  String length  : min=4 / max=4025
+--------------------------------------------------------------
+
+--- ExpirationDate ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 5163 (1.8%)
+  Unique values  : 10000
+  String length  : min=22 / max=22
+--------------------------------------------------------------
+
+--- IssuedDate ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  String length  : min=22 / max=22
+--------------------------------------------------------------
+
+--- Address ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 3253 (1.2%)
+  Unique values  : 10000
+  String length  : min=6 / max=72
+--------------------------------------------------------------
+
+--- BLOCKLOT ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  WARNING: MIXED TYPES detected: ["float", "text"]
+  String length  : min=8 / max=9
+--------------------------------------------------------------
+
+--- ExistingUse ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 5257 (1.9%)
+  Unique values  : 315
+  String length  : min=2 / max=54
+--------------------------------------------------------------
+
+--- ProposedUse ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 6517 (2.3%)
+  Unique values  : 397
+  String length  : min=2 / max=63
+--------------------------------------------------------------
+
+--- csm_projname ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 279435 (100.0%)
+  Unique values  : 0
+  WARNING: CONSTANT COLUMN - all values are identical
+  String length  : min=0 / max=0
+--------------------------------------------------------------
+
+--- prc_block_no ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 0 (0.0%)
+  Unique values  : 5302
+  WARNING: MIXED TYPES detected: ["integer", "text"]
+  String length  : min=4 / max=5
+--------------------------------------------------------------
+
+--- prc_lot ---
+  Inferred type  : integer
+  Row count      : 279435  |  Null count: 0 (0.0%)
+  Unique values  : 1978
+  WARNING: MIXED TYPES detected: ["integer", "text"]
+  Min / Max      : 1 / 927
+  Mean / Median  : 40.3220 / 25.0000
+  Std dev        : 64.6496
+  WARNING: Outliers (IQR method): 14433
+--------------------------------------------------------------
+
+--- Neighborhood ---
+  Inferred type  : text
+  Row count      : 279435  |  Null count: 2 (0.0%)
+  Unique values  : 275
+  String length  : min=4 / max=33
+--------------------------------------------------------------
+
+--- Cost ---
+  Inferred type  : integer
+  Row count      : 279435  |  Null count: 73420 (26.3%)
+  Unique values  : 10000
+  Min / Max      : 0 / 4439778693
+  Mean / Median  : 103337.3003 / 4650.0000
+  Std dev        : 13559802.6106
+  WARNING: Outliers (IQR method): 23394
+--------------------------------------------------------------
+
+--- Council_District ---
+  Inferred type  : integer
+  Row count      : 279435  |  Null count: 14 (0.0%)
+  Unique values  : 14
+  Min / Max      : 1 / 14
+  Mean / Median  : 7.9466 / 8.0000
+  Std dev        : 4.0283
+--------------------------------------------------------------
+
+--- HousingMarketTypology2017 ---
+  Inferred type  : categorical
+  Row count      : 279435  |  Null count: 0 (0.0%)
+  Unique values  : 15
+  WARNING: MIXED TYPES detected: ["boolean", "text"]
+  Top-5 frequent : B=46022, I=43203, D=35435, F=34249, H=31834
+  Bot-5 frequent : Rental Market 2=452, Mixed Market/Subsd Rental=502, Subsidized Rental Market=1748, Rental Market 1=2904, NonResidential=3326
+--------------------------------------------------------------
+
+--- IsPermitModification ---
+  Inferred type  : integer
+  Row count      : 279435  |  Null count: 0 (0.0%)
+  Unique values  : 2
+  Min / Max      : 0 / 1
+  Mean / Median  : 0.1538 / 0.0000
+  Std dev        : 0.3607
+  WARNING: Outliers (IQR method): 42964
+--------------------------------------------------------------
+

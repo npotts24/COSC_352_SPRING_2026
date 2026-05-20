@@ -1,0 +1,1023 @@
+[
+  {
+    "name": "X",
+    "inferred_type": "Integer",
+    "row_count": 393049,
+    "null_count": 161849,
+    "null_pct": 41.17781752402372,
+    "unique_count": 42974,
+    "unique_count_exact": true,
+    "min": "1393857.705200",
+    "max": "32070835.941980",
+    "mean": 2495013.9060142157,
+    "median": 1420817.2858436,
+    "std_dev": 5639089.050540083,
+    "p5": 1401987.4511648,
+    "p25": 1412066.24710097,
+    "p75": 1429198.66849046,
+    "p95": 1442821.66227689,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "High null rate — 41.2% of rows are empty",
+      "Potential outliers detected (IQR fence: [1386367.615, 1454897.301], observed range: [1393857.705, 32070835.942])"
+    ]
+  },
+  {
+    "name": "Y",
+    "inferred_type": "Integer",
+    "row_count": 393049,
+    "null_count": 161849,
+    "null_pct": 41.17781752402372,
+    "unique_count": 42974,
+    "unique_count_exact": true,
+    "min": "-948896.130248",
+    "max": "621369.250963",
+    "mean": 542196.3930301124,
+    "median": 595268.778576544,
+    "std_dev": 284459.44221876736,
+    "p5": 569706.955086121,
+    "p25": 590895.858375348,
+    "p75": 601124.915503211,
+    "p95": 612952.311018602,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "High null rate — 41.2% of rows are empty",
+      "Potential outliers detected (IQR fence: [575552.273, 616468.501], observed range: [-948896.130, 621369.251])"
+    ]
+  },
+  {
+    "name": "Latitude",
+    "inferred_type": "Integer",
+    "row_count": 393049,
+    "null_count": 161849,
+    "null_pct": 41.17781752402372,
+    "unique_count": 1538,
+    "unique_count_exact": true,
+    "min": "0",
+    "max": "39.372000",
+    "mean": 37.92496232050154,
+    "median": 39.3005,
+    "std_dev": 7.231016026615332,
+    "p5": 39.2303,
+    "p25": 39.2885,
+    "p75": 39.3166,
+    "p95": 39.3492,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "High null rate — 41.2% of rows are empty",
+      "Potential outliers detected (IQR fence: [39.246, 39.359], observed range: [0.000, 39.372])"
+    ]
+  },
+  {
+    "name": "Longitude",
+    "inferred_type": "Integer",
+    "row_count": 393049,
+    "null_count": 161849,
+    "null_pct": 41.17781752402372,
+    "unique_count": 1818,
+    "unique_count_exact": true,
+    "min": "-76.711700",
+    "max": "0",
+    "mean": -73.93241731314811,
+    "median": -76.6166,
+    "std_dev": 14.096388059548842,
+    "p5": -76.683,
+    "p25": -76.6477,
+    "p75": -76.5872,
+    "p95": -76.5389,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "High null rate — 41.2% of rows are empty",
+      "Potential outliers detected (IQR fence: [-76.738, -76.496], observed range: [-76.712, 0.000])"
+    ]
+  },
+  {
+    "name": "RowID",
+    "inferred_type": "Integer",
+    "row_count": 393049,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 100000,
+    "unique_count_exact": false,
+    "min": "1",
+    "max": "393049",
+    "mean": 196525.0,
+    "median": 195419.0,
+    "std_dev": 113463.6173148321,
+    "p5": 19711.0,
+    "p25": 96461.0,
+    "p75": 295831.0,
+    "p95": 373221.0,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  },
+  {
+    "name": "IncidentNumber",
+    "inferred_type": "Text",
+    "row_count": 393049,
+    "null_count": 162792,
+    "null_pct": 41.41773671984918,
+    "unique_count": 100000,
+    "unique_count_exact": false,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": 8,
+    "str_max_len": 8,
+    "warnings": [
+      "Mixed types detected — column contains both numeric and non-numeric values",
+      "High null rate — 41.4% of rows are empty"
+    ]
+  },
+  {
+    "name": "ArrestNumber",
+    "inferred_type": "Integer",
+    "row_count": 393049,
+    "null_count": 18021,
+    "null_pct": 4.584924525949691,
+    "unique_count": 100000,
+    "unique_count_exact": false,
+    "min": "2101920",
+    "max": "99905399",
+    "mean": 15673526.19229772,
+    "median": 14198469.0,
+    "std_dev": 4434477.5384501545,
+    "p5": 10030468.0,
+    "p25": 12484018.0,
+    "p75": 19024366.0,
+    "p95": 24178357.0,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "Potential outliers detected (IQR fence: [2673496.000, 28834888.000], observed range: [2101920.000, 99905399.000])"
+    ]
+  },
+  {
+    "name": "Age",
+    "inferred_type": "Integer",
+    "row_count": 393049,
+    "null_count": 132,
+    "null_pct": 0.033583598991474346,
+    "unique_count": 82,
+    "unique_count_exact": true,
+    "min": "8",
+    "max": "100",
+    "mean": 33.346498115378836,
+    "median": 31.0,
+    "std_dev": 11.583341949675408,
+    "p5": 19.0,
+    "p25": 24.0,
+    "p75": 42.0,
+    "p95": 55.0,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "Potential outliers detected (IQR fence: [-3.000, 69.000], observed range: [8.000, 100.000])"
+    ]
+  },
+  {
+    "name": "Gender",
+    "inferred_type": "Categorical",
+    "row_count": 393049,
+    "null_count": 34,
+    "null_pct": 0.008650320952349452,
+    "unique_count": 4,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "M",
+        "count": 320533,
+        "pct": 81.55744691678434
+      },
+      {
+        "value": "F",
+        "count": 72480,
+        "pct": 18.442044196786384
+      },
+      {
+        "value": "Y",
+        "count": 1,
+        "pct": 0.0002544432146355737
+      },
+      {
+        "value": "Z",
+        "count": 1,
+        "pct": 0.0002544432146355737
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "Y",
+        "count": 1,
+        "pct": 0.0002544432146355737
+      },
+      {
+        "value": "Z",
+        "count": 1,
+        "pct": 0.0002544432146355737
+      },
+      {
+        "value": "F",
+        "count": 72480,
+        "pct": 18.442044196786384
+      },
+      {
+        "value": "M",
+        "count": 320533,
+        "pct": 81.55744691678434
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "Low-cardinality categorical — only 4 distinct values"
+    ]
+  },
+  {
+    "name": "Race",
+    "inferred_type": "Categorical",
+    "row_count": 393049,
+    "null_count": 224,
+    "null_pct": 0.056990349803714035,
+    "unique_count": 6,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "B",
+        "count": 324644,
+        "pct": 82.64341627951379
+      },
+      {
+        "value": "W",
+        "count": 56750,
+        "pct": 14.44663654298988
+      },
+      {
+        "value": "U",
+        "count": 9453,
+        "pct": 2.4064150703239355
+      },
+      {
+        "value": "A",
+        "count": 1039,
+        "pct": 0.2644943677209953
+      },
+      {
+        "value": "I",
+        "count": 938,
+        "pct": 0.23878317316871378
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "H",
+        "count": 1,
+        "pct": 0.000254566282695857
+      },
+      {
+        "value": "I",
+        "count": 938,
+        "pct": 0.23878317316871378
+      },
+      {
+        "value": "A",
+        "count": 1039,
+        "pct": 0.2644943677209953
+      },
+      {
+        "value": "U",
+        "count": 9453,
+        "pct": 2.4064150703239355
+      },
+      {
+        "value": "W",
+        "count": 56750,
+        "pct": 14.44663654298988
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  },
+  {
+    "name": "ArrestDateTime",
+    "inferred_type": "Text",
+    "row_count": 393049,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 100000,
+    "unique_count_exact": false,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": 22,
+    "str_max_len": 22,
+    "warnings": []
+  },
+  {
+    "name": "ArrestLocation",
+    "inferred_type": "Categorical",
+    "row_count": 393049,
+    "null_count": 154227,
+    "null_pct": 39.23861910347056,
+    "unique_count": 33859,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "300 MADISON ST",
+        "count": 2975,
+        "pct": 1.2456976325464153
+      },
+      {
+        "value": "200 EUTAW ST",
+        "count": 1156,
+        "pct": 0.4840425086466071
+      },
+      {
+        "value": "400 SARATOGA ST",
+        "count": 883,
+        "pct": 0.3697314317776419
+      },
+      {
+        "value": "400 BALTIMORE ST",
+        "count": 730,
+        "pct": 0.30566698210382626
+      },
+      {
+        "value": "300 EUTAW ST",
+        "count": 669,
+        "pct": 0.2801249466129586
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "0 21 ST ST",
+        "count": 1,
+        "pct": 0.0004187218932929127
+      },
+      {
+        "value": "0 24TH ST",
+        "count": 1,
+        "pct": 0.0004187218932929127
+      },
+      {
+        "value": "0 31ST ST",
+        "count": 1,
+        "pct": 0.0004187218932929127
+      },
+      {
+        "value": "0 395 HWY",
+        "count": 1,
+        "pct": 0.0004187218932929127
+      },
+      {
+        "value": "0 40 RTE",
+        "count": 1,
+        "pct": 0.0004187218932929127
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "High null rate — 39.2% of rows are empty"
+    ]
+  },
+  {
+    "name": "IncidentOffence",
+    "inferred_type": "Categorical",
+    "row_count": 393049,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 183,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "Unknown Offense",
+        "count": 190062,
+        "pct": 48.3558029660424
+      },
+      {
+        "value": "87NARCOTICS",
+        "count": 70625,
+        "pct": 17.968497566461178
+      },
+      {
+        "value": "4ECOMMON ASSAULT",
+        "count": 21995,
+        "pct": 5.595994392556653
+      },
+      {
+        "value": "87ONARCOTICS (OUTSIDE)",
+        "count": 13271,
+        "pct": 3.376423804665576
+      },
+      {
+        "value": "97SEARCH & SEIZURE",
+        "count": 9996,
+        "pct": 2.543194359990739
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "101SUICIDE",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "34ACCIDENT-DEPT.",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "37PROTECT WITNESS",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "3CROBB COMM (A)",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "3LKROBB BANK-KNIFE",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  },
+  {
+    "name": "IncidentLocation",
+    "inferred_type": "Categorical",
+    "row_count": 393049,
+    "null_count": 154227,
+    "null_pct": 39.23861910347056,
+    "unique_count": 33859,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "300 MADISON ST",
+        "count": 2975,
+        "pct": 1.2456976325464153
+      },
+      {
+        "value": "200 EUTAW ST",
+        "count": 1156,
+        "pct": 0.4840425086466071
+      },
+      {
+        "value": "400 SARATOGA ST",
+        "count": 883,
+        "pct": 0.3697314317776419
+      },
+      {
+        "value": "400 BALTIMORE ST",
+        "count": 730,
+        "pct": 0.30566698210382626
+      },
+      {
+        "value": "300 EUTAW ST",
+        "count": 669,
+        "pct": 0.2801249466129586
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "0 21 ST ST",
+        "count": 1,
+        "pct": 0.0004187218932929127
+      },
+      {
+        "value": "0 24TH ST",
+        "count": 1,
+        "pct": 0.0004187218932929127
+      },
+      {
+        "value": "0 31ST ST",
+        "count": 1,
+        "pct": 0.0004187218932929127
+      },
+      {
+        "value": "0 395 HWY",
+        "count": 1,
+        "pct": 0.0004187218932929127
+      },
+      {
+        "value": "0 40 RTE",
+        "count": 1,
+        "pct": 0.0004187218932929127
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "High null rate — 39.2% of rows are empty"
+    ]
+  },
+  {
+    "name": "Charge",
+    "inferred_type": "Categorical",
+    "row_count": 393049,
+    "null_count": 51395,
+    "null_pct": 13.07597780429412,
+    "unique_count": 926,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "1 1415",
+        "count": 61138,
+        "pct": 17.894712194208175
+      },
+      {
+        "value": "1 0077",
+        "count": 46225,
+        "pct": 13.529769884151802
+      },
+      {
+        "value": "4 3550",
+        "count": 42429,
+        "pct": 12.418704303183922
+      },
+      {
+        "value": "1 0573",
+        "count": 21180,
+        "pct": 6.199254216253871
+      },
+      {
+        "value": "1 1420",
+        "count": 11186,
+        "pct": 3.2740725997646742
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "1 0012",
+        "count": 1,
+        "pct": 0.00029269377791566907
+      },
+      {
+        "value": "1 0026",
+        "count": 1,
+        "pct": 0.00029269377791566907
+      },
+      {
+        "value": "1 0034",
+        "count": 1,
+        "pct": 0.00029269377791566907
+      },
+      {
+        "value": "1 0056",
+        "count": 1,
+        "pct": 0.00029269377791566907
+      },
+      {
+        "value": "1 0073",
+        "count": 1,
+        "pct": 0.00029269377791566907
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  },
+  {
+    "name": "ChargeDescription",
+    "inferred_type": "Categorical",
+    "row_count": 393049,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 13775,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "FAILURE TO APPEAR",
+        "count": 46700,
+        "pct": 11.881470249256454
+      },
+      {
+        "value": "CDS VIOLATION",
+        "count": 31394,
+        "pct": 7.987299293472315
+      },
+      {
+        "value": "Unknown Charge",
+        "count": 30183,
+        "pct": 7.679195214845986
+      },
+      {
+        "value": "ASSAULT-SEC DEGREE",
+        "count": 28759,
+        "pct": 7.316899419665232
+      },
+      {
+        "value": "CDS",
+        "count": 23626,
+        "pct": 6.010955377064946
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "!ST DEGREE ASSAUALT",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "'ATTEMPT THEFT",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "(ATTEMPT) BURGLARY",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "(COM) ASSAULT",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "(COM)ASSAULT",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  },
+  {
+    "name": "District",
+    "inferred_type": "Categorical",
+    "row_count": 393049,
+    "null_count": 170036,
+    "null_pct": 43.26076392510858,
+    "unique_count": 9,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "Western",
+        "count": 30894,
+        "pct": 13.853004084963658
+      },
+      {
+        "value": "Central",
+        "count": 30077,
+        "pct": 13.486657728473228
+      },
+      {
+        "value": "Eastern",
+        "count": 28669,
+        "pct": 12.85530439929511
+      },
+      {
+        "value": "Southern",
+        "count": 26304,
+        "pct": 11.794828104191236
+      },
+      {
+        "value": "Southeast",
+        "count": 24461,
+        "pct": 10.9684188814105
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "Northern",
+        "count": 13457,
+        "pct": 6.034177379794003
+      },
+      {
+        "value": "Northwest",
+        "count": 22418,
+        "pct": 10.052328788007873
+      },
+      {
+        "value": "Southwest",
+        "count": 22531,
+        "pct": 10.102998479909244
+      },
+      {
+        "value": "Northeast",
+        "count": 24202,
+        "pct": 10.852282153955152
+      },
+      {
+        "value": "Southeast",
+        "count": 24461,
+        "pct": 10.9684188814105
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "High null rate — 43.3% of rows are empty"
+    ]
+  },
+  {
+    "name": "Post",
+    "inferred_type": "Integer",
+    "row_count": 393049,
+    "null_count": 170036,
+    "null_pct": 43.26076392510858,
+    "unique_count": 185,
+    "unique_count_exact": true,
+    "min": "111",
+    "max": "943",
+    "mean": 515.0817485976335,
+    "median": 514.0,
+    "std_dev": 269.7621384852097,
+    "p5": 114.0,
+    "p25": 234.0,
+    "p75": 733.0,
+    "p95": 931.0,
+    "top5_most_frequent": null,
+    "top5_least_frequent": null,
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "High null rate — 43.3% of rows are empty"
+    ]
+  },
+  {
+    "name": "Neighborhood",
+    "inferred_type": "Categorical",
+    "row_count": 393049,
+    "null_count": 170063,
+    "null_pct": 43.26763329762956,
+    "unique_count": 288,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "Downtown",
+        "count": 10743,
+        "pct": 4.817791251468702
+      },
+      {
+        "value": "Sandtown-Winchester",
+        "count": 8220,
+        "pct": 3.6863300835030004
+      },
+      {
+        "value": "Carrollton Ridge",
+        "count": 5410,
+        "pct": 2.426161283668033
+      },
+      {
+        "value": "Broadway East",
+        "count": 5402,
+        "pct": 2.4225736144870083
+      },
+      {
+        "value": "Brooklyn",
+        "count": 5259,
+        "pct": 2.3584440278761893
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "Bellona-Gittings",
+        "count": 1,
+        "pct": 0.00044845864762810224
+      },
+      {
+        "value": "Keswick",
+        "count": 2,
+        "pct": 0.0008969172952562045
+      },
+      {
+        "value": "Key Highway",
+        "count": 2,
+        "pct": 0.0008969172952562045
+      },
+      {
+        "value": "Blythewood",
+        "count": 3,
+        "pct": 0.0013453759428843067
+      },
+      {
+        "value": "The Orchards",
+        "count": 3,
+        "pct": 0.0013453759428843067
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": [
+      "High null rate — 43.3% of rows are empty"
+    ]
+  },
+  {
+    "name": "GeoLocation",
+    "inferred_type": "Categorical",
+    "row_count": 393049,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "unique_count": 42975,
+    "unique_count_exact": true,
+    "min": null,
+    "max": null,
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "p5": null,
+    "p25": null,
+    "p75": null,
+    "p95": null,
+    "top5_most_frequent": [
+      {
+        "value": "(,)",
+        "count": 161849,
+        "pct": 41.17781752402372
+      },
+      {
+        "value": "(0,0)",
+        "count": 8110,
+        "pct": 2.0633559683398253
+      },
+      {
+        "value": "(39.2991,-76.6105)",
+        "count": 3483,
+        "pct": 0.8861490552068572
+      },
+      {
+        "value": "(39.2919,-76.6213)",
+        "count": 1108,
+        "pct": 0.2818986945647998
+      },
+      {
+        "value": "(39.2929,-76.6215)",
+        "count": 689,
+        "pct": 0.17529620988731684
+      }
+    ],
+    "top5_least_frequent": [
+      {
+        "value": "(39.2006,-76.5564)",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "(39.2025,-76.5611)",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "(39.2027,-76.556)",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "(39.2032,-76.5656)",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      },
+      {
+        "value": "(39.2035,-76.5605)",
+        "count": 1,
+        "pct": 0.0002544212044808663
+      }
+    ],
+    "histogram": null,
+    "str_min_len": null,
+    "str_max_len": null,
+    "warnings": []
+  }
+]

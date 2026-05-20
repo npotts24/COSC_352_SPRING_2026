@@ -1,0 +1,24 @@
+[package]
+name = "csvprof"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "csvprof"
+path = "src/main.rs"
+
+[lib]
+name = "csvprof"
+path = "src/lib.rs"
+
+[dependencies]
+csv = "=1.3.0"
+clap = { version = "=4.4.18", features = ["derive"] }
+serde = { version = "=1.0.210", features = ["derive"] }
+serde_json = "=1.0.128"
+chrono = { version = "=0.4.38", features = ["serde"] }
+comfy-table = "=7.1.1"
+anyhow = "=1.0.89"
+thiserror = "=1.0.64"
+colored = "=2.1.0"
+indexmap = { version = "=2.5.0", features = ["serde"] }

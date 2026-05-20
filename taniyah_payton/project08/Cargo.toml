@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "csvprof",
+    "balt-correlate",
+]
+resolver = "2"

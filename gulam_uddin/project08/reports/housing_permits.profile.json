@@ -1,0 +1,402 @@
+{
+  "source": "data/housing_permits.csv",
+  "rows": 279626,
+  "columns": [
+    {
+      "name": "X",
+      "inferred": "Float",
+      "row_count": 279626,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": null,
+      "numeric_stats": {
+        "min": 1393970.55032906,
+        "max": 1445443.30499488,
+        "mean": 1420418.043111747,
+        "median": 1421924.35793839,
+        "std_dev": 11992.15027055718,
+        "percentiles": [
+          1400529.41024281,
+          1411312.9290300526,
+          1429634.2477023,
+          1439085.76849739
+        ],
+        "outlier_count": 0
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Y",
+      "inferred": "Float",
+      "row_count": 279626,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": null,
+      "numeric_stats": {
+        "min": 558657.657214567,
+        "max": 621392.371967971,
+        "mean": 599166.3379307105,
+        "median": 598177.091298893,
+        "std_dev": 10691.357987754332,
+        "percentiles": [
+          583825.595067561,
+          591238.062526062,
+          607336.469633639,
+          617316.482481971
+        ],
+        "outlier_count": 505
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "OBJECTID",
+      "inferred": "Integer",
+      "row_count": 279626,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": null,
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 433799.0,
+        "mean": 254519.26177107994,
+        "median": 268439.5,
+        "std_dev": 113052.43640818931,
+        "percentiles": [
+          15738.25,
+          198533.25,
+          338345.75,
+          419817.75
+        ],
+        "outlier_count": 0
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "CaseNumber",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": null,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 13,
+      "max_str_len": 14,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Description",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 2,
+      "null_pct": 0.0007152410720033187,
+      "unique_count": null,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 4,
+      "max_str_len": 4009,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "ExpirationDate",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 5163,
+      "null_pct": 1.8463948273765673,
+      "unique_count": null,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 22,
+      "max_str_len": 22,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "IssuedDate",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": null,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 22,
+      "max_str_len": 22,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Address",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 3253,
+      "null_pct": 1.1633396036133978,
+      "unique_count": null,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 6,
+      "max_str_len": 72,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "BLOCKLOT",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": null,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 8,
+      "max_str_len": 9,
+      "top_k": null,
+      "warnings": [
+        "mixed types observed in column"
+      ]
+    },
+    {
+      "name": "ExistingUse",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 5257,
+      "null_pct": 1.8800111577607233,
+      "unique_count": 315,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 2,
+      "max_str_len": 54,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "ProposedUse",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 6518,
+      "null_pct": 2.3309706536588157,
+      "unique_count": 397,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 2,
+      "max_str_len": 63,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "csm_projname",
+      "inferred": "Empty",
+      "row_count": 279626,
+      "null_count": 279626,
+      "null_pct": 100.0,
+      "unique_count": 0,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "prc_block_no",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 5302,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 5,
+      "max_str_len": 5,
+      "top_k": null,
+      "warnings": [
+        "mixed types observed in column"
+      ]
+    },
+    {
+      "name": "prc_lot",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1979,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 4,
+      "max_str_len": 4,
+      "top_k": null,
+      "warnings": [
+        "mixed types observed in column"
+      ]
+    },
+    {
+      "name": "Neighborhood",
+      "inferred": "Text",
+      "row_count": 279626,
+      "null_count": 2,
+      "null_pct": 0.0007152410720033187,
+      "unique_count": 275,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 4,
+      "max_str_len": 33,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Cost",
+      "inferred": "Float",
+      "row_count": 279626,
+      "null_count": 73454,
+      "null_pct": 26.268658851465887,
+      "unique_count": null,
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 4439778693.0,
+        "mean": 103304.7100682925,
+        "median": 4660.0,
+        "std_dev": 13554609.867188185,
+        "percentiles": [
+          150.0,
+          1500.0,
+          10000.0,
+          70000.0
+        ],
+        "outlier_count": 23413
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Council_District",
+      "inferred": "Integer",
+      "row_count": 279626,
+      "null_count": 14,
+      "null_pct": 0.005006687504023231,
+      "unique_count": 14,
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 14.0,
+        "mean": 7.946668955552695,
+        "median": 8.0,
+        "std_dev": 4.028070330055242,
+        "percentiles": [
+          1.0,
+          5.0,
+          12.0,
+          14.0
+        ],
+        "outlier_count": 0
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "HousingMarketTypology2017",
+      "inferred": "Categorical",
+      "row_count": 279626,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 15,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 1,
+      "max_str_len": 25,
+      "top_k": {
+        "most": [
+          [
+            "B",
+            46046
+          ],
+          [
+            "I",
+            43240
+          ],
+          [
+            "D",
+            35460
+          ],
+          [
+            "F",
+            34267
+          ],
+          [
+            "H",
+            31859
+          ]
+        ],
+        "least": [
+          [
+            "Rental Market 2",
+            452
+          ],
+          [
+            "Mixed Market/Subsd Rental",
+            502
+          ],
+          [
+            "Subsidized Rental Market",
+            1748
+          ],
+          [
+            "Rental Market 1",
+            2906
+          ],
+          [
+            "NonResidential",
+            3327
+          ]
+        ],
+        "histogram": null
+      },
+      "warnings": []
+    },
+    {
+      "name": "IsPermitModification",
+      "inferred": "Integer",
+      "row_count": 279626,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.15364808708775293,
+        "median": 0.0,
+        "std_dev": 0.36061108194554337,
+        "percentiles": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "outlier_count": 42964
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    }
+  ]
+}

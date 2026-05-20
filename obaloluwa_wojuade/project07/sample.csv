@@ -1,0 +1,11 @@
+age,active,signup_date,city,notes,income,score,status
+25,yes,2024-01-10,Miami,new user,55000,88.5,gold
+31,no,03/15/2023,Atlanta,returning,62000,91.2,silver
+,TRUE,10-04-2022,Miami,N/A,58000,79.0,bronze
+45,0,2021-07-01,Chicago,premium,88000,95.4,gold
+25,1,2024-01-10,Miami,repeat,55000,88.5,gold
+29,false,2022-11-20,Dallas,NULL,61000,84.1,silver
+NA,yes,12/01/2020,Seattle,n/a,73000,90.0,silver
+38,no,2019-05-05,Chicago,legacy user,91000,97.8,platinum
+22,1,2025-02-14,Austin,new signup,47000,76.3,bronze
+54,0,2018-08-30,Boston,vip,120000,99.1,platinum

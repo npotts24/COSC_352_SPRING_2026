@@ -1,0 +1,8 @@
+id,name,age,is_active,salary,join_date,department
+1,Alice,30,true,85000.50,2022-01-15,Engineering
+2,Bob,45,false,92000.00,2021-06-20,Sales
+3,Charlie,,true,120000.75,2023-03-10,Engineering
+4,Delta,32,maybe,75000,2020-11-05,Marketing
+5,Echo,200,false,40000.00,2024-01-01,Sales
+6,Foxtrot,28,true,,2022-05-12,Engineering
+7,Golf,35,true,82000.00,not_a_date,Engineering

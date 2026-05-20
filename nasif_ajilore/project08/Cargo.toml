@@ -1,0 +1,10 @@
+[package]
+name = "bmore-analysis"
+version = "0.1.0"
+edition = "2021"
+description = "Baltimore City Open Data Analysis — correlates 311 service requests with vacant building notices by neighborhood"
+
+[dependencies]
+# Reuse the csvprof library from Part 1 for the Profiler trait, streaming reader, and error types.
+csvprof = { path = "../project07/csvprof" }
+csv = "1.3"

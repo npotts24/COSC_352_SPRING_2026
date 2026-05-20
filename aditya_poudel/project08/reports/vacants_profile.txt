@@ -1,0 +1,50 @@
+csvprof report — data/Vacant_Building_Notices.csv
+============================================================
+
+Column : X
+  Rows  : 11809  Nulls: 0 (0.0%)  Unique: 11805
+  Mean  : 1415998.58  StdDev: 9137.07
+
+Column : Y
+  Rows  : 11809  Nulls: 0 (0.0%)  Unique: 11807
+  Mean  : 595960.86  StdDev: 7864.09
+
+Column : OBJECTID
+  Rows  : 11809  Nulls: 0 (0.0%)  Unique: 11809
+  Mean  : 78192.21  StdDev: 64504.76
+
+Column : NoticeNum
+  Rows  : 11809  Nulls: 0 (0.0%)  Unique: 11809
+
+Column : DateNotice
+  Rows  : 11809  Nulls: 0 (0.0%)  Unique: 11205
+
+Column : DateCancel
+  Rows  : 11809  Nulls: 11809 (100.0%)  Unique: 0
+
+Column : DateAbate
+  Rows  : 11809  Nulls: 11809 (100.0%)  Unique: 0
+
+Column : NT
+  Rows  : 11809  Nulls: 0 (0.0%)  Unique: 1
+
+Column : OWNER_ABBR
+  Rows  : 11809  Nulls: 10710 (90.7%)  Unique: 5
+
+Column : HousingMarketTypology2023
+  Rows  : 11809  Nulls: 0 (0.0%)  Unique: 11
+
+Column : Council_District
+  Rows  : 11809  Nulls: 0 (0.0%)  Unique: 14
+  Mean  : 9.08  StdDev: 2.62
+
+Column : Neighborhood
+  Rows  : 11809  Nulls: 0 (0.0%)  Unique: 211
+
+Column : BLOCKLOT
+  Rows  : 11809  Nulls: 0 (0.0%)  Unique: 11809
+  Mean  : 34313432835820879999665634788906199710609597513982349582578131569510762096960210933405893426424100601987072.00  StdDev: 280867552575145707007914211830443015570131126710621057837959859405174965887668212724670455366624611972153344.00
+
+Column : Address
+  Rows  : 11809  Nulls: 22 (0.2%)  Unique: 11787
+

@@ -1,0 +1,6 @@
+name,age,score,passed
+Alice,20,85.5,true
+Bob,22,90.0,true
+Charlie,,70.2,false
+David,21,88.1,true
+Eve,20,,false

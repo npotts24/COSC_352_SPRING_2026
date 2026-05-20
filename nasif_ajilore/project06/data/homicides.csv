@@ -1,0 +1,4 @@
+incident_number,incident_date,victim_age,victim_sex,victim_race,weapon,clearance,latitude,longitude,near_camera
+2023-001,2023-01-12,22,Male,Black,Firearm,Cleared,39.2904,-76.6122,Yes
+2023-002,2023-07-09,35,Male,Black,Sharp object,Unfounded,39.3120,-76.6338,No
+2024-003,2024-02-21,18,Female,White,Firearm,Cleared,39.2855,-76.6050,Unknown

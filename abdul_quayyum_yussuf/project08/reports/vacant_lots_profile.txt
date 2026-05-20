@@ -1,0 +1,312 @@
+{
+  "file": "data/vacant_lots_per_neighborhood.csv",
+  "rows": 271,
+  "columns": 17,
+  "column_reports": [
+    {
+      "name": "OBJECTID",
+      "inferred_type": "Integer",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 271,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 271.0,
+        "mean": 136.0,
+        "median": 136.0,
+        "std_dev": 78.37516613485847
+      }
+    },
+    {
+      "name": "VacantLots",
+      "inferred_type": "Integer",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 127,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 1120.0,
+        "mean": 75.96309963099627,
+        "median": 31.0,
+        "std_dev": 135.38594531514414
+      }
+    },
+    {
+      "name": "VacantLots_Acres",
+      "inferred_type": "Float",
+      "row_count": 271,
+      "null_count": 7,
+      "null_pct": 2.5830258302583027,
+      "unique_count": 263,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 0.021,
+        "max": 1231.035,
+        "mean": 208.21789015151515,
+        "median": 12.6435,
+        "std_dev": 314.73190531671275
+      }
+    },
+    {
+      "name": "TARGET_FID",
+      "inferred_type": "Integer",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 271,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 271.0,
+        "mean": 135.99999999999994,
+        "median": 136.0,
+        "std_dev": 78.37516613485847
+      }
+    },
+    {
+      "name": "NBRDESC",
+      "inferred_type": "Text",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 0,
+      "is_constant": false,
+      "text_stats": {
+        "min_length": 4,
+        "max_length": 33,
+        "avg_length": 13.512915129151292
+      }
+    },
+    {
+      "name": "TOT_POP",
+      "inferred_type": "Integer",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 258,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 16792.0,
+        "mean": 2402.782287822881,
+        "median": 1890.0,
+        "std_dev": 2386.8899648449883
+      }
+    },
+    {
+      "name": "ACRES",
+      "inferred_type": "Float",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 271,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 15.092,
+        "max": 1592.614,
+        "mean": 191.79893357933577,
+        "median": 121.969,
+        "std_dev": 220.53389151485186
+      }
+    },
+    {
+      "name": "AREA_FT",
+      "inferred_type": "Integer",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 271,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 657422.0,
+        "max": 69374266.0,
+        "mean": 8354762.42435425,
+        "median": 5312958.0,
+        "std_dev": 9606455.984811706
+      }
+    },
+    {
+      "name": "LABEL",
+      "inferred_type": "Text",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 0,
+      "is_constant": false,
+      "text_stats": {
+        "min_length": 4,
+        "max_length": 33,
+        "avg_length": 13.512915129151292
+      }
+    },
+    {
+      "name": "CEN_BLKS",
+      "inferred_type": "Integer",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 87,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 193.0,
+        "mean": 32.937269372693756,
+        "median": 22.0,
+        "std_dev": 30.600165430401038
+      }
+    },
+    {
+      "name": "COLOR_2",
+      "inferred_type": "Integer",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 5,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 5.0,
+        "mean": 2.9741697416974198,
+        "median": 3.0,
+        "std_dev": 1.4047791287994966
+      }
+    },
+    {
+      "name": "ID",
+      "inferred_type": "Integer",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 271,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 277.0,
+        "mean": 138.66420664206646,
+        "median": 138.0,
+        "std_dev": 81.00001012355739
+      }
+    },
+    {
+      "name": "TYPOLOGY",
+      "inferred_type": "Categorical",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 7,
+      "is_constant": false,
+      "categorical_stats": {
+        "top_values": [
+          [
+            "Stabilization",
+            105
+          ],
+          [
+            "Reinvestment",
+            71
+          ],
+          [
+            "Preservation",
+            40
+          ],
+          [
+            "Redevelopment",
+            21
+          ],
+          [
+            "Non-Residential",
+            15
+          ]
+        ],
+        "bottom_values": [
+          [
+            "Preservation",
+            40
+          ],
+          [
+            "Redevelopment",
+            21
+          ],
+          [
+            "Non-Residential",
+            15
+          ],
+          [
+            "Residential - No Typology Data",
+            11
+          ],
+          [
+            "Park Area",
+            8
+          ]
+        ]
+      }
+    },
+    {
+      "name": "PNTPOLYCNT",
+      "inferred_type": "Integer",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 10,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 10.0,
+        "mean": 1.3173431734317351,
+        "median": 1.0,
+        "std_dev": 1.795785691128673
+      }
+    },
+    {
+      "name": "URL",
+      "inferred_type": "Text",
+      "row_count": 271,
+      "null_count": 271,
+      "null_pct": 100.0,
+      "unique_count": 0,
+      "is_constant": false,
+      "text_stats": {
+        "min_length": 0,
+        "max_length": 0,
+        "avg_length": 0.0
+      }
+    },
+    {
+      "name": "Shape__Area",
+      "inferred_type": "Float",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 271,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 102286.75,
+        "max": 10768272.62890625,
+        "mean": 1298280.9318352165,
+        "median": 826141.7109375,
+        "std_dev": 1490931.7033990745
+      }
+    },
+    {
+      "name": "Shape__Length",
+      "inferred_type": "Float",
+      "row_count": 271,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 271,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 1260.5223377283896,
+        "max": 32559.660365640026,
+        "mean": 5308.590271167818,
+        "median": 4199.346726297018,
+        "std_dev": 3894.2375886015084
+      }
+    }
+  ]
+}

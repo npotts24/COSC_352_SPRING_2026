@@ -1,0 +1,358 @@
+
+  csvprof  ·  data/Gun_Offenders.csv  ·  4521 rows  ·  23 columns  
+
+  X  [Float]
+┌──────────────────────────┐
+│ Field           Value    │
+╞══════════════════════════╡
+│ Row count       4521     │
+│ Null count      1080     │
+│ Null %          23.9%    │
+│ Unique values   1399     │
+│ Min             -76.7112 │
+│ Max             -76.5299 │
+│ Mean            -76.6242 │
+│ Median          -76.6289 │
+│ Std Dev         0.0450   │
+└──────────────────────────┘
+
+  Y  [Float]
+┌─────────────────────────┐
+│ Field           Value   │
+╞═════════════════════════╡
+│ Row count       4521    │
+│ Null count      1080    │
+│ Null %          23.9%   │
+│ Unique values   1072    │
+│ Min             39.2225 │
+│ Max             39.3720 │
+│ Mean            39.3109 │
+│ Median          39.3087 │
+│ Std Dev         0.0287  │
+└─────────────────────────┘
+
+  RowID  [Integer]
+┌───────────────────────────┐
+│ Field           Value     │
+╞═══════════════════════════╡
+│ Row count       4521      │
+│ Null count      0         │
+│ Null %          0.0%      │
+│ Unique values   4521      │
+│ Min             1         │
+│ Max             4521      │
+│ Mean            2261      │
+│ Median          2261      │
+│ Std Dev         1305.1003 │
+└───────────────────────────┘
+
+  CaseNumber  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           4521  │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       4512  │
+│ Shortest string     7     │
+│ Longest string      7     │
+│ Avg string length   7.0   │
+└───────────────────────────┘
+
+  CreatedDate  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           4521  │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       1320  │
+│ Shortest string     22    │
+│ Longest string      22    │
+│ Avg string length   22.0  │
+└───────────────────────────┘
+
+  ModifiedDate  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           4521  │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       436   │
+│ Shortest string     22    │
+│ Longest string      22    │
+│ Avg string length   22.0  │
+└───────────────────────────┘
+
+  LastName  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           4521  │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       1732  │
+│ Shortest string     3     │
+│ Longest string      19    │
+│ Avg string length   6.3   │
+└───────────────────────────┘
+
+  FirstName  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           4521  │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       1812  │
+│ Shortest string     2     │
+│ Longest string      19    │
+│ Avg string length   6.1   │
+└───────────────────────────┘
+
+  MiddleName  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           4521  │
+│ Null count          3599  │
+│ Null %              79.6% │
+│ Unique values       522   │
+│ Shortest string     1     │
+│ Longest string      15    │
+│ Avg string length   6.0   │
+└───────────────────────────┘
+  ⚠ High null rate (79.6%) — column may not be reliable.
+
+  DateOfBirth  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           4521  │
+│ Null count          1     │
+│ Null %              0.0%  │
+│ Unique values       3731  │
+│ Shortest string     22    │
+│ Longest string      22    │
+│ Avg string length   22.0  │
+└───────────────────────────┘
+
+  Gender  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       4521  │
+│ Null count      0     │
+│ Null %          0.0%  │
+│ Unique values   2     │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value   Count 
+   Male    4355  
+   Female  166   
+  Top-5 least frequent:
+   Value   Count 
+   Female  166   
+   Male    4355  
+
+  Race  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       4521  │
+│ Null count      0     │
+│ Null %          0.0%  │
+│ Unique values   5     │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value    Count 
+   Black    4320  
+   White    136   
+   Unknown  63    
+   Asian    1     
+   Indian   1     
+  Top-5 least frequent:
+   Value    Count 
+   Indian   1     
+   Asian    1     
+   Unknown  63    
+   White    136   
+   Black    4320  
+
+  FullAddress  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           4521  │
+│ Null count          843   │
+│ Null %              18.6% │
+│ Unique values       3521  │
+│ Shortest string     10    │
+│ Longest string      54    │
+│ Avg string length   42.5  │
+└───────────────────────────┘
+
+  City  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       4521  │
+│ Null count      843   │
+│ Null %          18.6% │
+│ Unique values   43    │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value      Count 
+   Baltimore  3492  
+   Parkville  20    
+   Dundalk    13    
+   Gwynn Oak  13    
+   Essex      12    
+  Top-5 least frequent:
+   Value                   Count 
+   Woodlawn                1     
+   Waldorf                 1     
+   Union New Jersey 07083  1     
+   Perry Hall              1     
+   Odenton                 1     
+
+  State  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       4521  │
+│ Null count      843   │
+│ Null %          18.6% │
+│ Unique values   2     │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value  Count 
+   Md     3676  
+   Ma     2     
+  Top-5 least frequent:
+   Value  Count 
+   Ma     2     
+   Md     3676  
+
+  ZipCode  [Integer]
+┌────────────────────────────┐
+│ Field           Value      │
+╞════════════════════════════╡
+│ Row count       4521       │
+│ Null count      859        │
+│ Null %          19.0%      │
+│ Unique values   63         │
+│ Min             20603      │
+│ Max             21921      │
+│ Mean            21216.2417 │
+│ Median          21216      │
+│ Std Dev         30.4448    │
+└────────────────────────────┘
+
+  District  [Categorical]
+┌───────────────────────┐
+│ Field           Value │
+╞═══════════════════════╡
+│ Row count       4521  │
+│ Null count      1080  │
+│ Null %          23.9% │
+│ Unique values   9     │
+└───────────────────────┘
+  Top-5 most frequent:
+   Value      Count 
+   Northeast  650   
+   Southwest  539   
+   Western    485   
+   Northwest  409   
+   Eastern    389   
+  Top-5 least frequent:
+   Value      Count 
+   Central    170   
+   Southeast  222   
+   Southern   280   
+   Northern   297   
+   Eastern    389   
+
+  Post  [Integer]
+┌──────────────────────────┐
+│ Field           Value    │
+╞══════════════════════════╡
+│ Row count       4521     │
+│ Null count      1080     │
+│ Null %          23.9%    │
+│ Unique values   179      │
+│ Min             111      │
+│ Max             943      │
+│ Mean            561.2996 │
+│ Median          533      │
+│ Std Dev         228.8741 │
+└──────────────────────────┘
+
+  Neighborhood  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           4521  │
+│ Null count          1080  │
+│ Null %              23.9% │
+│ Unique values       228   │
+│ Shortest string     4     │
+│ Longest string      33    │
+│ Avg string length   13.2  │
+└───────────────────────────┘
+
+  Latitude  [Float]
+┌─────────────────────────┐
+│ Field           Value   │
+╞═════════════════════════╡
+│ Row count       4521    │
+│ Null count      1080    │
+│ Null %          23.9%   │
+│ Unique values   1072    │
+│ Min             39.2225 │
+│ Max             39.3720 │
+│ Mean            39.3109 │
+│ Median          39.3087 │
+│ Std Dev         0.0287  │
+└─────────────────────────┘
+
+  Longitude  [Float]
+┌──────────────────────────┐
+│ Field           Value    │
+╞══════════════════════════╡
+│ Row count       4521     │
+│ Null count      1080     │
+│ Null %          23.9%    │
+│ Unique values   1399     │
+│ Min             -76.7112 │
+│ Max             -76.5299 │
+│ Mean            -76.6242 │
+│ Median          -76.6289 │
+│ Std Dev         0.0450   │
+└──────────────────────────┘
+
+  GeoLocation  [Text]
+┌───────────────────────────┐
+│ Field               Value │
+╞═══════════════════════════╡
+│ Row count           4521  │
+│ Null count          0     │
+│ Null %              0.0%  │
+│ Unique values       3257  │
+│ Shortest string     3     │
+│ Longest string      18    │
+│ Avg string length   14.2  │
+└───────────────────────────┘
+
+  Shape  [Text]
+┌────────────────────────┐
+│ Field           Value  │
+╞════════════════════════╡
+│ Row count       4521   │
+│ Null count      4521   │
+│ Null %          100.0% │
+│ Unique values   0      │
+└────────────────────────┘
+  ⚠ High null rate (100.0%) — column may not be reliable.
+

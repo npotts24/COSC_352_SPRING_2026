@@ -1,0 +1,17 @@
+[package]
+name = "csvprof"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "csvprof"
+path = "src/main.rs"
+
+[dependencies]
+csv = "1.3"
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+chrono = "0.4"
+colored = "2"
+comfy-table = "7"
+ordered-float = "4"

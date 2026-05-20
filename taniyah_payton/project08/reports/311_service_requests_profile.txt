@@ -1,0 +1,119 @@
+# csvprof — 311_service_requests.csv
+  12 columns  •  120 rows
+
+## [1] SRRecordID
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 120
+  Inferred type: Text
+  Min length:    11
+  Max length:    11
+  Avg length:    11.0
+
+## [2] SRType
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 5
+  Inferred type: Categorical
+    TRM-Pothole                              33
+    SW-Missed Trash                          33
+    HCD-Rodent Complaint                     19
+    BGE-Street Light                         19
+    HCD-Sanitation Property                  16
+
+## [3] SRStatus
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 1
+  Inferred type: Categorical
+    Closed                                   120
+
+## [4] CreatedDate
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 79
+  Inferred type: Text
+  Min length:    10
+  Max length:    10
+  Avg length:    10.0
+
+## [5] CloseDate
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 79
+  Inferred type: Text
+  Min length:    10
+  Max length:    10
+  Avg length:    10.0
+
+## [6] MethodReceived
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 2
+  Inferred type: Categorical
+    Phone                                    67
+    Online                                   53
+
+## [7] Agency
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 3
+  Inferred type: Categorical
+    Transportation                           52
+    Housing & Community Development          35
+    Public Works                             33
+
+## [8] PoliceDistrict
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 6
+  Inferred type: Categorical
+    NORTHERN                                 33
+    SOUTHERN                                 26
+    WESTERN                                  16
+    SOUTHEASTERN                             16
+    NORTHEASTERN                             15
+
+## [9] CouncilDistrict
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 7
+  Inferred type: Numeric
+  Min:           1.00
+  Max:           14.00
+  Mean:          7.32
+  Median:        7.00
+  Std Dev:       4.53
+
+## [10] Neighborhood
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 8
+  Inferred type: Categorical
+    Roland Park                              17
+    Sandtown-Winchester                      16
+    Canton                                   16
+    Hampden                                  16
+    Belair-Edison                            15
+
+## [11] Latitude
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 7
+  Inferred type: Numeric
+  Min:           39.23
+  Max:           39.36
+  Mean:          39.30
+  Median:        39.30
+  Std Dev:       0.04
+
+## [12] Longitude
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 8
+  Inferred type: Numeric
+  Min:           -76.65
+  Max:           -76.56
+  Mean:          -76.61
+  Median:        -76.62
+  Std Dev:       0.03

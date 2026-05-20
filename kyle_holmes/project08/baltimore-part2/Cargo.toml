@@ -1,0 +1,18 @@
+[package]
+name = "baltimore-part2"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "csvprof"
+path = "src/csvprof.rs"
+
+[[bin]]
+name = "analyze"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "=4.4.18", features = ["derive"] }
+csv = "1"
+indexmap = "=2.2.6"
+chrono = "0.4"

@@ -1,0 +1,302 @@
+=== Reading building permits ===
+  Total original permits : 236471
+  Top 5 neighborhoods by permit count:
+    Canton                              6087
+    Belair-Edison                       4822
+    Hampden                             4144
+    Broadway East                       3937
+    Frankford                           3746
+
+=== Reading vacant buildings ===
+  Total vacant notices : 11832
+  Top 5 neighborhoods by vacant count:
+    Carrollton Ridge                    753
+    Broadway East                       722
+    Sandtown-Winchester                 612
+    Harlem Park                         457
+    Oliver                              345
+
+=== Neighborhood Join: Permits vs Vacant Buildings ===
+Neighborhood                           Permits    Vacants  Total Cost ($)
+------------------------------------------------------------------------
+Carrollton Ridge                          1891        753        18552686
+Broadway East                             3937        722        47216681
+Sandtown-Winchester                       2741        612        27628707
+Harlem Park                               2026        457        29406143
+Oliver                                    3256        345        36504757
+East Baltimore Midway                     2278        335        29834559
+Midtown-Edmondson                          961        334         9768130
+Central Park Heights                      2802        322       128289793
+Penrose/Fayette Street Outreach           1545        318        74900179
+Mount Clare                               1083        295        10052884
+Mondawmin                                 1577        283        59684759
+Shipley Hill                               925        273         7240279
+Penn North                                1092        271        46501193
+Upton                                     2040        264      1074426802
+Coldstream Homestead Montebello           3610        250        35067603
+Franklin Square                           1636        243        30986386
+Mosher                                     736        174        22323431
+Park Circle                               1426        169        48166718
+Coppin Heights/Ash-Co-East                1343        167      4451942582
+Easterwood                                 879        159         7283834
+Brooklyn                                  2459        156        24472284
+Franklintown Road                          749        153        27570155
+Northwest Community Action                 788        151        18280840
+Millhill                                   688        141         5284851
+Berea                                     2018        137        17662469
+Druid Heights                             1350        135        21060380
+Boyd-Booth                                 445        130         8627311
+Curtis Bay                                1284        127        15699367
+McElderry Park                            2610        127        18073276
+Greenspring                               1494        126        73470782
+Westport                                   810        125        65966130
+Rosemont                                  1182        119        54523907
+Auchentoroly-Parkwood                     1080        107         9803109
+Darley Park                                568        105         4156427
+Walbrook                                  1631        102        19852658
+Arlington                                 1146        101        13619717
+Ellwood Park/Monument                     1697        101        14972422
+Johnston Square                           1185         93        65418070
+Winchester                                 730         92         5920781
+Washington Village/Pigtown                3160         92        40754143
+Rosemont Homeowners/Tenants                691         88         4629425
+Union Square                               867         80        12335493
+South Clifton Park                         423         74         3510234
+Belair-Edison                             4822         73        28740630
+Allendale                                 1560         71        12223334
+Madison-Eastend                           1201         71        22524843
+Biddle Street                              712         64         8413881
+Towanda-Grantley                           573         63       104389378
+Milton-Montford                           1424         60        10682108
+Saint Josephs                              981         60         7416038
+Carroll-South Hilton                       673         58        31868117
+Cherry Hill                                989         55        38943817
+Hollins Market                            1140         54        16972809
+Downtown                                  2365         53       717113986
+Langston Hughes                            467         49         3865343
+Poppleton                                  653         44       273566991
+Edgewood                                  1226         43         9401574
+Irvington                                 1110         42        33447955
+Morrell Park                              1047         41         8415580
+Baltimore Highlands                        896         41        16970283
+Gwynns Falls                               375         41         5067145
+Barclay                                   1245         39        13447735
+Better Waverly                            1731         37        21740206
+Reservoir Hill                            2689         36        89279146
+Middle East                               2130         35       273329205
+Oldtown                                    295         33        82228127
+Lucille Park                               261         33         2721941
+Howard Park                               2206         32        19629491
+Mount Holly                                459         32         5025035
+Patterson Park Neighborhood               2773         30        25070102
+Hanlon-Longwood                           1244         28         9439078
+Four By Four                               855         26         6967225
+Concerned Citizens of Forest Park          607         25         5047331
+Dorchester                                 695         24         5563499
+Pen Lucy                                  1059         24         8650751
+Harwood                                    817         23         5156523
+Hampden                                   4144         22        97441895
+Gay Street                                 522         21        14484308
+CARE                                       885         21        13174380
+Wilson Park                                577         21         8164171
+Bridgeview/Greenlawn                       781         21        21491322
+Woodmere                                   832         20         5515647
+Edmondson Village                         1293         20         7717586
+Canton                                    6087         19        96899086
+Frankford                                 3746         19       133652082
+Madison Park                               448         19        13048942
+Parklane                                   536         19         5692329
+Woodbourne-McCabe                          457         18         2939635
+Forest Park                                677         17         5994496
+Washington Hill                            550         17        12613114
+Jonestown                                  204         17        69868923
+Windsor Hills                              670         17         5959574
+West Forest Park                           622         16         5044980
+Lakeland                                   742         16        37379050
+Dolfield                                   581         16         7159382
+Waltherson                                2778         15        21815341
+Cylburn                                    756         15         5654797
+Waverly                                   1415         15        10915602
+Pimlico Good Neighbors                     448         14        13603495
+Greektown                                 1845         14       110317825
+Fells Point                               1900         14       144248826
+Charles North                              629         14        80045781
+Abell                                      634         13         7704032
+Upper Fells Point                         1835         13        18106113
+Callaway-Garrison                          726         13         7150169
+Hamilton                                  1859         13        21025604
+Winston-Govans                             642         12         4778523
+Kresson                                    246         12         4740723
+North Harford Road                        1673         12        11267914
+Patterson Place                            423         12         3571206
+Highlandtown                              1816         11        48364658
+Panway/Braddish Avenue                     483         11        16400583
+Mount Winans                               177         11          934945
+Central Forest Park                        524         11         4722687
+Evergreen Lawn                             580         11         4837032
+Garwyn Oaks                                453         11         3851708
+Mid-Govans                                 613         10         4415893
+Parkway                                    236         10         1414429
+West Arlington                             731         10         6307401
+Bayview                                    505          9         2839425
+Ashburton                                 1062          9        10787991
+Arcadia                                    498          8         4816995
+Lauraville                                1609          8        19558466
+Oakenshawe                                 389          8         4038643
+Rognel Heights                             743          8         9467860
+Butchers Hill                              862          8         9906482
+Ednor Gardens-Lakeside                    1695          7      4173895706
+Hamilton Hills                            2676          7        29669810
+Charles Village                           1459          7       123013150
+Kernewood                                  322          7         2678558
+Graceland Park                             476          7         5068761
+Loch Raven                                1300          7        21269409
+Kenilworth Park                            490          7         3594127
+Mid-Town Belvedere                         846          7        56374268
+Liberty Square                             263          6         7922290
+Little Italy                               409          6        20543966
+Glen                                      1695          6        33752420
+Hillen                                     994          6        25383767
+Mount Washington                          1763          6        43615704
+Remington                                 1319          6       235567305
+Broening Manor                             341          5        66114894
+Westgate                                   486          5         7089272
+Beechfield                                 823          5         4696466
+Mount Vernon                               938          5       212309536
+Richnor Springs                            287          5         2213528
+Fairmount                                  211          5         9290502
+Cedmont                                   1048          5         8202428
+Parkside                                   513          4         2364962
+Bolton Hill                               1257          4        34403012
+Fallstaff                                  609          4         6068363
+Idlewood                                   679          4         8858555
+Glen Oaks                                  774          4         5448945
+Seton Hill                                 388          4        55242422
+Franklintown                               164          4         2775722
+Fairfield Area                             286          3       331771007
+Ridgely's Delight                          259          3         5552391
+Guilford                                  1035          3        14634401
+Woodberry                                  588          3        63260148
+Riverside                                 3005          3        58423849
+Radnor-Winston                             242          3         4381998
+Cedonia                                    650          3         3139492
+Yale Heights                               368          3         1819493
+New Northwood                             1032          3         5937786
+Orangeville                                146          3         8738854
+Grove Park                                 431          3         3504720
+Sharp-Leadenhall                           250          3         7109803
+Westfield                                 1170          3         9408565
+Wyman Park                                 510          3         7228649
+Saint Paul                                  26          3          296200
+Greenmount West                            949          3        19413527
+Federal Hill                              1209          3        27132487
+Rosemont East                              545          2         8244262
+Lake Walker                                462          2         3836128
+Perring Loch                               874          2         4534507
+University of Maryland                     271          2       517013286
+Dunbar-Broadway                            200          2       150978342
+Belair-Parkside                            155          2         1282266
+Medford                                    158          2         1849848
+Clifton Park                                29          2        13607755
+Saint Helena                               252          2         1689521
+Violetville                                657          2        30434228
+Hunting Ridge                              532          2         4607898
+Pulaski Industrial Area                    543          2        61222954
+East Arlington                             488          2         2789228
+Ramblewood                                 485          2         2315714
+Pleasant View Gardens                       30          2         1242935
+Rosebank                                   229          2         3159289
+Moravia-Walther                            428          2         2530652
+Belvedere                                  375          2         5794685
+Tremont                                    211          2         1005435
+Carroll - Camden Industrial Area           293          2       122024772
+Cross Country                             1057          2        43200824
+Brewers Hill                              2144          2       365843782
+Ten Hills                                  385          2         4548939
+Cameron Village                            350          2         2294336
+South Baltimore                           1615          2       137681191
+Old Goucher                                216          2         6457683
+Levindale                                  275          2       155518450
+Keswick                                    272          1         4435507
+Reisterstown Station                       415          1        15428803
+Uplands                                    386          1        18245180
+Harbor East                                498          1        65102271
+Orangeville Industrial Area                 84          1         5956308
+Cheswolde                                 1067          1        26001239
+Homeland                                  1200          1        38721006
+Wilhelm Park                               225          1        35939582
+Saint Agnes                                 96          1         1629911
+Cedarcroft                                 371          1         5120782
+Evergreen                                  187          1         3294804
+West Hills                                 492          1         2943629
+Locust Point                              2103          1        58405462
+Dickeyville                                 96          0         7108011
+Harbor Point                               275          0       332207563
+Perkins                                    134          0       138391638
+Forest Park Golf Course                    164          0         1411062
+Barre Circle                                82          0          682791
+Baltimore Peninsula                       2140          0       675624091
+Roland Park                               1651          0       120556525
+Hawkins Point                               94          0        23486799
+Eastwood                                   113          0          563642
+Gwynns Falls/Leakin Park                     7          0           82500
+Heritage Crossing                          302          0         7214190
+Wyndhurst                                  466          0        33686495
+Armistead Gardens                          306          0        63698180
+The Orchards                               236          0         3121775
+Sabina-Mattfeldt                           142          0         3981184
+Lake Evesham                               187          0         1435667
+O'Donnell Heights                           18          0          391946
+Blythewood                                  10          0          175820
+Wakefield                                   68          0         2250882
+Chinquapin Park                            486          0         3149488
+Johns Hopkins Homewood                     406          0       466311571
+Morgan State University                     14          0         2125319
+Hopkins Bayview                            185          0        87066953
+Seton Business Park                         83          0         5442836
+Carroll Park                                36          0         4940345
+York-Homeland                               28          0          187911
+Woodbourne Heights                         301          0         3668546
+Morgan Park                                177          0         2021112
+Cross Keys                                 406          0       119305674
+Jones Falls Area                           110          0       103386332
+Hoes Heights                               394          0         4385646
+North Roland Park/Poplar Hill              537          0        17819581
+Downtown West                              407          0        88051814
+Otterbein                                  493          0        10943604
+Taylor Heights                              91          0         1069862
+Canton Industrial Area                     610          0       187203745
+Penn-Fallsway                               67          0        15241506
+Beverly Hills                              319          0        91954303
+Mt Pleasant Park                             5          0         1074927
+Holabird Industrial Park                   182          0        46579665
+Spring Garden Industrial Area              100          0        28342106
+Overlea                                    290          0        27209945
+Inner Harbor                               480          0       153428927
+Patterson Park                              17          0         3780236
+Oaklee                                      75          0          493823
+Greenmount Cemetery                          1          0          225000
+Mayfield                                   361          0         3381706
+Loyola/Notre Dame                          115          0       138784271
+Middle Branch/Reedbird Parks                84          0        54320423
+Montebello                                  30          0        61928091
+Druid Hill Park                             59          0       153297395
+Locust Point Industrial Area                82          0        28708625
+Orchard Ridge                              136          0         7344645
+Curtis Bay Industrial Area                  69          0        58810128
+Evesham Park                               158          0         1068257
+Key Highway                                188          0         4171184
+Stadium/Entertainment Area                 420          0        88606170
+Original Northwood                         390          0         3023093
+Medfield                                  1778          0        37020266
+Bellona-Gittings                           287          0         6056186
+Coldspring                                 190          0        14080110
+Stonewood-Pentwood-Winston                 217          0         1328878
+Villages of Homeland                        99          0          482703
+Tuscany-Canterbury                         416          0        19072877
+
+Pearson r (permits vs vacants, by neighborhood): 0.4009
+
+=== Key Findings ===
+  Most vacant neighborhood   : Carrollton Ridge (753 vacants, 1891 permits)
+  Most permitted neighborhood: Canton (6087 permits, 19 vacants)

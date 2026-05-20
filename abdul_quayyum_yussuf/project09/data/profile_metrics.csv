@@ -1,0 +1,4 @@
+dataset,metric,value
+311_requests,average_requests,126.57933579335793
+vacant_lots,average_vacant_lots,136.0
+correlation,vacant_vs_requests,-0.023785761710735376

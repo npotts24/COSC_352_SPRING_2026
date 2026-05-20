@@ -1,0 +1,85 @@
+Surface Water Quality Data 2016 to 2025
+=======================================
+
+Column: Station
+Type: Categorical/Text
+Unique Values: 157
+Nulls: 0
+Top Values:
+LOMBARD ST. (3731)
+WESTERN RUN (3574)
+DEAD RUN DNST. (3540)
+POWDER MILL (3486)
+RADECKE AVE. (3463)
+----------------------------------
+Column: GPS Coordinate North
+Type: Numeric
+Count: 209019
+Nulls: 16
+Mean: 39.32
+Std Dev: 0.03
+Min: 39.24
+Max: 39.37
+----------------------------------
+Column: GPS Coordinate West
+Type: Numeric
+Count: 209013
+Nulls: 16
+Mean: -76.62
+Std Dev: 0.05
+Min: -76.71
+Max: -76.53
+----------------------------------
+Column: Parameter
+Type: Categorical/Text
+Unique Values: 28
+Nulls: 0
+Top Values:
+Hach Ammonia-Nitrogen (31807)
+Chlorine_Spec (31436)
+Conductivity (28708)
+Water Temperature (27604)
+pH (26876)
+----------------------------------
+Column: Lab
+Type: Categorical/Text
+Unique Values: 8
+Nulls: 0
+Top Values:
+WQM Field (180266)
+ALS-MDT (16450)
+BRWWTP Lab (7384)
+WQM Lab (2825)
+Ashburton Lab (1292)
+----------------------------------
+Column: Result
+Type: Numeric
+Count: 206205
+Nulls: 0
+Mean: 207.72
+Std Dev: 1143.92
+Min: -0.58
+Max: 105000.00
+----------------------------------
+Column: Unit
+Type: Categorical/Text
+Unique Values: 7
+Nulls: 0
+Top Values:
+mg/L (109751)
+umhos (28708)
+degrees Celsius (27613)
+pH units (26876)
+ntu (11000)
+----------------------------------
+Column: datetime
+Type: Categorical/Text
+Unique Values: 31918
+Nulls: 0
+Top Values:
+9/27/16 9:50 (35)
+8/23/16 10:05 (35)
+6/23/21 10:10 (33)
+2/5/19 11:53 (32)
+1/27/21 9:00 (32)
+----------------------------------

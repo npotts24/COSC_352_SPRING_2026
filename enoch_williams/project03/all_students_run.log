@@ -1,0 +1,295 @@
+2026-02-17 15:18:02 - Starting grading run. Workspace root: /workspaces/COSC_352_SPRING_2026
+2026-02-17 15:18:02 - Processing student: aaron_herron
+2026-02-17 15:18:02 - [aaron_herron/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - [aaron_herron/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - Completed aaron_herron
+2026-02-17 15:18:02 - Processing student: abdul_quayyum_yussuf
+2026-02-17 15:18:02 - [abdul_quayyum_yussuf/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - [abdul_quayyum_yussuf/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - Completed abdul_quayyum_yussuf
+2026-02-17 15:18:02 - Processing student: adebisi_agbakosi
+2026-02-17 15:18:02 - [adebisi_agbakosi/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - [adebisi_agbakosi/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - Completed adebisi_agbakosi
+2026-02-17 15:18:02 - Processing student: aditya_poudel
+2026-02-17 15:18:02 - [aditya_poudel/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - [aditya_poudel/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - Completed aditya_poudel
+2026-02-17 15:18:02 - Processing student: braydon_jones
+2026-02-17 15:18:02 - [braydon_jones/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - [braydon_jones/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - Completed braydon_jones
+2026-02-17 15:18:02 - Processing student: chukwuemeka_obasi
+2026-02-17 15:18:02 - [chukwuemeka_obasi/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - [chukwuemeka_obasi/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - Completed chukwuemeka_obasi
+2026-02-17 15:18:02 - Processing student: corey_hawkins
+2026-02-17 15:18:02 - [corey_hawkins/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - [corey_hawkins/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - Completed corey_hawkins
+2026-02-17 15:18:02 - Processing student: donovan_jones
+2026-02-17 15:18:02 - [donovan_jones/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - [donovan_jones/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:02 - Completed donovan_jones
+2026-02-17 15:18:02 - Processing student: enoch_williams
+2026-02-17 15:18:02 - [enoch_williams/project01] Building image...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 DONE 0.0s
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 273B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 36B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 writing image sha256:7b41465a2753aa03f3636495ecd6a7bad3624fb3403ed8421e38aeb43794d0e8 done
+#8 naming to docker.io/library/grader_enoch_williams_project01 done
+#8 DONE 0.0s
+2026-02-17 15:18:03 - [enoch_williams/project01] Running test test_echo (method=stdin)
+2026-02-17 15:18:03 - [enoch_williams/project01] test_echo: FAIL
+2026-02-17 15:18:03 - --- Expected ---
+hello2026-02-17 15:18:03 - --- Actual ---
+ERROR: No additional arguments provided.$(name)2026-02-17 15:18:03 - [enoch_williams/project01] Tests: 0/1, Score: 60
+2026-02-17 15:18:03 - [enoch_williams/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:03 - Completed enoch_williams
+2026-02-17 15:18:03 - Processing student: grace_joseph
+2026-02-17 15:18:03 - [grace_joseph/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:03 - [grace_joseph/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:03 - Completed grace_joseph
+2026-02-17 15:18:03 - Processing student: gulam_uddin
+2026-02-17 15:18:03 - [gulam_uddin/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:03 - [gulam_uddin/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:03 - Completed gulam_uddin
+2026-02-17 15:18:03 - Processing student: isaiah_simpson
+2026-02-17 15:18:03 - [isaiah_simpson/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:03 - [isaiah_simpson/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:03 - Completed isaiah_simpson
+2026-02-17 15:18:03 - Processing student: iyinoluwa_ayodele
+2026-02-17 15:18:03 - [iyinoluwa_ayodele/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [iyinoluwa_ayodele/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed iyinoluwa_ayodele
+2026-02-17 15:18:04 - Processing student: jamal_goodman
+2026-02-17 15:18:04 - [jamal_goodman/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [jamal_goodman/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed jamal_goodman
+2026-02-17 15:18:04 - Processing student: jessica_madu
+2026-02-17 15:18:04 - [jessica_madu/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [jessica_madu/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed jessica_madu
+2026-02-17 15:18:04 - Processing student: joseph_egbujonuma
+2026-02-17 15:18:04 - [joseph_egbujonuma/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [joseph_egbujonuma/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed joseph_egbujonuma
+2026-02-17 15:18:04 - Processing student: karl_agli
+2026-02-17 15:18:04 - [karl_agli/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [karl_agli/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed karl_agli
+2026-02-17 15:18:04 - Processing student: kyle_holmes
+2026-02-17 15:18:04 - [kyle_holmes/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [kyle_holmes/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed kyle_holmes
+2026-02-17 15:18:04 - Processing student: mahki_titus
+2026-02-17 15:18:04 - [mahki_titus/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [mahki_titus/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed mahki_titus
+2026-02-17 15:18:04 - Processing student: marcus_crosby
+2026-02-17 15:18:04 - [marcus_crosby/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [marcus_crosby/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed marcus_crosby
+2026-02-17 15:18:04 - Processing student: michael_miller
+2026-02-17 15:18:04 - [michael_miller/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [michael_miller/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed michael_miller
+2026-02-17 15:18:04 - Processing student: najae_potts
+2026-02-17 15:18:04 - [najae_potts/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [najae_potts/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed najae_potts
+2026-02-17 15:18:04 - Processing student: nasif_ajilore
+2026-02-17 15:18:04 - [nasif_ajilore/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [nasif_ajilore/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed nasif_ajilore
+2026-02-17 15:18:04 - Processing student: obaloluwa_wojuade
+2026-02-17 15:18:04 - [obaloluwa_wojuade/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [obaloluwa_wojuade/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed obaloluwa_wojuade
+2026-02-17 15:18:04 - Processing student: oluwasegun_soji-john
+2026-02-17 15:18:04 - [oluwasegun_soji-john/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [oluwasegun_soji-john/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed oluwasegun_soji-john
+2026-02-17 15:18:04 - Processing student: ositadinma_odunze
+2026-02-17 15:18:04 - [ositadinma_odunze/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [ositadinma_odunze/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed ositadinma_odunze
+2026-02-17 15:18:04 - Processing student: pauline_ekoma
+2026-02-17 15:18:04 - [pauline_ekoma/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [pauline_ekoma/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed pauline_ekoma
+2026-02-17 15:18:04 - Processing student: princess_ekoh
+2026-02-17 15:18:04 - [princess_ekoh/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - [princess_ekoh/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:04 - Completed princess_ekoh
+2026-02-17 15:18:04 - Processing student: professor_jon_white
+2026-02-17 15:18:04 - [professor_jon_white/project01] Building image...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 491B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 283B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.8s done
+#8 writing image sha256:aa7c6a3e712ab2fb350479b22e5ade0411350663d6effd9918864c6c9a947a07 done
+#8 naming to docker.io/library/grader_professor_jon_white_project01 done
+#8 DONE 0.9s
+2026-02-17 15:18:06 - [professor_jon_white/project01] Running test test_echo (method=stdin)
+2026-02-17 15:18:06 - [professor_jon_white/project01] test_echo: FAIL
+2026-02-17 15:18:06 - --- Expected ---
+hello2026-02-17 15:18:06 - --- Actual ---
+ERROR: No additional arguments provided.2026-02-17 15:18:06 - [professor_jon_white/project01] Tests: 0/1, Score: 60
+2026-02-17 15:18:06 - [professor_jon_white/project02] MISSING project dir
+2026-02-17 15:18:06 - Completed professor_jon_white
+2026-02-17 15:18:06 - Processing student: randolph_bame
+2026-02-17 15:18:06 - [randolph_bame/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - [randolph_bame/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - Completed randolph_bame
+2026-02-17 15:18:06 - Processing student: rochak_ghimire
+2026-02-17 15:18:06 - [rochak_ghimire/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - [rochak_ghimire/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - Completed rochak_ghimire
+2026-02-17 15:18:06 - Processing student: sandeep_shah
+2026-02-17 15:18:06 - [sandeep_shah/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - [sandeep_shah/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - Completed sandeep_shah
+2026-02-17 15:18:06 - Processing student: sharif_jenkins
+2026-02-17 15:18:06 - [sharif_jenkins/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - [sharif_jenkins/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - Completed sharif_jenkins
+2026-02-17 15:18:06 - Processing student: sidney_green
+2026-02-17 15:18:06 - [sidney_green/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - [sidney_green/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - Completed sidney_green
+2026-02-17 15:18:06 - Processing student: stephen_waita
+2026-02-17 15:18:06 - [stephen_waita/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - [stephen_waita/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:06 - Completed stephen_waita
+2026-02-17 15:18:06 - Processing student: taniyah_payton
+2026-02-17 15:18:07 - [taniyah_payton/project01] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:07 - [taniyah_payton/project02] MISSING Dockerfile (-10 deduction)
+2026-02-17 15:18:07 - Completed taniyah_payton
+2026-02-17 15:18:07 - --- Final Summary ---
+2026-02-17 15:18:07 - sharif_jenkins / project01 : 70
+2026-02-17 15:18:07 - sharif_jenkins / project02 : 70
+2026-02-17 15:18:07 - gulam_uddin / project02 : 70
+2026-02-17 15:18:07 - gulam_uddin / project01 : 70
+2026-02-17 15:18:07 - princess_ekoh / project01 : 70
+2026-02-17 15:18:07 - princess_ekoh / project02 : 70
+2026-02-17 15:18:07 - braydon_jones / project01 : 70
+2026-02-17 15:18:07 - braydon_jones / project02 : 70
+2026-02-17 15:18:07 - isaiah_simpson / project02 : 70
+2026-02-17 15:18:07 - isaiah_simpson / project01 : 70
+2026-02-17 15:18:07 - abdul_quayyum_yussuf / project02 : 70
+2026-02-17 15:18:07 - abdul_quayyum_yussuf / project01 : 70
+2026-02-17 15:18:07 - marcus_crosby / project01 : 70
+2026-02-17 15:18:07 - marcus_crosby / project02 : 70
+2026-02-17 15:18:07 - oluwasegun_soji-john / project02 : 70
+2026-02-17 15:18:07 - oluwasegun_soji-john / project01 : 70
+2026-02-17 15:18:07 - iyinoluwa_ayodele / project02 : 70
+2026-02-17 15:18:07 - iyinoluwa_ayodele / project01 : 70
+2026-02-17 15:18:07 - jamal_goodman / project02 : 70
+2026-02-17 15:18:07 - jamal_goodman / project01 : 70
+2026-02-17 15:18:07 - joseph_egbujonuma / project02 : 70
+2026-02-17 15:18:07 - joseph_egbujonuma / project01 : 70
+2026-02-17 15:18:07 - corey_hawkins / project02 : 70
+2026-02-17 15:18:07 - sandeep_shah / project02 : 70
+2026-02-17 15:18:07 - sandeep_shah / project01 : 70
+2026-02-17 15:18:07 - corey_hawkins / project01 : 70
+2026-02-17 15:18:07 - adebisi_agbakosi / project01 : 70
+2026-02-17 15:18:07 - adebisi_agbakosi / project02 : 70
+2026-02-17 15:18:07 - rochak_ghimire / project01 : 70
+2026-02-17 15:18:07 - jessica_madu / project01 : 70
+2026-02-17 15:18:07 - rochak_ghimire / project02 : 70
+2026-02-17 15:18:07 - jessica_madu / project02 : 70
+2026-02-17 15:18:07 - donovan_jones / project01 : 70
+2026-02-17 15:18:07 - donovan_jones / project02 : 70
+2026-02-17 15:18:07 - enoch_williams / project01 : 60
+2026-02-17 15:18:07 - enoch_williams / project02 : 70
+2026-02-17 15:18:07 - kyle_holmes / project02 : 70
+2026-02-17 15:18:07 - kyle_holmes / project01 : 70
+2026-02-17 15:18:07 - pauline_ekoma / project01 : 70
+2026-02-17 15:18:07 - pauline_ekoma / project02 : 70
+2026-02-17 15:18:07 - aaron_herron / project02 : 70
+2026-02-17 15:18:07 - michael_miller / project02 : 70
+2026-02-17 15:18:07 - michael_miller / project01 : 70
+2026-02-17 15:18:07 - aaron_herron / project01 : 70
+2026-02-17 15:18:07 - obaloluwa_wojuade / project01 : 70
+2026-02-17 15:18:07 - obaloluwa_wojuade / project02 : 70
+2026-02-17 15:18:07 - mahki_titus / project01 : 70
+2026-02-17 15:18:07 - mahki_titus / project02 : 70
+2026-02-17 15:18:07 - najae_potts / project02 : 70
+2026-02-17 15:18:07 - najae_potts / project01 : 70
+2026-02-17 15:18:07 - aditya_poudel / project02 : 70
+2026-02-17 15:18:07 - aditya_poudel / project01 : 70
+2026-02-17 15:18:07 - sidney_green / project02 : 70
+2026-02-17 15:18:07 - ositadinma_odunze / project02 : 70
+2026-02-17 15:18:07 - ositadinma_odunze / project01 : 70
+2026-02-17 15:18:07 - sidney_green / project01 : 70
+2026-02-17 15:18:07 - taniyah_payton / project01 : 70
+2026-02-17 15:18:07 - taniyah_payton / project02 : 70
+2026-02-17 15:18:07 - nasif_ajilore / project01 : 70
+2026-02-17 15:18:07 - nasif_ajilore / project02 : 70
+2026-02-17 15:18:07 - chukwuemeka_obasi / project01 : 70
+2026-02-17 15:18:07 - chukwuemeka_obasi / project02 : 70
+2026-02-17 15:18:07 - karl_agli / project01 : 70
+2026-02-17 15:18:07 - karl_agli / project02 : 70
+2026-02-17 15:18:07 - stephen_waita / project02 : 70
+2026-02-17 15:18:07 - professor_jon_white / project01 : 60
+2026-02-17 15:18:07 - stephen_waita / project01 : 70
+2026-02-17 15:18:07 - professor_jon_white / project02 : 0
+2026-02-17 15:18:07 - grace_joseph / project01 : 70
+2026-02-17 15:18:07 - grace_joseph / project02 : 70
+2026-02-17 15:18:07 - randolph_bame / project02 : 70
+2026-02-17 15:18:07 - randolph_bame / project01 : 70
+2026-02-17 15:18:07 - Log file: /workspaces/COSC_352_SPRING_2026/grading_20260217_151802.log

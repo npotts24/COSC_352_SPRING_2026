@@ -1,0 +1,6 @@
+name,constant_val,count,active
+Alice,same,100,true
+Bob,same,200,false
+Charlie,same,300,true
+Diana,same,150,false
+Eve,same,250,true

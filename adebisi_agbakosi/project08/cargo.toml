@@ -1,0 +1,18 @@
+[package]
+name = "csvprof"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "csvprof"
+path = "src/main.rs"
+
+[[bin]]
+name = "part2"
+path = "src/part2.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+csv = "1.3"
+anyhow = "1.0"
+comfy-table = "7.1"

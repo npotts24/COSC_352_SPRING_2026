@@ -1,0 +1,16 @@
+id,name,age,salary,is_active,hire_date,department,notes
+1,Alice,30,75000.50,true,2020-01-15,Engineering,Loves Rust
+2,Bob,25,62000.00,false,2019-06-20,Marketing,
+3,Charlie,35,88000.75,true,2018-03-10,Engineering,Team lead
+4,Diana,28,,yes,2021-11-01,Sales,New hire
+5,Eve,42,95000.00,true,2017-08-22,Engineering,Senior dev with extensive experience in multiple languages
+6,Frank,31,70000.00,false,2020-04-15,Marketing,
+7,Grace,NA,72000.00,true,2019-12-01,Sales,
+8,Hank,29,68000.00,true,2021-02-28,Engineering,
+9,Ivy,33,71000.00,n/a,2020-07-14,Marketing,Transferred from Sales
+10,Jack,27,65000.00,true,2022-01-10,Sales,
+11,Kate,45,120000.00,true,2015-05-05,Engineering,Principal engineer
+12,Leo,38,85000.00,false,2018-09-19,Marketing,
+13,Mia,26,60000.00,true,2023-03-01,Sales,
+14,Noah,null,78000.00,true,2019-11-11,Engineering,
+15,Olivia,34,82000.00,true,2020-08-20,Engineering,

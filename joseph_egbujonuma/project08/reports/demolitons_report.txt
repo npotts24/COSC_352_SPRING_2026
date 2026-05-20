@@ -1,0 +1,372 @@
+
+CSV PROFILE REPORT
+==================
+
+Column: X
+  Inferred type: Float
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 4184
+  Min: 1394259.28433163
+  Max: 1444336.55786455
+  Mean: 1417249.77
+  Top values:
+    1408857.08453231 -> 3
+    1399128.71783422 -> 2
+    1412500.38925356 -> 2
+    1414031.38750389 -> 2
+    1415176.63029213 -> 2
+
+Column: Y
+  Inferred type: Float
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 4183
+  Min: 567247.320809484
+  Max: 616109.790997729
+  Mean: 597113.18
+  Top values:
+    615985.854893893 -> 3
+    589581.795497388 -> 2
+    590834.862873137 -> 2
+    591275.00274089 -> 2
+    592135.41079697 -> 2
+
+Column: OBJECTID
+  Inferred type: Integer
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 4195
+  Min: 1
+  Max: 4195
+  Mean: 2098.00
+  Top values:
+    1 -> 1
+    10 -> 1
+    100 -> 1
+    1000 -> 1
+    1001 -> 1
+
+Column: Block
+  Inferred type: Text
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 686
+  Min: 2
+  Max: 8331
+  Mean: 1641.51
+  Shortest string length: 5
+  Longest string length: 5
+  Top values:
+    3936 -> 69
+    1464 -> 52
+    4616 -> 52
+    1463 -> 50
+    0065 -> 43
+
+Column: GroupStatus
+  Inferred type: Text
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 1
+  Shortest string length: 24
+  Longest string length: 24
+  Top values:
+    Final/Full Demo Complete -> 4195
+  Warning: constant column
+
+Column: DateUpdate
+  Inferred type: Text
+  Row count: 4195
+  Null count: 772
+  Null %: 18.40%
+  Unique value count: 2553
+  Shortest string length: 22
+  Longest string length: 22
+  Top values:
+    2014/11/26 10:41:00+00 -> 114
+    2015/10/12 09:37:00+00 -> 18
+    2015/07/31 11:13:00+00 -> 11
+    2015/08/13 14:17:00+00 -> 10
+    2015/10/12 09:08:00+00 -> 9
+
+Column: ID_PropertyStatus
+  Inferred type: Integer
+  Row count: 4195
+  Null count: 3875
+  Null %: 92.37%
+  Unique value count: 9
+  Min: 0
+  Max: 131
+  Mean: 120.33
+  Top values:
+    131 -> 180
+    128 -> 47
+    126 -> 32
+    67 -> 22
+    129 -> 14
+
+Column: ID_Demo_RFA
+  Inferred type: Integer
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 1546
+  Min: 138
+  Max: 9571
+  Mean: 3072.86
+  Top values:
+    939 -> 35
+    1254 -> 21
+    1785 -> 20
+    260 -> 20
+    1640 -> 19
+
+Column: ID_Decision
+  Inferred type: Integer
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 3
+  Min: 47
+  Max: 124
+  Mean: 64.47
+  Top values:
+    47 -> 2751
+    90 -> 1115
+    124 -> 329
+
+Column: CorePhase
+  Inferred type: Text
+  Row count: 4195
+  Null count: 2496
+  Null %: 59.50%
+  Unique value count: 11
+  Min: 1
+  Max: 6
+  Mean: 2.96
+  Shortest string length: 2
+  Longest string length: 41
+  Top values:
+    4 -> 491
+    3 -> 393
+    1 -> 351
+    NA -> 176
+    5 -> 128
+
+Column: ProjectedFiscalYear
+  Inferred type: Text
+  Row count: 4195
+  Null count: 1810
+  Null %: 43.15%
+  Unique value count: 6
+  Shortest string length: 4
+  Longest string length: 4
+  Top values:
+    FY19 -> 907
+    FY18 -> 519
+    FY20 -> 415
+    FY21 -> 310
+    FY22 -> 223
+
+Column: ProjectedQuarter
+  Inferred type: Text
+  Row count: 4195
+  Null count: 1810
+  Null %: 43.15%
+  Unique value count: 4
+  Shortest string length: 2
+  Longest string length: 2
+  Top values:
+    Q3 -> 779
+    Q1 -> 691
+    Q2 -> 544
+    Q4 -> 371
+
+Column: DateStarted
+  Inferred type: Text
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 1143
+  Shortest string length: 22
+  Longest string length: 22
+  Top values:
+    2014/09/16 00:00:00+00 -> 37
+    2016/07/12 00:00:00+00 -> 34
+    2019/12/18 00:00:00+00 -> 30
+    2019/12/17 00:00:00+00 -> 29
+    2018/03/27 00:00:00+00 -> 23
+
+Column: Deconstruction
+  Inferred type: Text
+  Row count: 4195
+  Null count: 2879
+  Null %: 68.63%
+  Unique value count: 2
+  Shortest string length: 1
+  Longest string length: 1
+  Top values:
+    N -> 903
+    Y -> 413
+
+Column: ReleasedToContractor
+  Inferred type: Text
+  Row count: 4195
+  Null count: 314
+  Null %: 7.49%
+  Unique value count: 666
+  Shortest string length: 22
+  Longest string length: 22
+  Top values:
+    2018/07/12 00:00:00+00 -> 147
+    2018/08/08 00:00:00+00 -> 101
+    2018/05/21 00:00:00+00 -> 99
+    2022/02/17 00:00:00+00 -> 85
+    2018/08/31 00:00:00+00 -> 84
+
+Column: DateDemoFinished
+  Inferred type: Text
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 908
+  Shortest string length: 22
+  Longest string length: 22
+  Top values:
+    2019/06/18 00:00:00+00 -> 87
+    2020/04/15 00:00:00+00 -> 67
+    2017/08/16 00:00:00+00 -> 57
+    2020/04/29 00:00:00+00 -> 50
+    2015/05/08 00:00:00+00 -> 35
+
+Column: Address
+  Inferred type: Text
+  Row count: 4195
+  Null count: 16
+  Null %: 0.38%
+  Unique value count: 4169
+  Shortest string length: 11
+  Longest string length: 25
+  Top values:
+    2101 W ROGERS AVE -> 3
+    1099 W FAYETTE ST -> 2
+    1412 W FRANKLIN ST -> 2
+    1420 ARGYLE AVE -> 2
+    1422 ARGYLE AVE -> 2
+
+Column: Lot
+  Inferred type: Text
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 225
+  Min: 1
+  Max: 217
+  Mean: 42.61
+  Shortest string length: 4
+  Longest string length: 4
+  Top values:
+    001 -> 74
+    003 -> 70
+    005 -> 69
+    023 -> 67
+    004 -> 64
+
+Column: Neighborhood
+  Inferred type: Text
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 112
+  Shortest string length: 4
+  Longest string length: 33
+  Top values:
+    Broadway East -> 528
+    Sandtown-Winchester -> 391
+    Central Park Heights -> 255
+    Harlem Park -> 252
+    Coldstream Homestead Montebello -> 207
+
+Column: SimplifiedStatus
+  Inferred type: Text
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 1
+  Shortest string length: 13
+  Longest string length: 13
+  Top values:
+    Demo Complete -> 4195
+  Warning: constant column
+
+Column: Council_District
+  Inferred type: Integer
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 14
+  Min: 1
+  Max: 14
+  Mean: 9.65
+  Top values:
+    9 -> 1543
+    7 -> 606
+    12 -> 598
+    13 -> 563
+    6 -> 368
+
+Column: HousingMarketTypology2017
+  Inferred type: Text
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 13
+  Shortest string length: 1
+  Longest string length: 24
+  Top values:
+    I -> 1765
+    J -> 1583
+    H -> 307
+    G -> 284
+    E -> 88
+
+Column: OBJECTID_1
+  Inferred type: Integer
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 4184
+  Min: 39
+  Max: 971824
+  Mean: 65843.83
+  Top values:
+    176881 -> 3
+    14516 -> 2
+    16288 -> 2
+    16668 -> 2
+    241981 -> 2
+
+Column: BLOCKLOT
+  Inferred type: Text
+  Row count: 4195
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 4184
+  Shortest string length: 8
+  Longest string length: 9
+  Top values:
+    4736 014 -> 3
+    0124 058 -> 2
+    0170 096 -> 2
+    0200 049 -> 2
+    0260 017 -> 2
+
+=== ANALYSIS RESULT ===
+Arrests 30 days BEFORE demolitions: 0
+Arrests 30 days AFTER demolitions: 0

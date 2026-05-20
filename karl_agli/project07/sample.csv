@@ -1,0 +1,21 @@
+id,name,age,city,salary,active,score,category
+1,Alice Johnson,28,New York,75000.50,true,92.5,A
+2,Bob Smith,35,Los Angeles,82000.00,true,88.3,B
+3,Carol White,42,Chicago,95000.75,false,76.8,A
+4,David Brown,31,Houston,68000.00,true,91.2,C
+5,Eve Davis,29,Phoenix,71000.50,true,85.7,B
+6,Frank Miller,45,Philadelphia,105000.00,true,79.4,A
+7,Grace Lee,38,San Antonio,88000.25,false,93.1,B
+8,Henry Wilson,33,San Diego,77000.00,true,82.6,C
+9,Ivy Martinez,27,Dallas,65000.50,true,89.9,A
+10,Jack Anderson,41,San Jose,99000.00,false,77.2,B
+11,Kate Taylor,36,Austin,84000.75,true,90.5,C
+12,Leo Thomas,30,Jacksonville,72000.00,true,86.3,A
+13,Mia Jackson,44,Fort Worth,96000.50,false,81.7,B
+14,Noah Harris,32,Columbus,74000.25,true,94.2,C
+15,Olivia Martin,26,Charlotte,63000.00,true,87.8,A
+16,Paul Thompson,39,San Francisco,110000.50,true,83.4,B
+17,Quinn Garcia,34,Indianapolis,79000.75,false,91.6,C
+18,Rachel Rodriguez,37,Seattle,92000.00,true,78.9,A
+19,Sam Lewis,40,Denver,97000.25,false,85.1,B
+20,Tina Walker,25,Washington,61000.50,true,92.3,C

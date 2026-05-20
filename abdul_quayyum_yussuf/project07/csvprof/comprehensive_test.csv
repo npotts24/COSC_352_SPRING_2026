@@ -1,0 +1,13 @@
+id,score,status,created_date,category,description
+1,95.5,active,2023-01-15,A,Excellent performance
+2,87.3,active,2023-01-16,B,Good results
+3,92.1,inactive,2023-01-17,A,Notable achievement
+4,88.9,active,2023-01-18,C,Satisfactory
+5,95.5,inactive,2023-01-19,A,Excellent performance
+6,85.0,active,2023-01-20,B,Adequate
+7,91.2,active,2023-01-21,A,Strong performance
+8,78.5,inactive,2023-01-22,C,Needs improvement
+9,89.3,active,2023-01-23,B,Good
+10,95.5,active,2023-01-24,A,Excellent performance
+11,mixed_value,active,2023-01-25,A,Should trigger mixed type warning
+12,84.0,active,2023-01-26,B,Typical

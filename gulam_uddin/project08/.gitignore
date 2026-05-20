@@ -1,0 +1,12 @@
+# Rust build artifacts
+/target
+**/*.rs.bk
+
+# OS / editor cruft
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Keep Cargo.lock (application, not library)
+# Keep data/ and reports/ — required by the Part-2 rubric

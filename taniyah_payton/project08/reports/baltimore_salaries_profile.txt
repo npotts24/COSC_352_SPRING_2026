@@ -1,0 +1,102 @@
+# csvprof — baltimore_salaries.csv
+  10 columns  •  120 rows
+
+## [1] lastName
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 100
+  Inferred type: Text
+  Min length:    3
+  Max length:    9
+  Avg length:    6.4
+
+## [2] middleInitial
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 26
+  Inferred type: Categorical
+    T                                        8
+    D                                        7
+    J                                        7
+    K                                        7
+    R                                        6
+
+## [3] firstName
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 107
+  Inferred type: Text
+  Min length:    3
+  Max length:    10
+  Avg length:    6.2
+
+## [4] jobClass
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 27
+  Inferred type: Categorical
+    POLICE OFFICER                           22
+    SANITATION CREW MEMBER                   16
+    PARKS MAINTENANCE WORKER                 16
+    HOUSING INSPECTOR                        8
+    SANITATION DRIVER                        8
+
+## [5] agencyName
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 6
+  Inferred type: Categorical
+    Police Department                        30
+    Public Works                             29
+    Recreation & Parks                       28
+    Housing & Community Development          21
+    Transportation                           11
+
+## [6] agencyID
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 6
+  Inferred type: Categorical
+    A99                                      30
+    A50                                      29
+    A40                                      28
+    A06                                      21
+    A30                                      11
+
+## [7] annualSalary
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 66
+  Inferred type: Numeric
+  Min:           0.00
+  Max:           108000.00
+  Mean:          57316.53
+  Median:        56750.00
+  Std Dev:       17102.99
+
+## [8] grossPay
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 117
+  Inferred type: Numeric
+  Min:           185.00
+  Max:           128000.00
+  Mean:          65775.99
+  Median:        62550.00
+  Std Dev:       21026.88
+
+## [9] hireDate
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 119
+  Inferred type: Text
+  Min length:    10
+  Max length:    10
+  Avg length:    10.0
+
+## [10] fiscalYear
+  Rows:          120
+  Nulls:         0 (0.0%)
+  Unique values: 1
+  Inferred type: Categorical
+    FY2024                                   120

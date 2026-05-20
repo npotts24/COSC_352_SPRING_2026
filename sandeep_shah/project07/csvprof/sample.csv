@@ -1,0 +1,9 @@
+id,name,age,salary,active,start_date,department,notes
+1,Alice,25,55000,true,2024-01-10,Engineering,Strong performer
+2,Bob,31,62000,false,2023-09-15,Sales,
+3,Charlie,29,61000,true,2022-12-01,Engineering,Remote
+4,Diana,,72000,true,2021-05-20,HR,Promoted
+5,Evan,45,150000,false,2020-03-18,Management,Executive
+6,Fatima,27,59000,true,2024-02-01,Engineering,New hire
+7,George,27,59000,true,2024-02-01,Engineering,New hire
+8,Hannah,200,999999,true,2024-02-01,Engineering,Outlier example

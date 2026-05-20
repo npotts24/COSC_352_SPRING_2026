@@ -1,0 +1,119 @@
+==============================================================
+  CSV PROFILE REPORT  (11832 rows total)
+==============================================================
+
+--- X ---
+  Inferred type  : float
+  Row count      : 11832  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  Min / Max      : 1394085.13802639 / 1445250.80537988
+  Mean / Median  : 1416003.8221 / 1412900.2088
+  Std dev        : 9141.6546
+--------------------------------------------------------------
+
+--- Y ---
+  Inferred type  : float
+  Row count      : 11832  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  Min / Max      : 566208.284501731 / 621353.766074061
+  Mean / Median  : 595965.8604 / 596174.1800
+  Std dev        : 7851.8357
+  WARNING: Outliers (IQR method): 791
+--------------------------------------------------------------
+
+--- OBJECTID ---
+  Inferred type  : integer
+  Row count      : 11832  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  Min / Max      : 9 / 246997
+  Mean / Median  : 78144.8871 / 58312.5000
+  Std dev        : 64483.2982
+--------------------------------------------------------------
+
+--- NoticeNum ---
+  Inferred type  : text
+  Row count      : 11832  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  String length  : min=6 / max=8
+--------------------------------------------------------------
+
+--- DateNotice ---
+  Inferred type  : text
+  Row count      : 11832  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  String length  : min=22 / max=22
+--------------------------------------------------------------
+
+--- DateCancel ---
+  Inferred type  : text
+  Row count      : 11832  |  Null count: 11832 (100.0%)
+  Unique values  : 0
+  WARNING: CONSTANT COLUMN - all values are identical
+  String length  : min=0 / max=0
+--------------------------------------------------------------
+
+--- DateAbate ---
+  Inferred type  : text
+  Row count      : 11832  |  Null count: 11832 (100.0%)
+  Unique values  : 0
+  WARNING: CONSTANT COLUMN - all values are identical
+  String length  : min=0 / max=0
+--------------------------------------------------------------
+
+--- NT ---
+  Inferred type  : categorical
+  Row count      : 11832  |  Null count: 0 (0.0%)
+  Unique values  : 1
+  WARNING: CONSTANT COLUMN - all values are identical
+  Top-5 frequent : Vacant=11832
+  Bot-5 frequent : Vacant=11832
+--------------------------------------------------------------
+
+--- OWNER_ABBR ---
+  Inferred type  : categorical
+  Row count      : 11832  |  Null count: 10735 (90.7%)
+  Unique values  : 5
+  Top-5 frequent : MCC=985, HABC=102, USA=7, HUD=2, VA=1
+  Bot-5 frequent : VA=1, HUD=2, USA=7, HABC=102, MCC=985
+--------------------------------------------------------------
+
+--- HousingMarketTypology2023 ---
+  Inferred type  : categorical
+  Row count      : 11832  |  Null count: 0 (0.0%)
+  Unique values  : 11
+  WARNING: MIXED TYPES detected: ["boolean", "text"]
+  Top-5 frequent : J=5073, I=4017, G=1292, E=366, F=366
+  Bot-5 frequent : NA=18, A=21, C=138, B=156, H=192
+--------------------------------------------------------------
+
+--- Council_District ---
+  Inferred type  : integer
+  Row count      : 11832  |  Null count: 0 (0.0%)
+  Unique values  : 14
+  Min / Max      : 1 / 14
+  Mean / Median  : 9.0789 / 9.0000
+  Std dev        : 2.6213
+--------------------------------------------------------------
+
+--- Neighborhood ---
+  Inferred type  : text
+  Row count      : 11832  |  Null count: 0 (0.0%)
+  Unique values  : 211
+  String length  : min=4 / max=33
+--------------------------------------------------------------
+
+--- BLOCKLOT ---
+  Inferred type  : text
+  Row count      : 11832  |  Null count: 0 (0.0%)
+  Unique values  : 10000
+  WARNING: MIXED TYPES detected: ["float", "text"]
+  String length  : min=8 / max=9
+--------------------------------------------------------------
+
+--- Address ---
+  Inferred type  : text
+  Row count      : 11832  |  Null count: 22 (0.2%)
+  Unique values  : 10000
+  String length  : min=10 / max=27
+--------------------------------------------------------------
+

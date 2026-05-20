@@ -1,0 +1,31 @@
+id,name,age,salary,is_active,signup_date,department,notes
+1,Alice,30,75000.50,true,2023-01-15,Engineering,Leads the backend team
+2,Bob,25,62000.00,true,2023-03-22,Marketing,
+3,Charlie,,85000.00,false,2022-11-01,Engineering,Senior developer with 10 years experience
+4,Diana,35,92000.75,true,2023-06-10,Sales,Top performer
+5,Eve,28,,true,2023-02-28,Marketing,Runs social campaigns
+6,Frank,45,120000.00,false,2021-09-14,Engineering,
+7,Grace,32,78000.00,true,2023-07-20,Sales,
+8,Hank,29,65000.00,true,2022-12-05,Marketing,New hire in Q4
+9,Ivy,38,95000.00,false,2023-01-30,Engineering,Works on infrastructure
+10,Jack,27,60000.00,true,2023-04-18,Sales,
+11,Kate,41,110000.00,true,2022-08-25,Engineering,Team lead
+12,Leo,24,55000.00,true,2023-05-12,Marketing,
+13,Mia,33,88000.00,false,2023-09-01,Sales,Regional manager
+14,Noah,36,97000.00,true,2022-10-10,Engineering,DevOps specialist
+15,Olivia,31,,true,2023-11-15,Marketing,Content strategist
+16,Pete,50,150000.00,true,2021-03-01,Engineering,VP of Engineering
+17,Quinn,26,58000.00,false,2023-08-22,Sales,
+18,Ruth,34,82000.00,true,2023-01-05,Marketing,
+19,Sam,39,99000.00,true,2022-07-19,Engineering,
+20,Tina,28,67000.00,true,2023-10-30,Sales,
+21,Uma,43,115000.00,false,2021-12-12,Engineering,Architect
+22,Vince,30,73000.00,true,2023-02-14,Marketing,
+23,Wendy,37,91000.00,true,2022-06-08,Sales,
+24,Xavier,29,64000.00,false,2023-04-25,Engineering,
+25,Yara,32,80000.00,true,2023-07-07,Marketing,
+26,Zack,46,130000.00,true,2021-05-20,Engineering,Fellow
+27,Amy,23,52000.00,true,2023-09-15,Sales,Intern promoted
+28,Brian,40,105000.00,false,2022-03-30,Engineering,
+29,Cara,27,61000.00,true,2023-06-20,Marketing,
+30,Dan,35,89000.00,true,2023-01-25,Sales,

@@ -1,0 +1,74 @@
+csvprof report — data/BPD_Arrests.csv
+============================================================
+
+Column : X
+  Rows  : 393049  Nulls: 161849 (41.2%)  Unique: 42974
+  Mean  : 2495013.91  StdDev: 5639089.05
+
+Column : Y
+  Rows  : 393049  Nulls: 161849 (41.2%)  Unique: 42974
+  Mean  : 542196.39  StdDev: 284459.44
+
+Column : Latitude
+  Rows  : 393049  Nulls: 161849 (41.2%)  Unique: 1538
+  Mean  : 37.92  StdDev: 7.23
+
+Column : Longitude
+  Rows  : 393049  Nulls: 161849 (41.2%)  Unique: 1818
+  Mean  : -73.93  StdDev: 14.10
+
+Column : RowID
+  Rows  : 393049  Nulls: 0 (0.0%)  Unique: 100000
+  Mean  : 196525.00  StdDev: 113463.62
+
+Column : IncidentNumber
+  Rows  : 393049  Nulls: 162792 (41.4%)  Unique: 100000
+  Mean  : NaN  StdDev: NaN
+
+Column : ArrestNumber
+  Rows  : 393049  Nulls: 18021 (4.6%)  Unique: 100000
+  Mean  : 15673526.19  StdDev: 4434477.54
+
+Column : Age
+  Rows  : 393049  Nulls: 132 (0.0%)  Unique: 82
+  Mean  : 33.35  StdDev: 11.58
+
+Column : Gender
+  Rows  : 393049  Nulls: 34 (0.0%)  Unique: 4
+
+Column : Race
+  Rows  : 393049  Nulls: 224 (0.1%)  Unique: 6
+
+Column : ArrestDateTime
+  Rows  : 393049  Nulls: 0 (0.0%)  Unique: 100000
+
+Column : ArrestLocation
+  Rows  : 393049  Nulls: 154227 (39.2%)  Unique: 33859
+
+Column : IncidentOffence
+  Rows  : 393049  Nulls: 0 (0.0%)  Unique: 183
+
+Column : IncidentLocation
+  Rows  : 393049  Nulls: 154227 (39.2%)  Unique: 33859
+
+Column : Charge
+  Rows  : 393049  Nulls: 51395 (13.1%)  Unique: 926
+  Mean  : 709680.42  StdDev: 252389.15
+
+Column : ChargeDescription
+  Rows  : 393049  Nulls: 0 (0.0%)  Unique: 13775
+  Mean  : 73052578588.50  StdDev: 103311945661.04
+
+Column : District
+  Rows  : 393049  Nulls: 170036 (43.3%)  Unique: 9
+
+Column : Post
+  Rows  : 393049  Nulls: 170036 (43.3%)  Unique: 185
+  Mean  : 515.08  StdDev: 269.76
+
+Column : Neighborhood
+  Rows  : 393049  Nulls: 170063 (43.3%)  Unique: 288
+
+Column : GeoLocation
+  Rows  : 393049  Nulls: 0 (0.0%)  Unique: 42975
+

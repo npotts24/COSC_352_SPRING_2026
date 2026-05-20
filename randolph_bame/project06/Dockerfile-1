@@ -1,0 +1,11 @@
+
+FROM rocker/shiny
+
+RUN R -e "install.packages(c('shiny','shinydashboard','plotly','dplyr','lubridate'), repos='https://cloud.r-project.org/')"
+
+COPY app.R /srv/shiny-server/
+COPY homicide_data.csv /srv/shiny-server/
+
+EXPOSE 3838
+
+CMD ["/usr/bin/shiny-server"]

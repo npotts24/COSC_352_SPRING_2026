@@ -1,0 +1,44 @@
+==================================================
+CSV PROFILING REPORT
+==================================================
+Total Columns: 2
+Total Rows: 279
+
++----------------------------+
+| Neighborhood               |
++--------------------+-------+
+| Field              | Value |
++--------------------+-------+
+| Inferred Type      | Text  |
+| Row Count          | 279   |
+| Null Count         | 0     |
+| Null %             | 0.00% |
+| Unique Values      | 279   |
+| Min String Length  | 3     |
+| Max String Length  | 37    |
+| Top 5 Values       | Downtown (1), Belair-Edison (1), Brooklyn (1), Canton (1), Sandtown-Winchester (1) |
++--------------------+-------+
+
++----------------------------+
+| request_count              |
++--------------------+-------+
+| Field              | Value |
++--------------------+-------+
+| Inferred Type      | Integer |
+| Row Count          | 279   |
+| Null Count         | 0     |
+| Null %             | 0.00% |
+| Unique Values      | 277   |
+| Min                | 15.00 |
+| Max                | 29281.00 |
+| Mean               | 2706.39 |
+| Median             | 1965.00 |
+| Std Dev            | 3348.51 |
+| Min String Length  | 2     |
+| Max String Length  | 5     |
+| Top 5 Values       | 1683 (2), 965 (2), 29281 (1), 16610 (1), 11765 (1) |
++--------------------+-------+
+
+==================================================
+Report Complete
+==================================================

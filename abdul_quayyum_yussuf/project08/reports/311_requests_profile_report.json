@@ -1,0 +1,593 @@
+{
+  "file": "../../project08/data/311_requests_2024.csv",
+  "rows": 37800,
+  "columns": 28,
+  "column_reports": [
+    {
+      "name": "FID",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 37800,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 37800.0,
+        "mean": 18900.5,
+        "median": 18900.5,
+        "std_dev": 10912.064424296623
+      }
+    },
+    {
+      "name": "RowID_",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 37786,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 0.0,
+        "max": 2106147.0,
+        "mean": 1514693.8823809433,
+        "median": 1478954.0,
+        "std_dev": 316475.46146674204
+      }
+    },
+    {
+      "name": "SRRecordID",
+      "inferred_type": "Text",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 0,
+      "is_constant": false,
+      "text_stats": {
+        "min_length": 18,
+        "max_length": 18,
+        "avg_length": 18.0
+      }
+    },
+    {
+      "name": "ServiceReq",
+      "inferred_type": "Text",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 0,
+      "is_constant": false,
+      "text_stats": {
+        "min_length": 11,
+        "max_length": 11,
+        "avg_length": 11.0
+      }
+    },
+    {
+      "name": "SRType",
+      "inferred_type": "Categorical",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "is_constant": false,
+      "categorical_stats": {
+        "top_values": [
+          [
+            "SW-Dirty Alley",
+            21378
+          ],
+          [
+            "SW-Dirty Street",
+            16422
+          ]
+        ]
+      }
+    },
+    {
+      "name": "MethodRece",
+      "inferred_type": "Categorical",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 8,
+      "is_constant": false,
+      "categorical_stats": {
+        "top_values": [
+          [
+            "API",
+            21904
+          ],
+          [
+            "Phone",
+            15458
+          ],
+          [
+            "Email",
+            240
+          ],
+          [
+            "Internal",
+            183
+          ],
+          [
+            "Web",
+            11
+          ]
+        ],
+        "bottom_values": [
+          [
+            "Internal",
+            183
+          ],
+          [
+            "Web",
+            11
+          ],
+          [
+            "System",
+            2
+          ],
+          [
+            "Community",
+            1
+          ],
+          [
+            "Other",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "name": "CreatedDat",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 366,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 1704067200000.0,
+        "max": 1735603200000.0,
+        "mean": 1717934196571.4373,
+        "median": 1717372800000.0,
+        "std_dev": 9159823946.277351
+      }
+    },
+    {
+      "name": "SRStatus",
+      "inferred_type": "Categorical",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 3,
+      "is_constant": false,
+      "categorical_stats": {
+        "top_values": [
+          [
+            "Closed",
+            34596
+          ],
+          [
+            "Closed (Duplicate)",
+            2589
+          ],
+          [
+            "Closed (Transferred)",
+            615
+          ]
+        ]
+      }
+    },
+    {
+      "name": "StatusDate",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 319,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 1704067200000.0,
+        "max": 1754006400000.0,
+        "mean": 1718227170285.7163,
+        "median": 1717459200000.0,
+        "std_dev": 9158395745.868149
+      }
+    },
+    {
+      "name": "DueDate",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 305,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 1704844800000.0,
+        "max": 1750118400000.0,
+        "mean": 1718792480000.0032,
+        "median": 1718150400000.0,
+        "std_dev": 9171956347.745825
+      }
+    },
+    {
+      "name": "CloseDate",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 315,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 1704153600000.0,
+        "max": 1754006400000.0,
+        "mean": 1718227444571.4243,
+        "median": 1717459200000.0,
+        "std_dev": 9158210211.969305
+      }
+    },
+    {
+      "name": "Agency",
+      "inferred_type": "Categorical",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "is_constant": true,
+      "categorical_stats": {
+        "top_values": [
+          [
+            "Solid Waste",
+            37800
+          ]
+        ]
+      }
+    },
+    {
+      "name": "LastActivi",
+      "inferred_type": "Categorical",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 3,
+      "is_constant": false,
+      "categorical_stats": {
+        "top_values": [
+          [
+            "Service Response",
+            37797
+          ],
+          [
+            "Pre-Assign",
+            2
+          ],
+          [
+            " ",
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "name": "LastActi_1",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 311,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": -2209161600000.0,
+        "max": 1754006400000.0,
+        "mean": 1655284763428.581,
+        "median": 1717200000000.0,
+        "std_dev": 493363100370.69543
+      }
+    },
+    {
+      "name": "Outcome",
+      "inferred_type": "Categorical",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 7,
+      "is_constant": false,
+      "categorical_stats": {
+        "top_values": [
+          [
+            "Work completed",
+            31945
+          ],
+          [
+            "SR assessed and no cause for action determined",
+            3597
+          ],
+          [
+            "Work could not be completed",
+            1589
+          ],
+          [
+            " ",
+            606
+          ],
+          [
+            "Work referred to another agency (NOT BY SR TRANSFER)",
+            45
+          ]
+        ],
+        "bottom_values": [
+          [
+            "Work could not be completed",
+            1589
+          ],
+          [
+            " ",
+            606
+          ],
+          [
+            "Work referred to another agency (NOT BY SR TRANSFER)",
+            45
+          ],
+          [
+            "SR closed by agency-specific work management system",
+            16
+          ],
+          [
+            "Removed",
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Address",
+      "inferred_type": "Text",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 0,
+      "is_constant": false,
+      "text_stats": {
+        "min_length": 14,
+        "max_length": 95,
+        "avg_length": 39.67611111111111
+      }
+    },
+    {
+      "name": "ZipCode",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 32,
+      "is_constant": false,
+      "mixed_type_warning": "Column contains values that cannot be parsed as integers",
+      "numeric_stats": {
+        "min": 21201.0,
+        "max": 21287.0,
+        "mean": 21218.639548112384,
+        "median": 21218.0,
+        "std_dev": 7.76217290937798
+      }
+    },
+    {
+      "name": "Neighborho",
+      "inferred_type": "Text",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 0,
+      "is_constant": false,
+      "text_stats": {
+        "min_length": 1,
+        "max_length": 33,
+        "avg_length": 13.8239417989418
+      }
+    },
+    {
+      "name": "CouncilDis",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 14,
+      "is_constant": false,
+      "mixed_type_warning": "Column contains values that cannot be parsed as integers",
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 14.0,
+        "mean": 8.632768062647036,
+        "median": 9.0,
+        "std_dev": 3.5971966345533257
+      }
+    },
+    {
+      "name": "PoliceDist",
+      "inferred_type": "Categorical",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 10,
+      "is_constant": false,
+      "categorical_stats": {
+        "top_values": [
+          [
+            "Southwestern",
+            6607
+          ],
+          [
+            "Western",
+            6343
+          ],
+          [
+            "Eastern",
+            5536
+          ],
+          [
+            "Southeastern",
+            5362
+          ],
+          [
+            "Southern",
+            4149
+          ]
+        ],
+        "bottom_values": [
+          [
+            "Northern",
+            3579
+          ],
+          [
+            "Northwestern",
+            2654
+          ],
+          [
+            "Northeastern",
+            1971
+          ],
+          [
+            "Central",
+            1595
+          ],
+          [
+            " ",
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "name": "PolicePost",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 138,
+      "is_constant": false,
+      "mixed_type_warning": "Column contains values that cannot be parsed as integers",
+      "numeric_stats": {
+        "min": 111.0,
+        "max": 935.0,
+        "mean": 565.4730659328973,
+        "median": 615.0,
+        "std_dev": 255.72944435925376
+      }
+    },
+    {
+      "name": "Latitude",
+      "inferred_type": "Float",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 22817,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": 39.19989737037319,
+        "max": 39.372003092273715,
+        "mean": 39.30166942144158,
+        "median": 39.30012913234128,
+        "std_dev": 0.02706726013103692
+      }
+    },
+    {
+      "name": "Longitude",
+      "inferred_type": "Float",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 22819,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": -76.71120322296147,
+        "max": -76.52979224168142,
+        "mean": -76.62236134399316,
+        "median": -76.62788573625927,
+        "std_dev": 0.03920577511374596
+      }
+    },
+    {
+      "name": "GeoLocatio",
+      "inferred_type": "Text",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 0,
+      "is_constant": false,
+      "text_stats": {
+        "min_length": 41,
+        "max_length": 41,
+        "avg_length": 41.0
+      }
+    },
+    {
+      "name": "NeedsSync",
+      "inferred_type": "Boolean",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "is_constant": false,
+      "categorical_stats": {
+        "top_values": [
+          [
+            "false",
+            37781
+          ],
+          [
+            "true",
+            19
+          ]
+        ]
+      }
+    },
+    {
+      "name": "IsDeleted",
+      "inferred_type": "Boolean",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1,
+      "is_constant": true,
+      "categorical_stats": {
+        "top_values": [
+          [
+            "false",
+            37800
+          ]
+        ]
+      }
+    },
+    {
+      "name": "HashedReco",
+      "inferred_type": "Text",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 0,
+      "is_constant": false,
+      "text_stats": {
+        "min_length": 1,
+        "max_length": 44,
+        "avg_length": 43.98293650793651
+      }
+    },
+    {
+      "name": "timetoclose",
+      "inferred_type": "Integer",
+      "row_count": 37800,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 61,
+      "is_constant": false,
+      "numeric_stats": {
+        "min": -2.0,
+        "max": 492.0,
+        "mean": 3.3940740740740605,
+        "median": 3.0,
+        "std_dev": 4.588710925660282
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+[package]
+name = "visualize"
+version = "0.1.0"
+edition = "2021"
+description = "Project 09 — Plotters visualization of Baltimore vacancy and arrest data"
+
+[[bin]]
+name = "visualize"
+path = "src/main.rs"
+
+[dependencies]
+csv        = "1"
+colored    = "2"
+plotters   = "0.3"
+csvprof    = { path = "../project07/csvprofiler" }

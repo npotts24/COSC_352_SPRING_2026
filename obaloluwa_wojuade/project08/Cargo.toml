@@ -1,0 +1,15 @@
+[package]
+name = "baltimore-analysis"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "baltimore-analysis"
+path = "src/main.rs"
+
+[dependencies]
+csvprof = { path = "../project07" }
+csv = "1"
+serde = { version = "1", features = ["derive"] }
+comfy-table = "7"
+thiserror = "1"

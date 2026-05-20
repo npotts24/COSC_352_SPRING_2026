@@ -1,0 +1,323 @@
+
+CSV PROFILE REPORT
+==================
+
+Column: X
+  Inferred type: Float
+  Row count: 393049
+  Null count: 161849
+  Null %: 41.18%
+  Unique value count: 42974
+  Min: 1393857.70519959
+  Max: 32070835.9419795
+  Mean: 2495013.91
+  Top values:
+    32070835.9419795 -> 8110
+    1422562.07888929 -> 3483
+    1419516.58693961 -> 1108
+    1419458.47155074 -> 689
+    1419486.77376235 -> 633
+
+Column: Y
+  Inferred type: Float
+  Row count: 393049
+  Null count: 161849
+  Null %: 41.18%
+  Unique value count: 42974
+  Min: -948896.130248216
+  Max: 621369.2509629
+  Mean: 542196.39
+  Top values:
+    -948896.130248216 -> 8110
+    594753.876572594 -> 3483
+    592118.56013132 -> 1108
+    592482.555126273 -> 689
+    592482.672488282 -> 633
+
+Column: Latitude
+  Inferred type: Float
+  Row count: 393049
+  Null count: 161849
+  Null %: 41.18%
+  Unique value count: 1538
+  Min: 0
+  Max: 39.372
+  Mean: 37.92
+  Top values:
+    0 -> 8110
+    39.2991 -> 4238
+    39.2929 -> 1839
+    39.2919 -> 1680
+    39.3043 -> 1260
+
+Column: Longitude
+  Inferred type: Float
+  Row count: 393049
+  Null count: 161849
+  Null %: 41.18%
+  Unique value count: 1818
+  Min: -76.7117
+  Max: 0
+  Mean: -73.93
+  Top values:
+    0 -> 8110
+    -76.6105 -> 3693
+    -76.6213 -> 1331
+    -76.6214 -> 1099
+    -76.6097 -> 919
+
+Column: RowID
+  Inferred type: Integer
+  Row count: 393049
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 393049
+  Min: 1
+  Max: 393049
+  Mean: 196525.00
+  Top values:
+    1 -> 1
+    10 -> 1
+    100 -> 1
+    1000 -> 1
+    10000 -> 1
+
+Column: IncidentNumber
+  Inferred type: Text
+  Row count: 393049
+  Null count: 162792
+  Null %: 41.42%
+  Unique value count: 191702
+  Min: 0
+  Max: inf
+  Mean: inf
+  Shortest string length: 8
+  Longest string length: 8
+  Top values:
+    10C99999 -> 486
+    10H09999 -> 97
+    10G09999 -> 82
+    10F09999 -> 73
+    10J09999 -> 72
+
+Column: ArrestNumber
+  Inferred type: Integer
+  Row count: 393049
+  Null count: 18021
+  Null %: 4.58%
+  Unique value count: 375026
+  Min: 2101920
+  Max: 99905399
+  Mean: 15673526.19
+  Top values:
+    12405366 -> 2
+    20071569 -> 2
+    02101920 -> 1
+    05037880 -> 1
+    10000012 -> 1
+
+Column: Age
+  Inferred type: Integer
+  Row count: 393049
+  Null count: 132
+  Null %: 0.03%
+  Unique value count: 82
+  Min: 8
+  Max: 100
+  Mean: 33.35
+  Top values:
+    21 -> 16013
+    23 -> 15942
+    22 -> 15860
+    24 -> 15787
+    25 -> 15246
+
+Column: Gender
+  Inferred type: Text
+  Row count: 393049
+  Null count: 34
+  Null %: 0.01%
+  Unique value count: 4
+  Shortest string length: 1
+  Longest string length: 1
+  Top values:
+    M -> 320533
+    F -> 72480
+    Y -> 1
+    Z -> 1
+
+Column: Race
+  Inferred type: Text
+  Row count: 393049
+  Null count: 224
+  Null %: 0.06%
+  Unique value count: 6
+  Shortest string length: 1
+  Longest string length: 1
+  Top values:
+    B -> 324644
+    W -> 56750
+    U -> 9453
+    A -> 1039
+    I -> 938
+
+Column: ArrestDateTime
+  Inferred type: Text
+  Row count: 393049
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 282517
+  Shortest string length: 22
+  Longest string length: 22
+  Top values:
+    2015/04/28 00:00:00+00 -> 19
+    2014/06/05 17:00:00+00 -> 16
+    2015/05/03 02:10:00+00 -> 16
+    2016/12/23 04:00:00+00 -> 16
+    2010/09/23 23:00:00+00 -> 15
+
+Column: ArrestLocation
+  Inferred type: Text
+  Row count: 393049
+  Null count: 154227
+  Null %: 39.24%
+  Unique value count: 33859
+  Shortest string length: 4
+  Longest string length: 30
+  Top values:
+    300 MADISON ST -> 2975
+    200 EUTAW ST -> 1156
+    400 SARATOGA ST -> 883
+    400 BALTIMORE ST -> 730
+    300 EUTAW ST -> 669
+
+Column: IncidentOffence
+  Inferred type: Text
+  Row count: 393049
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 183
+  Shortest string length: 6
+  Longest string length: 41
+  Top values:
+    Unknown Offense -> 190062
+    87NARCOTICS -> 70625
+    4ECOMMON ASSAULT -> 21995
+    87ONARCOTICS (OUTSIDE) -> 13271
+    97SEARCH & SEIZURE -> 9996
+
+Column: IncidentLocation
+  Inferred type: Text
+  Row count: 393049
+  Null count: 154227
+  Null %: 39.24%
+  Unique value count: 33859
+  Shortest string length: 4
+  Longest string length: 30
+  Top values:
+    300 MADISON ST -> 2975
+    200 EUTAW ST -> 1156
+    400 SARATOGA ST -> 883
+    400 BALTIMORE ST -> 730
+    300 EUTAW ST -> 669
+
+Column: Charge
+  Inferred type: Text
+  Row count: 393049
+  Null count: 51395
+  Null %: 13.08%
+  Unique value count: 926
+  Min: 101313
+  Max: 999999
+  Mean: 709680.42
+  Shortest string length: 6
+  Longest string length: 6
+  Top values:
+    1 1415 -> 61138
+    1 0077 -> 46225
+    4 3550 -> 42429
+    1 0573 -> 21180
+    1 1420 -> 11186
+
+Column: ChargeDescription
+  Inferred type: Text
+  Row count: 393049
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 13775
+  Min: 1234
+  Max: 146105155943
+  Mean: 73052578588.50
+  Shortest string length: 2
+  Longest string length: 30
+  Top values:
+    FAILURE TO APPEAR -> 46700
+    CDS VIOLATION -> 31394
+    Unknown Charge -> 30183
+    ASSAULT-SEC DEGREE -> 28759
+    CDS -> 23626
+
+Column: District
+  Inferred type: Text
+  Row count: 393049
+  Null count: 170036
+  Null %: 43.26%
+  Unique value count: 9
+  Shortest string length: 7
+  Longest string length: 9
+  Top values:
+    Western -> 30894
+    Central -> 30077
+    Eastern -> 28669
+    Southern -> 26304
+    Southeast -> 24461
+
+Column: Post
+  Inferred type: Integer
+  Row count: 393049
+  Null count: 170036
+  Null %: 43.26%
+  Unique value count: 185
+  Min: 111
+  Max: 943
+  Mean: 515.08
+  Top values:
+    331 -> 6127
+    114 -> 6077
+    123 -> 5461
+    835 -> 4781
+    913 -> 4766
+
+Column: Neighborhood
+  Inferred type: Text
+  Row count: 393049
+  Null count: 170063
+  Null %: 43.27%
+  Unique value count: 288
+  Shortest string length: 4
+  Longest string length: 33
+  Top values:
+    Downtown -> 10743
+    Sandtown-Winchester -> 8220
+    Carrollton Ridge -> 5410
+    Broadway East -> 5402
+    Brooklyn -> 5259
+
+Column: GeoLocation
+  Inferred type: Text
+  Row count: 393049
+  Null count: 0
+  Null %: 0.00%
+  Unique value count: 42975
+  Shortest string length: 3
+  Longest string length: 18
+  Top values:
+    (,) -> 161849
+    (0,0) -> 8110
+    (39.2991,-76.6105) -> 3483
+    (39.2919,-76.6213) -> 1108
+    (39.2929,-76.6215) -> 689
+
+=== ANALYSIS RESULT ===
+Arrests 30 days BEFORE demolitions: 0
+Arrests 30 days AFTER demolitions: 0

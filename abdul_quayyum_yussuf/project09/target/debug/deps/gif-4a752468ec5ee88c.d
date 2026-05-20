@@ -1,0 +1,11 @@
+/workspaces/COSC_352_SPRING_2026/abdul_quayyum_yussuf/project09/target/debug/deps/gif-4a752468ec5ee88c.d: /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/traits.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/common.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/mod.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/decoder.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/encoder.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/../README.md
+
+/workspaces/COSC_352_SPRING_2026/abdul_quayyum_yussuf/project09/target/debug/deps/libgif-4a752468ec5ee88c.rmeta: /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/lib.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/traits.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/common.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/mod.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/decoder.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/encoder.rs /home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/../README.md
+
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/lib.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/traits.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/common.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/mod.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/reader/decoder.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/encoder.rs:
+/home/codespace/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gif-0.12.0/src/../README.md:

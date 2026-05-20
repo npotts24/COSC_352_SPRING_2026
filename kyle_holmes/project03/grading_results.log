@@ -1,0 +1,1553 @@
+Grading Student: aaron_herron - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: aaron_herron - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: abdul_quayyum_yussuf - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 334B done
+#1 DONE 0.0s
+
+#2 [auth] library/python:pull token for registry-1.docker.io
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.10-slim
+#3 DONE 0.4s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 240B done
+#5 DONE 0.0s
+
+#6 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#6 resolve docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f 0.0s done
+#6 sha256:63ebb7511fc188c7eca8836db8cac7bc37e7d188bd4e5fc617fa0f20979d8a7e 250B / 250B 0.1s done
+#6 sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f 10.37kB / 10.37kB done
+#6 sha256:c527c2bded6c6aefb87d87d4077cc9c0c887e878c4712b5f891f4d7f980130cf 1.75kB / 1.75kB done
+#6 sha256:988b1bc8015840dc964d73346946665ad513f8040de02ad5ecae13ce97669d96 5.48kB / 5.48kB done
+#6 sha256:690eaffcf0e9a6e579bf82062d0d78590bd1bc000a309b8e76ff4ca460bcdb6f 0B / 1.29MB 0.1s
+#6 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 2.10MB / 13.82MB 0.1s
+#6 sha256:690eaffcf0e9a6e579bf82062d0d78590bd1bc000a309b8e76ff4ca460bcdb6f 1.29MB / 1.29MB 0.1s done
+#6 sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 13.82MB / 13.82MB 0.2s
+#6 extracting sha256:690eaffcf0e9a6e579bf82062d0d78590bd1bc000a309b8e76ff4ca460bcdb6f
+#6 extracting sha256:690eaffcf0e9a6e579bf82062d0d78590bd1bc000a309b8e76ff4ca460bcdb6f 0.3s done
+#6 extracting sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6
+#6 extracting sha256:d0d1977db48579fff601d66e8aa7525a837b9b23aa7f8e0d3e1de01d8fb6ace6 0.8s done
+#6 extracting sha256:63ebb7511fc188c7eca8836db8cac7bc37e7d188bd4e5fc617fa0f20979d8a7e
+#6 extracting sha256:63ebb7511fc188c7eca8836db8cac7bc37e7d188bd4e5fc617fa0f20979d8a7e done
+#6 DONE 2.2s
+
+#7 [2/3] WORKDIR /app
+#7 DONE 0.0s
+
+#8 [3/3] COPY hello-ayo.py /app
+#8 DONE 0.0s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 0.4s done
+#9 writing image sha256:6e0da243594d4d6695a4ff1d4335547abb38ba8159d550203194bf9bfc3b64f7 done
+#9 naming to docker.io/library/test_abdul_quayyum_yussuf_project01 done
+#9 DONE 0.5s
+Result: Fail (Got: Hello World! Hey , I see you!)
+Grading Student: abdul_quayyum_yussuf - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 345B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 3.89kB done
+#6 DONE 0.0s
+
+#7 [3/3] COPY read_html_table.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 1.0s done
+#8 writing image sha256:28d34da41ca2ea0bf121c7c24f36cbf4d6a4ddcfa04dfb2bce0232a48eca49ad done
+#8 naming to docker.io/library/test_abdul_quayyum_yussuf_project02 done
+#8 DONE 1.0s
+Result: Fail (Got: Error reading : [Errno 2] No such file or directory: )
+Grading Student: adebisi_agbakosi - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: adebisi_agbakosi - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: aditya_poudel - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 133B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 CACHED
+
+#5 [internal] load build context
+#5 transferring context: 248B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /hello
+#6 DONE 0.0s
+
+#7 [3/3] COPY hello.py .
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.7s done
+#8 writing image sha256:5904abff477d19b6be2cb8a83d7b341f09ab312fe4184ce751c7131aa616002f done
+#8 naming to docker.io/library/test_aditya_poudel_project01 done
+#8 DONE 0.7s
+Result: Fail (Got: Hello World)
+Grading Student: aditya_poudel - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 505B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 DONE 0.0s
+
+#5 [2/4] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 3.05kB done
+#6 DONE 0.0s
+
+#7 [3/4] COPY table_to_DFS_to_CSV.py .
+#7 DONE 0.0s
+
+#8 [4/4] RUN pip install --no-cache-dir pandas
+#8 2.028 Collecting pandas
+#8 2.049   Downloading pandas-3.0.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+#8 2.053      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.5/79.5 kB 29.0 MB/s eta 0:00:00
+#8 2.406 Collecting numpy>=1.26.0 (from pandas)
+#8 2.407   Downloading numpy-2.4.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+#8 2.428 Collecting python-dateutil>=2.8.2 (from pandas)
+#8 2.431   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+#8 2.454 Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+#8 2.459   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+#8 2.467 Downloading pandas-3.0.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (11.2 MB)
+#8 2.518    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 238.0 MB/s eta 0:00:00
+#8 2.522 Downloading numpy-2.4.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.9 MB)
+#8 2.601    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.9/16.9 MB 209.0 MB/s eta 0:00:00
+#8 2.605 Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+#8 2.608    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 275.8 MB/s eta 0:00:00
+#8 2.611 Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#8 2.771 Installing collected packages: six, numpy, python-dateutil, pandas
+#8 9.027 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+#8 9.027 Successfully installed numpy-2.4.2 pandas-3.0.0 python-dateutil-2.9.0.post0 six-1.17.0
+#8 9.118 
+#8 9.118 [notice] A new release of pip is available: 24.0 -> 26.0.1
+#8 9.118 [notice] To update, run: pip install --upgrade pip
+#8 DONE 11.1s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 2.1s done
+#9 writing image sha256:d64e8f5e0908702ed26d5fc454ed3918b22cb956f7391451e50180746645a999 done
+#9 naming to docker.io/library/test_aditya_poudel_project02 done
+#9 DONE 2.1s
+Result: Fail (Got: )
+Grading Student: braydon_jones - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 DONE 0.0s
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 136B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 191B done
+#6 DONE 0.0s
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:0bd87726fa10c7788a2c21f39faaa418546b09ed51b3e48bc1465da24d09ef84 done
+#8 naming to docker.io/library/test_braydon_jones_project01 done
+#8 DONE 0.3s
+Result: Fail (Got: Hello World)
+Grading Student: braydon_jones - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: chukwuemeka_obasi - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 138B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 61B done
+#6 DONE 0.0s
+
+#7 [3/3] COPY hello-world.py .
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.8s done
+#8 writing image sha256:07c44d45bf166bcaa5d6347d33588493de5fc8ba1461b4576e6fdfb9fb949fce done
+#8 naming to docker.io/library/test_chukwuemeka_obasi_project01 done
+#8 DONE 0.8s
+Result: Fail (Got: Hello World)
+Grading Student: chukwuemeka_obasi - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 DONE 0.0s
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 173B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/4] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 DONE 0.0s
+
+#5 [2/4] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 569.38kB 0.0s done
+#6 DONE 0.0s
+
+#7 [3/4] COPY read_html_table.py .
+#7 DONE 0.0s
+
+#8 [4/4] COPY ProgrammingLanguages.html .
+#8 DONE 0.0s
+
+#9 exporting to image
+#9 exporting layers
+#9 exporting layers 0.4s done
+#9 writing image sha256:8800f8b11f298c72fefbd0b469255a16c4aa8f6f7661d18e1cec75d6839f5378 done
+#9 naming to docker.io/library/test_chukwuemeka_obasi_project02 done
+#9 DONE 0.4s
+Result: Fail (Got: )
+Grading Student: corey_hawkins - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 491B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 216B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:a642cccf9e51b469d3e7e7c1f7e180f7da8c0ba37f8a49de72d116e791155937 done
+#8 naming to docker.io/library/test_corey_hawkins_project01 done
+#8 DONE 0.3s
+Result: Fail (Got: Hello World! I mean... Hello !)
+Grading Student: corey_hawkins - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: donovan_jones - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from dockerfile
+#1 transferring dockerfile: 146B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 209B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:f2b4ba3aa996e2d31ec6c72e3e2f46dbe1decdea659aa55b1027a32a1db069bd done
+#8 naming to docker.io/library/test_donovan_jones_project01 done
+#8 DONE 0.3s
+Result: Fail (Got: Hello World! I mean... Hello !)
+Grading Student: donovan_jones - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: enoch_williams - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 273B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 194B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.9s done
+#8 writing image sha256:1e5344ec50971edd801f2ace76172cda6696e26288613bcbfa801a691a4fbb6a done
+#8 naming to docker.io/library/test_enoch_williams_project01 done
+#8 DONE 0.9s
+Result: Fail (Got: Hello)
+Grading Student: enoch_williams - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: grace_joseph - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: grace_joseph - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 DONE 0.0s
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: gulam_uddin - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 490B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 280B done
+#6 DONE 0.0s
+
+#7 [3/3] COPY hell0-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.7s done
+#8 writing image sha256:84ae8fce40bba238e425164d94b9db4851634d2c44321cafb7f616f4fd515d3d
+#8 writing image sha256:84ae8fce40bba238e425164d94b9db4851634d2c44321cafb7f616f4fd515d3d done
+#8 naming to docker.io/library/test_gulam_uddin_project01 done
+#8 DONE 0.7s
+Result: Fail (Got: Hello World! I mean... Hello !)
+Grading Student: gulam_uddin - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: isaiah_simpson - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 398B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 193B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#5 resolve docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab 0.0s done
+#5 sha256:9395e1d7be50336f1932db3e6904cc05ad5b727731f03ae218688af3f525ec30 0B / 12.11MB 0.1s
+#5 sha256:4948ee38326639b0ee49566ec9752e0500fde95ffa7a4771067a7856446029fe 0B / 251B 0.1s
+#5 sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab 10.37kB / 10.37kB done
+#5 sha256:48006ff57afe15f247ad3da166e9487da0f66a94adbc92810b0e189382d79246 1.75kB / 1.75kB done
+#5 sha256:b3b92273ebb48091c16ef5f9cc1fdde40d18c7365ec38df5e9f900a2aeb3db1c 5.66kB / 5.66kB done
+#5 sha256:9395e1d7be50336f1932db3e6904cc05ad5b727731f03ae218688af3f525ec30 11.53MB / 12.11MB 0.3s
+#5 sha256:4948ee38326639b0ee49566ec9752e0500fde95ffa7a4771067a7856446029fe 251B / 251B 0.2s done
+#5 extracting sha256:9395e1d7be50336f1932db3e6904cc05ad5b727731f03ae218688af3f525ec30
+#5 sha256:9395e1d7be50336f1932db3e6904cc05ad5b727731f03ae218688af3f525ec30 12.11MB / 12.11MB 0.5s done
+#5 extracting sha256:9395e1d7be50336f1932db3e6904cc05ad5b727731f03ae218688af3f525ec30 0.7s done
+#5 extracting sha256:4948ee38326639b0ee49566ec9752e0500fde95ffa7a4771067a7856446029fe
+#5 extracting sha256:4948ee38326639b0ee49566ec9752e0500fde95ffa7a4771067a7856446029fe done
+#5 DONE 1.9s
+
+#6 [2/3] WORKDIR /app
+#6 DONE 0.1s
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 1.0s done
+#8 writing image sha256:cb275e7c6158f7f05b3c06539741467ad2331c732d0acaeee53f7c111c1655c3 done
+#8 naming to docker.io/library/test_isaiah_simpson_project01 done
+#8 DONE 1.0s
+Result: Fail (Got: Hello World !)
+Grading Student: isaiah_simpson - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: iyinoluwa_ayodele - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 478B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 290B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:5628acbaa49bbc6c4b894e009893c12094ae48ba4462084e84e08f006491f279 done
+#8 naming to docker.io/library/test_iyinoluwa_ayodele_project01 done
+#8 DONE 0.3s
+Result: Fail (Got: Hello World! Actually I meant hello !)
+Grading Student: iyinoluwa_ayodele - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: jamal_goodman - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 126B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 178B done
+#6 DONE 0.0s
+
+#7 [3/3] COPY hello.py .
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.4s done
+#8 writing image sha256:213232ce1d57a0e0a52fac00c7f42cc25831e70d475312a6ca50f4638d410b2f done
+#8 naming to docker.io/library/test_jamal_goodman_project01 done
+#8 DONE 0.4s
+Result: Fail (Got: Hello World)
+Grading Student: jamal_goodman - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: jessica_madu - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: jessica_madu - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: joseph_egbujonuma - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 375B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 146B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.5s done
+#8 writing image sha256:e97cc290dac73cca388ff05f233222d04eecb5e0be2681eab2384e530439b607 done
+#8 naming to docker.io/library/test_joseph_egbujonuma_project01 done
+#8 DONE 0.6s
+Result: Fail (Got: Hello, !)
+Grading Student: joseph_egbujonuma - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from dockerfile
+#1 transferring dockerfile: 465B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 3.21kB done
+#6 DONE 0.0s
+
+#7 [3/3] COPY programming-languages.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:fb91c1cd1376d910b66ba5dac75699a99cc23b5ce4d261266c33b7a242067282 done
+#8 naming to docker.io/library/test_joseph_egbujonuma_project02
+#8 naming to docker.io/library/test_joseph_egbujonuma_project02 done
+#8 DONE 0.4s
+Result: Fail (Got: How to use: python programming-languages.py https://en.wikipedia.org/wiki/Comparison_of_programming_languages)
+Grading Student: joseph_wellington - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: joseph_wellington - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: karl_agli - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 141B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.9-slim
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 192B done
+#4 DONE 0.0s
+
+#5 [1/3] FROM docker.io/library/python:3.9-slim@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b
+#5 resolve docker.io/library/python:3.9-slim@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b 0.0s done
+#5 sha256:38513bd7256313495cdd83b3b0915a633cfa475dc2a07072ab2c8d191020ca5d 2.10MB / 29.78MB 0.1s
+#5 sha256:b3ec39b36ae8c03a3e09854de4ec4aa08381dfed84a9daa075048c2e3df3881d 0B / 1.29MB 0.1s
+#5 sha256:fc74430849022d13b0d44b8969a953f842f59c6e9d1a0c2c83d710affa286c08 0B / 13.88MB 0.1s
+#5 sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b 10.36kB / 10.36kB done
+#5 sha256:dad5b29e3506c35e0fd222736f4d4ef25d21b219acdd73f7bb41d59996ca8e0d 1.74kB / 1.74kB done
+#5 sha256:085da638e1b8a449514c3fda83ff50a3bffae4418b050cfacd87e5722071f497 5.40kB / 5.40kB done
+#5 sha256:38513bd7256313495cdd83b3b0915a633cfa475dc2a07072ab2c8d191020ca5d 14.68MB / 29.78MB 0.3s
+#5 sha256:b3ec39b36ae8c03a3e09854de4ec4aa08381dfed84a9daa075048c2e3df3881d 1.29MB / 1.29MB 0.2s done
+#5 sha256:fc74430849022d13b0d44b8969a953f842f59c6e9d1a0c2c83d710affa286c08 8.39MB / 13.88MB 0.3s
+#5 sha256:ea56f685404adf81680322f152d2cfec62115b30dda481c2c450078315beb508 251B / 251B 0.2s done
+#5 sha256:38513bd7256313495cdd83b3b0915a633cfa475dc2a07072ab2c8d191020ca5d 19.92MB / 29.78MB 0.4s
+#5 sha256:fc74430849022d13b0d44b8969a953f842f59c6e9d1a0c2c83d710affa286c08 13.88MB / 13.88MB 0.4s
+#5 sha256:38513bd7256313495cdd83b3b0915a633cfa475dc2a07072ab2c8d191020ca5d 27.29MB / 29.78MB 0.5s
+#5 sha256:38513bd7256313495cdd83b3b0915a633cfa475dc2a07072ab2c8d191020ca5d 29.78MB / 29.78MB 0.7s
+#5 sha256:38513bd7256313495cdd83b3b0915a633cfa475dc2a07072ab2c8d191020ca5d 29.78MB / 29.78MB 1.0s done
+#5 sha256:fc74430849022d13b0d44b8969a953f842f59c6e9d1a0c2c83d710affa286c08 13.88MB / 13.88MB 1.0s done
+#5 extracting sha256:38513bd7256313495cdd83b3b0915a633cfa475dc2a07072ab2c8d191020ca5d 0.1s
+#5 extracting sha256:38513bd7256313495cdd83b3b0915a633cfa475dc2a07072ab2c8d191020ca5d 1.1s done
+#5 extracting sha256:b3ec39b36ae8c03a3e09854de4ec4aa08381dfed84a9daa075048c2e3df3881d
+#5 extracting sha256:b3ec39b36ae8c03a3e09854de4ec4aa08381dfed84a9daa075048c2e3df3881d 0.2s done
+#5 extracting sha256:fc74430849022d13b0d44b8969a953f842f59c6e9d1a0c2c83d710affa286c08
+#5 extracting sha256:fc74430849022d13b0d44b8969a953f842f59c6e9d1a0c2c83d710affa286c08 0.8s done
+#5 extracting sha256:ea56f685404adf81680322f152d2cfec62115b30dda481c2c450078315beb508
+#5 extracting sha256:ea56f685404adf81680322f152d2cfec62115b30dda481c2c450078315beb508 done
+#5 DONE 5.2s
+
+#6 [2/3] WORKDIR /app
+#6 DONE 0.0s
+
+#7 [3/3] COPY hello_world.py /app/
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.6s done
+#8 writing image sha256:621e4f320ce6c9473b5ced362f29c73c29412cfec694758ccab8b57c761a1aac done
+#8 naming to docker.io/library/test_karl_agli_project01 done
+#8 DONE 0.6s
+Result: Fail (Got: Hello World)
+Grading Student: karl_agli - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: kyle_holmes - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 439B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 212B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 CACHED
+
+#8 exporting to image
+#8 exporting layers done
+#8 writing image sha256:d1dfba28e7af437b93dc3078572919552704408e4b5305b9571feaa480e51715 done
+#8 naming to docker.io/library/test_kyle_holmes_project01 done
+#8 DONE 0.0s
+Result: Fail (Got: Hello World! I mean... Hello !)
+Grading Student: kyle_holmes - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: mahki_titus - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 375B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 281B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.9s done
+#8 writing image sha256:7f899df53e5d68e42b9942d30fea92e1dfad9c185b74fd86ae1cc0f0b290703e done
+#8 naming to docker.io/library/test_mahki_titus_project01 done
+#8 DONE 0.9s
+Result: Fail (Got: Hello World! I mean... Wassup !)
+Grading Student: mahki_titus - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 137B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 1.64kB done
+#6 DONE 0.0s
+
+#7 [3/3] COPY parse_table.py .
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:48196df633bc77f5c471b2f34d86459ef55ef852fd353555172cfc2edba13f29
+#8 writing image sha256:48196df633bc77f5c471b2f34d86459ef55ef852fd353555172cfc2edba13f29 done
+#8 naming to docker.io/library/test_mahki_titus_project02 done
+#8 DONE 0.3s
+Result: Fail (Got: Usage: python parse_table.py <input.html> <output.csv>)
+Grading Student: marcus_crosby - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: marcus_crosby - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: michael_miller - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: najae_potts - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 144B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:latest
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [3/3] COPY najae_potts/project01/hello-world.py /app
+#6 ERROR: failed to calculate checksum of ref 62375e8c-79b6-4c5f-9edf-8be1b6557f12::c29tm2pmxrpamcvgo1xxeqwuw: "/najae_potts/project01/hello-world.py": not found
+
+#7 [1/3] FROM docker.io/library/python:latest@sha256:151ab3571dad616bb031052e86411e2165295c7f67ef27206852203e854bcd12
+#7 resolve docker.io/library/python:latest@sha256:151ab3571dad616bb031052e86411e2165295c7f67ef27206852203e854bcd12 0.0s done
+#7 DONE 0.0s
+------
+ > [3/3] COPY najae_potts/project01/hello-world.py /app:
+------
+Dockerfile:5
+--------------------
+   3 |     WORKDIR /app
+   4 |     
+   5 | >>> COPY najae_potts/project01/hello-world.py /app
+   6 |     
+   7 |     CMD ["python", "hello-world.py"]
+--------------------
+ERROR: failed to build: failed to solve: failed to compute cache key: failed to calculate checksum of ref 62375e8c-79b6-4c5f-9edf-8be1b6557f12::c29tm2pmxrpamcvgo1xxeqwuw: "/najae_potts/project01/hello-world.py": not found
+Result: Docker build failed
+Grading Student: najae_potts - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 31B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: the Dockerfile cannot be empty
+Result: Docker build failed
+Grading Student: nasif_ajilore - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 141B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 212B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.4s done
+#8 writing image sha256:465c78acda7a6badb7d6c116c1fc6ba38cbe123d126e7389d1abfd5b39a0a8de done
+#8 naming to docker.io/library/test_nasif_ajilore_project01 done
+#8 DONE 0.4s
+Result: Fail (Got: Hello World! I mean...Hello !)
+Grading Student: nasif_ajilore - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 149B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 10.74kB done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY read_html_table.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:3a3b6c37ef261a96c5cdfac2988c3e14c15a8d29d5a5016ef7222f0891afc0f5 done
+#8 naming to docker.io/library/test_nasif_ajilore_project02 done
+#8 DONE 0.3s
+Result: Fail (Got: ============================================================ HTML Table Parser ============================================================ Reading HTML from file:)
+Grading Student: obaloluwa_wojuade - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 137B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 179B done
+#6 DONE 0.0s
+
+#7 [3/3] COPY hello-world.py .
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 1.0s done
+#8 writing image sha256:15784a4f9f0df4aa5856308e096ee409d25aea8103418ac3350a2b2097b8f287 done
+#8 naming to docker.io/library/test_obaloluwa_wojuade_project01 done
+#8 DONE 1.0s
+Result: Fail (Got: Hello World)
+Grading Student: obaloluwa_wojuade - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: oluwasegun_soji-john - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 136B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.9-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.9-slim@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 98B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello_world.py .
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 1.0s done
+#8 writing image sha256:20ea9f8918d1b8e5bf81abc6ccffd30e839f2fbea99018bef60f5414a3ef8262 done
+#8 naming to docker.io/library/test_oluwasegun_soji-john_project01 done
+#8 DONE 1.0s
+Result: Fail (Got: Enter your name:)
+Grading Student: oluwasegun_soji-john - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: ositadinma_odunze - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 291B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 223B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello.py .
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:cfcffd316e7aea4c4d8430cc4e4589d7e637738d2d987d0deaefc08f81f44ff1 done
+#8 naming to docker.io/library/test_ositadinma_odunze_project01 done
+#8 DONE 0.3s
+Result: Fail (Got: Hello)
+Grading Student: ositadinma_odunze - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: pauline_ekoma - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 139B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.11-slim@sha256:0b23cfb7425d065008b778022a17b1551c82f8b4866ee5a7a200084b7e2eafbf
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 224B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.1s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.9s done
+#8 writing image sha256:4c048b86bb985899c68401aa3bbbecae99ce4322f33681febbab83bf0f5fe746 done
+#8 naming to docker.io/library/test_pauline_ekoma_project01 done
+#8 DONE 0.9s
+Result: Fail (Got: Hello World !!)
+Grading Student: pauline_ekoma - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: princess_ekoh - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 137B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 212B done
+#6 DONE 0.0s
+
+#7 [3/3] COPY hello_world.py .
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:c70e81798bcba6ca496b133d0f291d4c94924a7d3f0f1c9f8f63669c2d22f0fb 0.0s done
+#8 naming to docker.io/library/test_princess_ekoh_project01 done
+#8 DONE 0.3s
+Result: Fail (Got: Hello World! whatsup ,)
+Grading Student: princess_ekoh - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: professor_jon_white - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 491B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 283B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.9s done
+#8 writing image sha256:a87820442fedaa84c81c406809cfe47146cb591798e67c04649bd929e26830da done
+#8 naming to docker.io/library/test_professor_jon_white_project01 done
+#8 DONE 0.9s
+Result: Fail (Got: Hello World! I mean... Hello !)
+Grading Student: randolph_bame - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: randolph_bame - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: rashaa_mcqueen - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: rochak_ghimire - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: rochak_ghimire - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: sandeep_shah - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: sandeep_shah - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: sharif_jenkins - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 138B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 184B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:1f26822f47f28ba6f0c20a5e0a895fd67ef3866a5ce2a794e1f42398f91bd52a done
+#8 naming to docker.io/library/test_sharif_jenkins_project01 done
+#8 DONE 0.3s
+Result: Fail (Got: Hello World or should I say Hello !)
+Grading Student: sharif_jenkins - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: sidney_green - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from dockerfile
+#1 transferring dockerfile: 139B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.10-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.10-slim@sha256:e508a34e5491225a76fbb9e0f43ebde1f691c6a689d096d7510cf7fb17d4ba6f
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 193B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 1.0s done
+#8 writing image sha256:4bd2caf034d7447bda1b21200d26d1fbd9fb0df2a86bf516c5c38370e6d590b6 done
+#8 naming to docker.io/library/test_sidney_green_project01 done
+#8 DONE 1.0s
+Result: Fail (Got: whatsup ,)
+Grading Student: sidney_green - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+Grading Student: stephen_waita - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 474B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 276B done
+#5 DONE 0.0s
+
+#6 [2/3] WORKDIR /app
+#6 CACHED
+
+#7 [3/3] COPY hello-world.py /app
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 0.3s done
+#8 writing image sha256:53be9e2c7164c3cd3ccb9467aba18d798e149c479ff0d7bec06c20fe3230a70f done
+#8 naming to docker.io/library/test_stephen_waita_project01 done
+#8 DONE 0.3s
+Result: Fail (Got: Hello World! I mean... Hello !)
+Grading Student: stephen_waita - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2.12kB done
+#1 DONE 0.0s
+Dockerfile:2
+--------------------
+   1 |     #!/usr/bin/env python3
+   2 | >>> import sys
+   3 |     import csv
+   4 |     import urllib.request
+--------------------
+ERROR: failed to build: failed to solve: dockerfile parse error on line 2: unknown instruction: import
+Result: Docker build failed
+Grading Student: taniyah_payton - project01
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 126B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim
+#2 DONE 0.1s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/python:3.12-slim@sha256:9e01bf1ae5db7649a236da7be1e94ffbbbdd7a93f867dd0d8d5720d9e1f89fab
+#4 DONE 0.0s
+
+#5 [2/3] WORKDIR /app
+#5 CACHED
+
+#6 [internal] load build context
+#6 transferring context: 178B done
+#6 DONE 0.0s
+
+#7 [3/3] COPY hello.py .
+#7 DONE 0.0s
+
+#8 exporting to image
+#8 exporting layers
+#8 exporting layers 1.0s done
+#8 writing image sha256:7ec978cb2e8453ed9eb40b71183e23286a0c6a58e55e4ca09d76a56341ada0d0 done
+#8 naming to docker.io/library/test_taniyah_payton_project01 done
+#8 DONE 1.0s
+Result: Fail (Got: Hello World)
+Grading Student: taniyah_payton - project02
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 2B done
+#1 DONE 0.0s
+ERROR: failed to build: failed to solve: failed to read dockerfile: open Dockerfile: no such file or directory
+Result: Docker build failed
+GRADING DONE
+TOTAL PASSED: 0
+TOTAL FAILED: 73

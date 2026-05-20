@@ -1,0 +1,16 @@
+transaction_id,amount,currency,category,is_fraud,timestamp,description,constant_field,mixed_col
+TXN001,150.25,USD,food,false,2024-01-15,Coffee shop purchase,X,123
+TXN002,2300.00,EUR,electronics,false,2024-01-16,Laptop purchase,X,hello
+TXN003,45.99,USD,food,false,2024-01-16,Grocery run,X,456
+TXN004,8750.00,USD,electronics,true,2024-01-17,Suspicious bulk buy,X,2024-01-01
+TXN005,12.50,GBP,transport,false,2024-01-17,Bus ticket,X,true
+TXN006,320.00,USD,clothing,false,2024-01-18,Winter jacket,X,789
+TXN007,19.99,USD,food,false,2024-01-18,Fast food,X,world
+TXN008,5500.00,EUR,electronics,true,2024-01-19,Phone purchase,X,1011
+TXN009,88.00,USD,transport,false,2024-01-19,Taxi rides,X,false
+TXN010,430.00,USD,clothing,false,2024-01-20,Shoe shopping,X,2024-03-15
+TXN011,22.00,USD,food,false,2024-01-20,Lunch,X,1213
+TXN012,9999.99,USD,unknown,true,2024-01-21,Very large suspicious transaction,X,abc
+TXN013,65.00,GBP,transport,false,2024-01-21,Train ticket,X,1415
+TXN014,199.00,USD,clothing,false,2024-01-22,Dress,X,1617
+TXN015,33.75,USD,food,false,2024-01-22,Sushi dinner,X,yes

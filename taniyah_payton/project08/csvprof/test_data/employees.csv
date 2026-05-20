@@ -1,0 +1,51 @@
+id,name,age,salary,department,is_manager,hire_date,performance_score,notes,status
+1,Alice Johnson,34,95000.50,Engineering,true,2019-03-15,4.8,Excellent team player,active
+2,Bob Smith,28,62000.00,Marketing,false,2021-07-22,3.9,Good communicator,active
+3,Carol White,45,120000.00,Engineering,true,2015-01-10,4.9,Top performer,active
+4,Dave Brown,31,71000.75,Sales,false,2020-11-05,3.5,Needs improvement,active
+5,Eve Davis,52,145000.00,Engineering,true,2010-06-30,5.0,VP candidate,active
+6,Frank Miller,29,58000.00,Marketing,false,2022-02-14,4.1,,active
+7,Grace Wilson,38,88000.25,HR,false,2017-09-01,4.3,Great with people,active
+8,Hank Moore,41,102000.00,Engineering,false,2016-04-22,4.5,Senior dev,active
+9,Ivy Taylor,26,55000.00,Sales,false,2023-01-09,3.2,,active
+10,Jack Anderson,35,79000.50,HR,true,2018-08-17,4.0,Team lead,active
+11,Karen Thomas,48,130000.00,Engineering,true,2012-03-28,4.7,Principal engineer,active
+12,Liam Jackson,33,68000.00,Marketing,false,2020-05-13,3.8,Creative thinker,inactive
+13,Mia Harris,27,57000.00,Sales,false,2022-10-31,3.6,High energy,active
+14,Noah Martin,44,115000.00,Engineering,false,2014-07-04,4.6,Lead architect,active
+15,Olivia Garcia,30,72000.00,HR,false,2019-12-20,4.2,Empathetic,active
+16,Paul Martinez,37,84000.00,Sales,true,2017-02-11,4.4,Quota buster,active
+17,Quinn Robinson,55,160000.00,Engineering,true,2008-11-03,5.0,CTO track,active
+18,Rachel Clark,32,70000.00,Marketing,false,2020-09-25,3.7,,active
+19,Sam Rodriguez,29,60000.00,Sales,false,2022-06-18,3.4,New hire,active
+20,Tina Lewis,43,108000.00,HR,true,2013-04-07,4.5,CHRO candidate,active
+21,Ulric Lee,36,81000.00,Engineering,false,2018-01-30,4.1,Solid performer,active
+22,Vera Walker,50,140000.00,Engineering,true,2011-08-14,4.8,Distinguished engineer,active
+23,Will Hall,24,50000.00,Marketing,false,2023-06-01,3.0,Intern->FTE,active
+24,Xena Allen,39,93000.00,Sales,false,2016-10-19,4.3,Enterprise focus,active
+25,Yara Young,46,122000.00,HR,true,2012-07-22,4.6,Org design expert,active
+26,Zach Hernandez,31,67000.00,Engineering,false,2021-03-08,3.9,,active
+27,Amy King,28,59000.00,Marketing,false,2022-12-05,3.5,Social media lead,active
+28,Brian Wright,40,99000.00,Engineering,false,2015-09-17,4.4,DevOps specialist,active
+29,Cindy Lopez,34,76000.00,Sales,false,2019-06-23,4.0,Consistent performer,active
+30,Derek Hill,47,128000.00,Engineering,true,2011-02-01,4.7,Staff engineer,active
+31,Ella Scott,25,52000.00,Marketing,false,2023-08-14,3.1,,active
+32,Fred Green,38,87000.00,HR,false,2017-05-29,4.2,Benefits specialist,inactive
+33,Gina Adams,42,105000.00,Engineering,false,2014-11-11,4.5,Platform team,active
+34,Harry Baker,30,69000.00,Sales,false,2020-04-06,3.7,Mid-market focus,active
+35,Iris Gonzalez,53,148000.00,Engineering,true,2009-09-09,4.9,Fellow,active
+36,Jake Nelson,26,54000.00,Marketing,false,2023-03-27,3.3,,active
+37,Kara Carter,36,82000.00,Sales,true,2018-10-14,4.3,Regional manager,active
+38,Leo Mitchell,44,112000.00,Engineering,false,2013-06-05,4.6,Security lead,active
+39,Maya Perez,29,61000.00,HR,false,2022-01-17,3.8,Recruiter,active
+40,Nate Roberts,51,142000.00,Engineering,true,2010-12-30,4.8,Principal architect,active
+41,,35,null,Engineering,false,2018-05-05,4.1,Missing name,active
+42,Omar Turner,n/a,73000.00,Sales,false,2019-11-21,3.9,,active
+43,Pam Phillips,33,N/A,Marketing,false,2020-08-08,3.6,Salary TBD,active
+44,Roy Campbell,39,91000.00,Engineering,false,2016-07-15,4.2,,active
+45,Sue Parker,45,117000.00,Engineering,true,2012-10-03,4.7,Tech lead,active
+46,Tom Evans,27,56000.00,Sales,false,2022-11-28,3.3,SDR,active
+47,Uma Edwards,35,80000.00,HR,false,2018-03-19,4.0,HRBP,active
+48,Vic Collins,48,132000.00,Engineering,true,2011-05-24,4.8,Distinguished engineer,active
+49,Wanda Stewart,31,66000.00,Marketing,false,2021-09-12,3.7,,active
+50,Xander Sanchez,40,96000.00,Sales,false,2016-02-07,4.3,Enterprise AE,active

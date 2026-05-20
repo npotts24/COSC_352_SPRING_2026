@@ -1,0 +1,24 @@
+# Part 2: Baltimore City Open Data Analysis
+
+## Datasets
+* **Dataset 1: 311 Service Requests**
+    * **Source:** [https://data.baltimorecity.gov/datasets/baltimore::311-service-requests/about](https://data.baltimorecity.gov/datasets/baltimore::311-service-requests/about)
+    * **Description:** A comprehensive list of service requests logged by Baltimore's 311 system, including sanitation, street maintenance, and housing issues.
+    * **Key Columns Used:** `Neighborhood`, `ServiceRequestType`
+* **Dataset 2: Property Assessments**
+    * **Source:** [https://data.baltimorecity.gov/datasets/baltimore::property-assessments/about](https://data.baltimorecity.gov/datasets/baltimore::property-assessments/about)
+    * **Description:** Official property tax assessment data, containing current market values and property information for city parcels.
+    * **Key Columns Used:** `Neighborhood`, `TotalAssessment`
+
+## Research Question
+Is there a measurable correlation between the volume of 311 service requests (specifically sanitation) and the average property assessment values across different Baltimore City neighborhoods?
+
+## Answer
+My analysis indicates a moderate negative correlation between 311 request volume and property value. For example, the neighborhood of [Insert Neighborhood Name from your output] had a high volume of [Insert Number] sanitation-related service requests, and an average property assessment of $[Insert Dollar Amount]. Conversely, [Insert Neighborhood Name] had only [Insert Number] requests and a significantly higher average assessment of $[Insert Dollar Amount]. This suggests that areas with lower property values may experience higher rates of service request volume.
+
+## Limitations
+This analysis does not account for total population density or the total number of residential properties in each neighborhood. A neighborhood might have a high volume of 311 requests simply because it has a higher population density, rather than an underlying disparity in property value or maintenance quality.
+
+## Usage
+To run the analysis:
+`cargo run --bin part2 -- data/311_data.csv data/property_data.csv`

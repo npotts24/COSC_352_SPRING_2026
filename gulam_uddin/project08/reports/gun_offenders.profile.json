@@ -1,0 +1,559 @@
+{
+  "source": "data/gun_offenders.csv",
+  "rows": 4521,
+  "columns": [
+    {
+      "name": "X",
+      "inferred": "Float",
+      "row_count": 4521,
+      "null_count": 1080,
+      "null_pct": 23.888520238885203,
+      "unique_count": 1399,
+      "numeric_stats": {
+        "min": -76.7112,
+        "max": -76.5298999999999,
+        "mean": -76.62418814298177,
+        "median": -76.6289,
+        "std_dev": 0.045012100785854214,
+        "percentiles": [
+          -76.6917,
+          -76.6618999999999,
+          -76.5887999999999,
+          -76.5508
+        ],
+        "outlier_count": 0
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Y",
+      "inferred": "Float",
+      "row_count": 4521,
+      "null_count": 1080,
+      "null_pct": 23.888520238885203,
+      "unique_count": 1072,
+      "numeric_stats": {
+        "min": 39.2225,
+        "max": 39.3720000000001,
+        "mean": 39.31088343504799,
+        "median": 39.3087,
+        "std_dev": 0.02872139758777144,
+        "percentiles": [
+          39.2611000000001,
+          39.2944000000001,
+          39.3313000000001,
+          39.3578000000001
+        ],
+        "outlier_count": 70
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "RowID",
+      "inferred": "Integer",
+      "row_count": 4521,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 4521,
+      "numeric_stats": {
+        "min": 1.0,
+        "max": 4521.0,
+        "mean": 2261.0,
+        "median": 2261.0,
+        "std_dev": 1305.1002515771218,
+        "percentiles": [
+          227.0,
+          1131.0,
+          3391.0,
+          4295.0
+        ],
+        "outlier_count": 0
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "CaseNumber",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 4512,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 7,
+      "max_str_len": 7,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "CreatedDate",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1320,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 22,
+      "max_str_len": 22,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "ModifiedDate",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 436,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 22,
+      "max_str_len": 22,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "LastName",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1732,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 3,
+      "max_str_len": 19,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "FirstName",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 1812,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 2,
+      "max_str_len": 19,
+      "top_k": null,
+      "warnings": [
+        "mixed types observed in column"
+      ]
+    },
+    {
+      "name": "MiddleName",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 3599,
+      "null_pct": 79.60628179606282,
+      "unique_count": 522,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 1,
+      "max_str_len": 15,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "DateOfBirth",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 1,
+      "null_pct": 0.022119000221190004,
+      "unique_count": 3731,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 22,
+      "max_str_len": 22,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Gender",
+      "inferred": "Categorical",
+      "row_count": 4521,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 2,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 4,
+      "max_str_len": 6,
+      "top_k": {
+        "most": [
+          [
+            "Male",
+            4355
+          ],
+          [
+            "Female",
+            166
+          ]
+        ],
+        "least": [
+          [
+            "Female",
+            166
+          ],
+          [
+            "Male",
+            4355
+          ]
+        ],
+        "histogram": null
+      },
+      "warnings": []
+    },
+    {
+      "name": "Race",
+      "inferred": "Categorical",
+      "row_count": 4521,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 5,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 5,
+      "max_str_len": 7,
+      "top_k": {
+        "most": [
+          [
+            "Black",
+            4320
+          ],
+          [
+            "White",
+            136
+          ],
+          [
+            "Unknown",
+            63
+          ],
+          [
+            "Asian",
+            1
+          ],
+          [
+            "Indian",
+            1
+          ]
+        ],
+        "least": [
+          [
+            "Asian",
+            1
+          ],
+          [
+            "Indian",
+            1
+          ],
+          [
+            "Unknown",
+            63
+          ],
+          [
+            "White",
+            136
+          ],
+          [
+            "Black",
+            4320
+          ]
+        ],
+        "histogram": null
+      },
+      "warnings": []
+    },
+    {
+      "name": "FullAddress",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 843,
+      "null_pct": 18.646317186463172,
+      "unique_count": 3521,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 10,
+      "max_str_len": 54,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "City",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 843,
+      "null_pct": 18.646317186463172,
+      "unique_count": 43,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 5,
+      "max_str_len": 22,
+      "top_k": null,
+      "warnings": [
+        "column has only 43 distinct values; consider treating as categorical"
+      ]
+    },
+    {
+      "name": "State",
+      "inferred": "Categorical",
+      "row_count": 4521,
+      "null_count": 843,
+      "null_pct": 18.646317186463172,
+      "unique_count": 2,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 2,
+      "max_str_len": 2,
+      "top_k": {
+        "most": [
+          [
+            "Md",
+            3676
+          ],
+          [
+            "Ma",
+            2
+          ]
+        ],
+        "least": [
+          [
+            "Ma",
+            2
+          ],
+          [
+            "Md",
+            3676
+          ]
+        ],
+        "histogram": null
+      },
+      "warnings": []
+    },
+    {
+      "name": "ZipCode",
+      "inferred": "Integer",
+      "row_count": 4521,
+      "null_count": 859,
+      "null_pct": 19.00022119000221,
+      "unique_count": 63,
+      "numeric_stats": {
+        "min": 20603.0,
+        "max": 21921.0,
+        "mean": 21216.241671217915,
+        "median": 21216.0,
+        "std_dev": 30.444787214466974,
+        "percentiles": [
+          21202.0,
+          21213.0,
+          21224.0,
+          21234.0
+        ],
+        "outlier_count": 79
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "District",
+      "inferred": "Categorical",
+      "row_count": 4521,
+      "null_count": 1080,
+      "null_pct": 23.888520238885203,
+      "unique_count": 9,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 7,
+      "max_str_len": 9,
+      "top_k": {
+        "most": [
+          [
+            "Northeast",
+            650
+          ],
+          [
+            "Southwest",
+            539
+          ],
+          [
+            "Western",
+            485
+          ],
+          [
+            "Northwest",
+            409
+          ],
+          [
+            "Eastern",
+            389
+          ]
+        ],
+        "least": [
+          [
+            "Central",
+            170
+          ],
+          [
+            "Southeast",
+            222
+          ],
+          [
+            "Southern",
+            280
+          ],
+          [
+            "Northern",
+            297
+          ],
+          [
+            "Eastern",
+            389
+          ]
+        ],
+        "histogram": null
+      },
+      "warnings": []
+    },
+    {
+      "name": "Post",
+      "inferred": "Integer",
+      "row_count": 4521,
+      "null_count": 1080,
+      "null_pct": 23.888520238885203,
+      "unique_count": 179,
+      "numeric_stats": {
+        "min": 111.0,
+        "max": 943.0,
+        "mean": 561.299622202848,
+        "median": 533.0,
+        "std_dev": 228.87412042843877,
+        "percentiles": [
+          211.0,
+          412.0,
+          734.0,
+          918.0
+        ],
+        "outlier_count": 0
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Neighborhood",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 1080,
+      "null_pct": 23.888520238885203,
+      "unique_count": 228,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 4,
+      "max_str_len": 33,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Latitude",
+      "inferred": "Float",
+      "row_count": 4521,
+      "null_count": 1080,
+      "null_pct": 23.888520238885203,
+      "unique_count": 1072,
+      "numeric_stats": {
+        "min": 39.2225,
+        "max": 39.372,
+        "mean": 39.310883435047934,
+        "median": 39.3087,
+        "std_dev": 0.028721397587771855,
+        "percentiles": [
+          39.2611,
+          39.2944,
+          39.3313,
+          39.3578
+        ],
+        "outlier_count": 70
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Longitude",
+      "inferred": "Float",
+      "row_count": 4521,
+      "null_count": 1080,
+      "null_pct": 23.888520238885203,
+      "unique_count": 1399,
+      "numeric_stats": {
+        "min": -76.7112,
+        "max": -76.5299,
+        "mean": -76.62418814298178,
+        "median": -76.6289,
+        "std_dev": 0.0450121007858548,
+        "percentiles": [
+          -76.6917,
+          -76.6619,
+          -76.5888,
+          -76.5508
+        ],
+        "outlier_count": 0
+      },
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "GeoLocation",
+      "inferred": "Text",
+      "row_count": 4521,
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 3257,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": 3,
+      "max_str_len": 18,
+      "top_k": null,
+      "warnings": []
+    },
+    {
+      "name": "Shape",
+      "inferred": "Empty",
+      "row_count": 4521,
+      "null_count": 4521,
+      "null_pct": 100.0,
+      "unique_count": 0,
+      "numeric_stats": null,
+      "date_range": null,
+      "min_str_len": null,
+      "max_str_len": null,
+      "top_k": null,
+      "warnings": []
+    }
+  ]
+}

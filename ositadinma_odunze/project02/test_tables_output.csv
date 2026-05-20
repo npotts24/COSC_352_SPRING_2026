@@ -1,0 +1,9 @@
+Language,Year,Paradigm,Typing
+Python,1991,Multi-paradigm,Dynamic
+Java,1995,Object-oriented,Static
+JavaScript,1995,Multi-paradigm,Dynamic
+C++,1985,Multi-paradigm,Static
+Framework,Language,Type
+React,JavaScript,Frontend
+Django,Python,Backend
+Spring,Java,Backend
